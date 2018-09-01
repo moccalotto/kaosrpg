@@ -1,0 +1,60 @@
+- name: Extra Action
+  description: >
+    You spend 15 APs and get to do an additional action that
+    round on top of your normal action and surge actions.
+
+- name: Escape evil destiny
+  description: >
+    You spend 50 APs to escape an evil destiny.
+  remark: |
+    You spend 50 APs to barely avoid the rock slide that would have surely killed you.
+
+- name: Faster healing
+  description: >
+    You rest for one minute and recover 5 HP per AP spent.
+
+- name: Increase attribute scores
+  description: >
+    You permanently increase an attribute score by 1 point.
+    The AP cost is equal to the new score multiplied by 3.
+    When a attribute score is raised, the derived values (Hit Points, Damage Bonus, unarmored Defense Points, etc.)
+    will be affected as well. The max scores of your skills may increase as well, but the skill scores themselves
+    remain unchanged.
+  remark: |
+    * Increasing an attribute from 5 to 6 would cost 6·3=18 APs.
+    * Increasing an attribute from 20 to 23 would cost 63+66+69=198 APs.
+
+- name: Increase skill scores
+  description: >
+    You permanently increase a skill score by 1 point.
+    The AP cost is equal to the new skill score.
+    You cannot increase a skill score beyond the max-score of the given skill.
+  remark: |
+    * Increasing a skill from 0 to 1 would cost 1 AP.
+    * Increasing a skill from 15 to 16 would cost 16 APs.
+    * Increasing a skill from 20 to 25 would cost 21+22+23+24+25=115 APs.
+
+- name: Lucky roll
+  description: >
+    You can spend 5 APs to re-roll the last dice you rolled.
+
+- name: Power, Easy
+  description: >
+    You use a power. If successful, you spend an AP and you only lose
+    half of the HP you would normally lose when using that power.
+
+- name: Power, Perfect
+  description: >
+    You use a power. If successful, you spend a number of APs
+    equal to the power tier and you do not lose any HP.
+    Note that you have still used a power and cannot be healed
+    in any way within the next hour.
+
+- name: Power Recovery
+  description: >
+    You spend 20 APs. It is now as if an hour has passed since
+    you last used a power, which means you can be healed again.
+
+- name: Smooth surge
+  description: >
+    You spend 3 APs and take a Surge Action without taking any strain damage.

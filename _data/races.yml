@@ -1,0 +1,64 @@
+- name: Dwarves
+  tagline: Gruff, tough and sometimes rough
+  abilities:
+    - Add 5 to WIL.
+    - Add 5 to STR.
+    - Add 10 to TOU.
+    - Damage Reduction 10 against fire.
+    - See in complete darkness as if it was twilight.
+  movement_rate: 4
+  skill_base: 50
+  gold_base: 50
+
+- name: Gnomes
+  tagline: Clever tinkerers
+  abilities:
+    - Add 10 to AGI.
+    - Add 10 to PER.
+    - Damage Reduction 10 against fire.
+    - See in complete darkness as though it was twilight.
+  movement_rate: 4
+  skill_base: 50
+  gold_base: 50
+
+- name: Humans
+  tagline: Versatile vermin
+  abilities:
+    - Add 5 to one attribute of choice.
+  movement_rate: 6
+  skill_base: 75
+  gold_base: 70
+
+- name: Orgus
+  tagline: Big and bald
+  abilities:
+    - Add 15 to STR
+    - Add 5 to TOU
+    - Damage Reduction 10 against radiant damage.
+  movement_rate: 7
+  skill_base: 50
+  gold_base: 20
+
+- name: Orks
+  tagline: Elemental Barbarians
+  abilities:
+    - Add 10 to STR.
+    - Add 10 to TOU.
+    - Damage Reduction 10 against cold.
+    - See in low lighting as though it was daylight.
+    - Not affected by non-magical poisons, diseases and infections.
+  movement_rate: 5
+  skill_base: 50
+  gold_base: 0
+
+- name: Unari
+  tagline: Dropped dead beautiful
+  abilities:
+    - Add 5 to PER.
+    - Add 10 to CHA.
+    - Damage Reduction 20 against cold
+    - Do not sleep, cannot be affected by sleep magic,
+    - Not affected by non-magical poisons, diseases and infections
+  movement_rate: 6
+  skill_base: 50
+  gold_base: 100

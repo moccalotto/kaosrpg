@@ -1,0 +1,89 @@
+# - name: Geek
+#   description: |
+#       XXXX Something about intelligence. Possibly extra skills, possibly extra spells known?
+# 
+# - name: Charming
+#   description: |
+#       XXXX Good at making new social connections.
+
+- name: Tiny
+  description: |
+      Once per scene you can completely avoid an attack.
+      If you declare your intent to avoid the attack before the attacker rolls their dice it costs 1 karma point.
+      If you avoid the attack after the attacker rolls their dice it costs 2 karma points.
+
+- name: Nimble
+  description: Same effect as the tiny advantage. A character that is both tiny and nimble will be able to avoid two attacks per scene.
+
+- name: Well-equipped
+  description: You have CHA · 10 gold pieces instead of the usual CHA · 5.
+
+- name: Wealthy
+  description: You begin play with CHA · 3 gold pieces instead of the usual CHA gold pieces.
+
+- name: Tough
+  description: |
+      Once per scene you can avoid avoid the consequences of an attack.
+      Instead of getting a wound and resetting your stress points, your stress points are set to their maximum value, but you do not get the wound.
+      Doing this costs one karma point.
+
+- name: Stubborn
+  description: |
+      When you have the “dying” condition, you are awake and conscious.
+      You can take actions like any normal character, but doing so costs a karma point.
+
+- name: Socialite
+  description: |
+      Once per session you can overcome a challenge of trust or etiquette by invoking your background and heritage.
+      Doing so costs one karma point.
+
+- name: Quick Draw
+  description: |
+      It only costs you a single karma point to reroll the karma die when you roll initiative.
+
+- name: Fast
+  description: |
+      During combat you can move extra squares at the cost of 1 karma point per square.
+  remark: |
+      If you use areas instead of squares, you may spend 2 karma points to make an extra move, but only once per round.
+
+- name: Street Smart
+  description: |
+      It only costs you a single karma point to reroll your base die during challenges that involve shady
+      city connections, finding your way in cities, or evaluating black market prices.
+
+- name: Witch
+  description: You can cast witchcraft spells.
+
+- name: Sorcerer
+  description: You can cast sorcery spells.
+
+- name: Nightvision
+  description: You can see as well in dim light such as starlight or moonlight as if it were daylight.
+
+- name: Darkvision
+  description: You can see in complete darkness, but only in shades of gray.
+
+- name: Famous
+  description: |
+      When engaged in a social challenge with entities that are able to appreciate your reputation, you can reroll your base die for free.
+      You can do this once per scene.
+
+- name: Mnemonist
+  description: |
+      You can accurately recall anything you have ever seen or heard at the cost of 1 karma point.
+      It only costs you a single karma point to make rerolls during challenges that rely purely on your memory and experience.
+
+- name: Polyglot
+  description: |
+      When you hear or read a language that was not hitherto known by you, you can proclaim that you are familiar with it,
+      enabling you to read, write and speak it. This can be done once per session and it costs 3 karma points.
+
+- name: Connected
+  description: |
+      When engaged in a social challenge, you may spend one karma point to be able allude to a relevant mutual acquaintance
+      in order to gain the favor of the other party, allowing you to reroll the base die.
+      You can do this once per scene.
+
+- name: Strong
+  description: Once per scene you may reroll the base die of a roll that relies heavily and primarily on your bodily strength.

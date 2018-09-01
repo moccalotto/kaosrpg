@@ -1,0 +1,276 @@
+- name: Unarmed
+  hands: 1
+  cost: 0
+  damage: 1d3
+  range: M
+  rank: 99
+
+- name: Axe, battle
+  hands: 1
+  cost: 30gp
+  damage: 1d8
+  range: M/2
+
+- name: Axe, great
+  hands: 2
+  cost: 50gp
+  damage: 1d10
+  range: M
+
+- name: Axe, hand
+  hands: 1
+  cost: 10gp
+  damage: 1d4
+  range: M
+
+- name: Axe, throwing
+  hands: 1
+  cost: 15gp
+  damage: 1d6
+  range: M/3
+
+- name: Axe, war
+  hands: 2
+  cost: 55gp
+  damage: 1d10
+  range: M
+
+- name: Bow, great
+  hands: 2
+  cost: 125gp
+  damage: 1d10
+  range: 24
+
+- name: Bow, long
+  hands: 2
+  cost: 90gp
+  damage: 1d8
+  range: 20
+
+- name: Bow, short
+  hands: 2
+  cost: 35gp
+  damage: 1d6
+  range: 12
+
+- name: Chain, spiked
+  hands: 2
+  cost: 45gp
+  damage: 2d4
+  range: M
+
+- name: Club
+  hands: 1
+  cost: 2gp
+  damage: 1d6
+  range: 2
+
+- name: Club, great
+  hands: 2
+  cost: 25gp
+  damage: 1d8
+  range: M
+
+- name: Crossbow, hand
+  hands: 1
+  cost: 125gp
+  damage: 1d4
+  range: 6
+
+- name: Crossbow, heavy
+  hands: 2
+  cost: 60gp
+  damage: 1d10
+  range: 24
+
+- name: Crossbow, light
+  hands: 2
+  cost: 45gp
+  damage: 1d8
+  range: 15
+
+- name: Dagger
+  hands: 1
+  cost: 2gp
+  damage: 1d4
+  range: 3
+
+- name: Dart
+  hands: 1
+  cost: 5sp
+  damage: 1d4
+  range: 3
+
+- name: Flail
+  hands: 1
+  cost: 25gp
+  damage: 1d8
+  range: M
+
+- name: Flail, heavy
+  hands: 2
+  cost: 35gp
+  damage: 1d8
+  range: M
+
+- name: Glaive
+  hands: 2
+  cost: 35gp
+  damage: 1d8
+  range: Reach
+
+- name: Halberd
+  hands: 2
+  cost: 50gp
+  damage: 1d10
+  range: Reach
+
+- name: Hammer, light
+  hands: 1
+  cost: 12gp
+  damage: 1d6
+  range: M/4
+
+- name: Hammer, War
+  hands: 1
+  cost: 25gp
+  damage: 1d8
+  range: M
+
+- name: Lance
+  hands: 2
+  cost: 35gp
+  damage: 1d8
+  range: Reach
+
+- name: Mace, heavy
+  hands: 1
+  cost: 12gp
+  damage: 1d8
+  range: M
+
+- name: Mace, light
+  hands: 1
+  cost: 10gp
+  damage: 1d6
+  range: M
+
+- name: Morningstar
+  hands: 1
+  cost: 12gp
+  damage: 1d8
+  range: M
+
+- name: Net
+  hands: 2
+  cost: 25gp
+  damage: N/A
+  range: 2
+
+- name: Pick, heavy
+  hands: 1
+  cost: 20gp
+  damage: 1d6
+  range: M
+
+- name: Pick, light
+  hands: 1
+  cost: 4gp
+  damage: 1d4
+  range: M
+
+- name: Quarterstaff
+  hands: 2
+  cost: 3gp
+  damage: 1d6
+  range: M
+
+- name: Rapier
+  hands: 1
+  cost: 20gp
+  damage: 1d6
+  range: M
+
+- name: Scimitar
+  hands: 1
+  cost: 20gp
+  damage: 1d6
+  range: M
+
+- name: Scythe, war
+  hands: 2
+  cost: 45gp
+  damage: 2d4
+  range: M
+
+- name: Sickle
+  hands: 1
+  cost: 10gp
+  damage: 1d6
+  range: M
+
+- name: Sling
+  hands: 1
+  cost: 1gp
+  damage: 1d4
+  range: 10
+
+- name: Spear
+  hands: 2
+  cost: 8gp
+  damage: 1d8
+  range: M/5
+
+- name: Spear, Javelin
+  hands: 1
+  cost: 1gp
+  damage: 1d6
+  range: 6
+
+- name: Spear, long
+  hands: 2
+  cost: 10gp
+  damage: 1d8
+  range: Reach
+
+- name: Spear, short
+  hands: 1
+  cost: 4gp
+  damage: 1d6
+  range: M/4
+
+- name: Sword, bastard
+  hands: 2
+  cost: 50gp
+  damage: 1d10
+  range: M
+
+- name: Sword, great
+  hands: 2
+  cost: 60gp
+  damage: 2d6
+  range: M
+
+- name: Sword, long
+  hands: 1
+  cost: 25gp
+  damage: 1d8
+  range: M
+
+- name: Sword, short
+  hands: 1
+  cost: 8gp
+  damage: 1d6
+  range: M
+
+- name: Trident
+  hands: 1
+  cost: 30gp
+  damage: 1d8
+  range: 2
+
+- name: Whip
+  hands: 1
+  cost: 2gp
+  damage: 1d3
+  range: Reach

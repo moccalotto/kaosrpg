@@ -1,0 +1,45 @@
+- name: Use Power
+  description: >
+    Using the applicable power-skill, you use one of the powers
+    (or cast one of the spells) available to you.
+
+- name: Concentrate
+  description: >
+    You concentrate on keeping a power (or spell) going until your next turn.
+    You are free to use Surge Actions to take further actions this rund without
+    it interfering with your concentration.
+
+- name: Drink a potion
+  description: Guess what! You drink a potion.
+
+- name: Defense Attunement
+  description: You regain 2 Defense Points.
+
+- name: Get up
+  description: You rise from a prone position.
+
+- name: Drop
+  description: You drop down, going prone.
+
+- name: Melee attack
+  description: Using your Melee Combat skill, you attack your foe with unarmed combat or with a melee weapon.
+
+- name: Ranged attack
+  description: Using your Ranged Combat skill, you attack your foe with a missile weapon or a thrown weapon.
+
+- name: Mount/dismount
+  description: You mount/dismount your horse (or other riding beast).
+
+- name: Move
+  description: You move up to MR squares. Note that wearing certain armors and shields can lower your MR.
+
+- name: Stunt
+  description: >
+    Perform some kind of acrobatic maneuver, possibly requiring an Acrobatics Test.
+    Sometimes this action involves movement. The maximum distance is up to the GM.
+
+- name: Switch weapons
+  description: You holster/sheathe one weapon and draw/ready another.
+
+- name: Load crossbow
+  description: You load a crossbow, making it ready to fire.

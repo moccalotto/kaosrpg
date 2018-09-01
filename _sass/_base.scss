@@ -1,0 +1,178 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/**
+ * Basic styling
+ */
+body {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    color: $text-color;
+    background-color: $background-color;
+    font-kerning: normal;
+}
+
+article {
+    @include media-query($on-palm) {
+        text-align: left;
+    }
+    text-align: justify;
+}
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+p, blockquote, pre, ul, ol, dl, figure, %vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: $spacing-unit / 2;
+    font-weight: 400;
+}
+
+code {
+    font-weight: 100;
+}
+
+p {
+    page-break-before: avoid;
+    break-before: avoid;
+}
+
+ul, ol {
+    margin-left: $spacing-unit;
+}
+
+li {
+    > ul,
+    > ol {
+        margin-bottom: 0;
+    }
+}
+
+a {
+    color: inherit;
+
+    &:visited {
+        color: inherit;
+        // color: darken($brand-color, 15%);
+    }
+
+    &:hover {
+        color: $brand-color;
+        text-decoration: underline;
+    }
+    text-decoration: none;
+    // box-shadow: inset 0 0px 0 white, inset 0 -1px 0 black
+    font-weight: bolder;
+}
+
+@media screen {
+    .noscreen {
+        display: none;
+    }
+}
+
+article a {
+    font-style: italic;
+}
+
+header a {
+    text-decoration: none;
+}
+
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $grey-color-dark;
+    border-left: 0.2em solid $grey-color-light;
+    padding-left: $spacing-unit / 4;
+    font-size: 0.9em;
+    letter-spacing: -0.02em;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Wrapper
+ */
+.wrapper {
+    @include media-query(100000px) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    }
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
+
+
+
+/**
+ * Clearfix
+ */
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+/** Tables */
+table { margin-bottom: 30px; width: 100%; text-align: left; color: #3f3f3f; border-collapse: collapse; border: 1px solid #e8e8e8; }
+table tr:nth-child(even) { background-color: #f7f7f7; }
+table th, table td { padding: 0.2em 0.3em }
+table th { background-color: #f0f0f0; border: 1px solid #dedede; border-bottom-color: #c9c9c9; }
+table td { border: 1px solid #e8e8e8; }
+
+strong, .nowrap {
+    white-space: nowrap;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.page-break {
+    display: none;
+}
+@media all {
+    .page-break	{ display: none; }
+}

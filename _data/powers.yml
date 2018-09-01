@@ -1,0 +1,670 @@
+- name: Light
+  tiers: [Witchcraft1, Thaumaturgy1]
+  description: Object shines like a candle for the next 8 hours.
+
+- name: Mend
+  tiers: [Thaumaturgy1]
+  description: You make a minor repair to a single object.
+
+- name: Defensive Stance
+  tiers: [Battle2]
+  description: You regain all lost DPs.
+
+- name: Drawstrike
+  tiers: [Battle3]
+  description:
+    You draw your melee weapon and strike your opponent in one smooth motion.
+    You deal normal weapon damage. You do not need to make a normal attack roll.
+
+- name : Detect Lies
+  tiers: [Witchcraft1]
+  description: You know when people tell you lies.
+
+- name: Detect Magic
+  tiers: [Thaumaturgy1, Witchcraft1]
+  description: You can detect magic users, spells, and magical items.
+
+- name: Warmth
+  tiers: [Witchcraft1, Thaumaturgy2]
+  description: Touched subject gains Damage Resistance 10 against cold.
+
+- name: Light Fire
+  tiers: [Witchcraft2, Thaumaturgy1]
+  description: Snap your finger and light a candle, some dry kindling, etc.
+
+- name: Cure Disease
+  tiers: [Witchcraft2]
+  description: Touched subject is cured of their diseases and infections.
+
+- name: Healing Touch, Minor
+  tiers: [Witchcraft2]
+  tags: [Instantaneous]
+  description: Touched subject recovers 4d6 HP
+
+- name: Healing Touch, Moderate
+  tiers: [Witchcraft3]
+  tags: [Instantaneous]
+  description: Touched subject recover 6d6 HP.
+
+- name: Healing Rite
+  tags:
+    - 'ritual: 15 minutes'
+  tiers: [Witchcraft4]
+  description: The subject regains all their hit points.
+
+- name: Healing Zone
+  tags:
+    - 'ritual: 2 hours'
+  tiers: [Witchcraft3]
+  description: All subjects within 3 squares of you regain 4d6 HP
+
+- name: Revivify
+  tiers: [Witchcraft4]
+  description: >-
+    Touched subject who has died within the last minute
+    (10 combat rounds) is brought back to life with 1 HP.
+
+- name: Dark Vision
+  tiers: [Witchcraft1, Thaumaturgy1]
+  description: You can see in complete darkness as though it was twilight.
+
+- name: Dark Vision, Other
+  tiers: [Witchcraft2]
+  description: Subject can see in complete darkness as though it was twilight.
+
+- name: Firebolt
+  tiers: [Thaumaturgy3, Witchcraft5]
+  description: Ranged attack against subject, who can avoid damage (4d6) with an AGI Test.
+  example: >
+    You create a ball of reddish fire the size of your fist, swirling between your hands.
+    With a throwing motion you send the ball towards your opponent, engulfing them in flames.
+
+- name: Fireball
+  tiers: [Thaumaturgy4, Witchcraft6]
+  description: >
+    You create an explosion within 10 squares that affect 9 squares (3x3 squares).
+    Subjects within the area can avoid damage (4d6) with an AGI Test.
+
+- name: Fireball, Geater
+  tiers: [Thaumaturgy5, Witchcraft6]
+  description: >
+    Create an explosion within 20 squares that affect 13 squares (3 square diameter).
+    Subjects within the area can avoid damage (6d6) with an AGI Test.
+
+- name: Stay Awake
+  tiers: [Witchcraft1, Thaumaturgy3]
+  tags:
+    - 'ritual: 15-minutes'
+  description: All the effects of sleep deprivation are removed from the subject.
+
+- name: Stay Awake (Spell)
+  tiers: [Witchcraft2, Thaumaturgy4]
+  description: All effects of sleep deprivation are removed from the subject.
+
+- name: Stay Awake, Mass
+  tags:
+    - 'ritual: 2-hours'
+  tiers: [Witchcraft3]
+  description: You remove the effects of sleep deprivation from all subjects within 5 squares of you.
+
+- name: Destroy Undead
+  tiers: [Thaumaturgy3]
+  tags: [Instantaneous]
+  description: All undead creatures in sight suffer 8d6 points of damage.
+
+- name: Longevity
+  tags:
+    - 'ritual: 24 hours'
+  tiers: [Thaumaturgy6]
+  description: The magic user will not age for the next year.
+
+- name: Purify
+  tiers: [Witchcraft1]
+  description: You purify food or water, making it potable.
+
+- name: Purify, Area
+  tags:
+    - 'ritual: 1 hour'
+  tiers: [Witchcraft3]
+  description: The soil and flora within 200 squares of you is healed and cured of any natural diseases.
+
+- name: Animal Essense
+  tiers: [Witchcraft2]
+  description: You gain any attribute of the animal that is greater than yours for 10 minutes.
+
+- name: Control Athryss
+  tiers: [Witchcraft2, Thaumaturgy2, Leadership3]
+  description: You control a single Athryss creature within 20 squares.
+
+- name: Modify Athryss
+  tags:
+    - 'ritual: 5 minutes'
+  tiers: [Witchcraft3, Thaumaturgy3]
+  description: You can enchant an infant Athryss to grow into the species of Athryss you specify.
+
+- name: Animal Weapon
+  tiers: [Witchcraft3]
+  description: You gain the claws, talons, punces, tail or even head (bite) of an animal.
+    Your unarmed combat damage is replaced by the one of the animal for 10 minutes.
+
+- name: Heat Mineral
+  tiers: [Thaumaturgy2]
+  description: You heat a single metal or stone object to extreme temperatures.
+    The object will stay at that temperature as long as you concentrate on the spell.
+    Anyone wearing the targeted mineral will suffer 2d6 points of damage per round.
+
+- name: Heat Tolerance
+  tags:
+    - 'ritual: 5 minutes'
+  tiers: [Thaumaturgy2]
+  description: The subject gains Damage Reduction 20 against heat and fire damage.
+
+- name: Create Water
+  tiers: [Thaumaturgy1]
+  description: Water trickles slowly from an elemental rift in your closed fist.
+
+- name: Water Rift
+  tiers: [Thaumaturgy3]
+  description: You create a 20x20cm rift into the elemental plane of water.
+    Water spews forth from it at violent rate (like a fire hose).
+
+- name: Get Up Soldier
+  tiers: [Leadership3, Witchcraft3]
+  description: Touched ally with negative HP wakes up and is able to
+    stay conscious for WIL minutes. While in this state,
+    all tests are made *harder*. Subject dies if they reach -30 HP.
+
+- name: Self-esteem
+  tags:
+    - 'ritual: 1 hour'
+  tiers: [Witchcraft1, Leadership2]
+  description: "Subject's CHA and Negotiation scores are increased by 20 points for 8 hours."
+
+- name: Friend Doll
+  tags:
+    - 'ritual: 30 minutes'
+  tiers: [Witchcraft2]
+  description: You create a small doll whose materials include hair, nail clippings
+    or similar from the subject.
+    As long as you hold he doll in your hands, the subject considers you a friend.
+    Letting go of the doll will end the spell.
+    Any violent action towards the subject will cause the doll to burst into flame
+    and you suffer 2d6 points of damage.
+
+- name: Friend
+  tiers: [Witchcraft4]
+  description: Subject considers you a friend for the next 8 hours.
+    Any violent action towards the subject will cancel the spell.
+
+- name: Paralyze Animal
+  tiers: [Witchcraft1, Thaumaturgy3]
+  description: The animal subject is paralyzed until it succeeds a WIL Test (made at the beginning of its turn each round).
+
+- name: Paralyze Person
+  tiers: [Witchcraft3, Thaumaturgy5]
+  description: The humanoid subject is paralyzed until it succeeds a WIL Test (made at the beginning of its turn each round).
+
+- name: Paralyze Monster
+  tiers: [Witchcraft4, Thaumaturgy6]
+  description: "The monstrous subject is paralyzed until it succeeds a WIL Test (made at the beginning of the subjects turn each round)."
+
+- name: Binding Handshake
+  tags:
+    - 'ritual: 1 minute'
+    - 'duration: 1 year'
+  tiers: [Witchcraft2, Thaumaturgy2, Leadership2]
+  description: The willing subject swears an oath while you draw a small symbol on some part of their body.
+    If they break their oath within a year they suffer 10d10 points of damage.
+
+- name: Enchanted Contract
+  tags:
+    - 'ritual: 5 minutes'
+  tiers: [Witchcraft3, Thaumaturgy3]
+  description: You inscribe a pre-drawn contract with magical runes.
+    All parties then sign the contract and you put a final rune upon it.
+    If at any point any party willingly act in a manner that directly counter the
+    spirit of the contract, they will suffer 10d10 points of damage. Although only
+    once per day. Physically destroying the contract will cancel the spell.
+
+- name: Levitate Object
+  tags:
+  - 'range: touch'
+  tiers: [Thaumaturgy1, Witchcraft2]
+  description: Touched object (of max 200kg) levitates for 2 hours. It retains its full mass.
+    This spell can be cast on an armor or weapon, in which case all atheltics requirements
+    would be removed.
+
+- name: Crane
+  tiers: [Thaumaturgy2, Witchcraft3]
+  description:
+    Touched object (of max 200kg) can fly (at Movement Rate 6) and carry a load of up to 250kg.
+
+- name: Drill
+  tags: ['range: touch']
+  tiers: [Thaumaturgy1, Witchcraft2]
+  description: Create a hole in wood, stone or metal. The hole can be up to a meter in length and a few centimeters thick.
+
+- name: Wood Durability
+  tiers: [Witchcraft2]
+  tags:
+    - 'ritual: 2 minutes'
+  description: Protects a cubic meter of wood from rot, mold, weather, etc. The wood lasts 10 times as long as unprotected wood.
+
+- name: Nails
+  tiers: [Thaumaturgy1, Witchcraft2]
+  tags:
+    - 'ritual: 5 minutes'
+  description: You enchant 10 nails. The nails can be made out of metal, stone, bone or hardwood.
+    They become at least twice as durable as they were.
+    They can be pushed into any kind of non-magical wood with the bare hands.
+    They will not come out again without force.
+    They will never rust, corrode or rot.
+
+- name: Mold Mineral
+  tiers: [Thaumaturgy4]
+  tags:
+    - 'ritual: 2 minutes'
+  description: You can mold a single metal or stone object (max 10kg) with your hands (not by tools).
+    The object is not heated by this process and it remains moldable by you for 1 hour.
+
+- name: Smelt, minor
+  tags:
+    - 'range: touch'
+    - 'ritual: 2 hours'
+  tiers: [Thaumaturgy3]
+  description: You extract the pure metal (not just ore, but actual metal) from dirt, stone and water
+    that contain trace metals or ore. Up to 1kg of metal can be extracted.
+
+- name: Smelt, Major
+  tags:
+    - 'ritual: 2 hours'
+  tiers: [Thaumaturgy4]
+  description: You extract the pure metal (not ore) from dirt, stone and water that contain trace metals or ore.
+    You extract the metal from minerals within a 250 meter radius.
+    The metal is extracted from the area, and will slowly fly/levitate toward you.
+
+- name: Temper
+  tags:
+    - 'ritual: 1 minute'
+  tiers: [Thaumaturgy2]
+  description: You temper a single iron-alloy object of max 10 kg.
+
+- name: Wood to Stone
+  tags:
+    - 'ritual: 5 minutes'
+  tiers: [Thaumaturgy4]
+  description: You turn one cubic meter of non-living wood into stone.
+
+- name: Stone to Sand
+  tiers: [Thaumaturgy5]
+  description: You turn a touched up to one cubic meters of a stone object to fine sand.
+
+- name: Stone to Glass
+  tiers: [Thaumaturgy3]
+  tags:
+    - 'ritual: 5 minutes'
+  description: You convert up to 20kg of stone to glass.
+
+- name: Water Control, minor
+  tiers: [Thaumaturgy1]
+  description: You animate, change the texture, color or opacity of 10 liters of water within 10 squares of you for up to one hour.
+
+- name: Hold Breath
+  tiers: [Thaumaturgy2, Witchcraft3]
+  description: Touched subject does not need to breathe for the next 8 hours.
+
+- name: Unseen
+  tiers: [Witchcraft2]
+  description: Subject is unnoticable (by normal senses, but not magic) for 5 minutes or until it attacks.
+
+- name: Fly
+  tiers: [Thaumaturgy3, Witchcraft4]
+  description: Subject can fly (Movement Rate 6) for 5 minutes.
+
+- name: Mage Flight
+  tiers: [Thaumaturgy4, Witchcraft4]
+  description: You can fly with a Movement Rate of 6 while you concentrate on this spell.
+
+- name: True Sight
+  tiers: [Witchcraft2]
+  description: Hear or see any location within 100 squares for 10 rounds, one location per round.
+
+- name: Message
+  tiers: [Thaumaturgy1, Witchcraft1]
+  description:
+    Subject within line of sight and 100 meters can hear a short message that you whisper silently.
+
+- name: Mind Link
+  tiers: [Thaumaturgy3, Witchcraft2]
+  description:
+    You create a telepathic mind link to a close friend or relative.
+    The two of you can communicate telepathically as long as you concentrate.
+
+- name: Prestidigitation
+  tiers: [Thaumaturgy1, Witchcraft1]
+  description: Minor magical tricks and illusions.
+
+- name: Calm
+  tiers: [Witchcraft2, Leadership1]
+  description: You calm an enraged or frightend subject. If subject is magically frightened or enraged,
+    they have to succeed an Easy WIL Test in order to counter that spell.
+
+- name: Dispell Witchcraft 1
+  tiers: [Witchcraft2, Thaumaturgy3]
+  description: You break a tier 1 Witchcraft spell.
+
+- name: Dispell Witchcraft 2
+  tiers: [Witchcraft3, Thaumaturgy4]
+  description: You break a tier 2 Witchcraft spell.
+
+- name: Dispell Witchcraft 3
+  tiers: [Witchcraft4, Thaumaturgy5]
+  description: You break a tier 3 Witchcraft spell.
+
+- name: Dispell Witchcraft 4
+  tiers: [Witchcraft5, Thaumaturgy6]
+  description: You break a tier 4 Witchcraft spell.
+
+- name: Dispell Witchcraft 5
+  tiers: [Witchcraft6]
+  description: You break a tier 5 Witchcraft spell.
+
+- name: Dispell Thaumaturgy 1
+  tiers: [Thaumaturgy2, Witchcraft3]
+  description: You break a tier 1 Thaumaturgy spell.
+
+- name: Dispell Thaumaturgy 2
+  tiers: [Thaumaturgy3, Witchcraft4]
+  description: You break a tier 2 Thaumaturgy spell.
+
+- name: Dispell Thaumaturgy 3
+  tiers: [Thaumaturgy4, Witchcraft5]
+  description: You break a tier 3 Thaumaturgy spell.
+
+- name: Dispell Thaumaturgy 4
+  tiers: [Thaumaturgy5, Witchcraft6]
+  description: You break a tier 4 Thaumaturgy spell.
+
+- name: Dispell Witchcraft 5
+  tiers: [Thaumaturgy6]
+  description: You break a tier 5 Thaumaturgy spell.
+
+- name: Sonic Boom
+  tiers: [Witchcraft3, Thaumaturgy1]
+  description: You create an explosive sound centered on you.
+    Anyone in adjacent squares must make a TOU test or suffer 2d6 Points of Damage.
+    You, the caster, are not affected by the spell.
+
+- name: Sonic Boom, Greater
+  tiers: [Witchcraft4, Thaumaturgy2]
+  description: You create an explosive sound centered on you.
+    Anyone in adjacent squares must make a TOU test or suffer 4d6 Points of Damage.
+    You, the caster, are not affected by the spell.
+
+- name: Break
+  tiers: [Thaumaturgy1, Witchcraft2]
+  tags: ['ritual: 1 minute', Permanent]
+  description:
+    Touched non-living and non-magical object weighing no more than 100kg breaks in half.
+
+- name: Shatter
+  tiers: [Witchcraft4, Thaumaturgy3]
+  tags: ['range: touch', Permanent]
+  description: Target non-living and non-magical object weighing max 100kg breaks in half.
+
+- name: Fear
+  tiers: [Witchcraft3, Battle3, Leadership4]
+  description: |
+    The subject must move at least 1 square away from you on their next turn.
+    If they do not, all tests made by them that turn will become *harder*.
+
+- name: Defense Attunement, Minor
+  tiers: [Witchcraft2, Thaumaturgy2, Leadership1]
+  description: >
+    The subject regains 1 Defense Points.
+
+
+- name: Defense Attunement, Moderate
+  tiers: [Witchcraft3, Thaumaturgy3, Leadership2]
+  description: The subject regains 2d4 Defense Points.
+
+- name: Defense Attunement, Mass
+  tiers: [Witchcraft4, Thaumaturgy4, Leadership4]
+  description: All friendly subjects within 5 squares regain 1d6 Defense Points.
+
+- name: Shield
+  tiers: [Witchcraft4, Thaumaturgy4]
+  description: >
+    The subject can spend one DP per round for free.
+
+- name: Mage Armor, Light
+  tiers: [Thaumaturgy2]
+  description: If you have fewer than 4 DPs, you now have 4 DPs that last until used.
+
+- name: Mage Armor, Heavy
+  tiers: [Thaumaturgy4]
+  description: If you have fewer than 8 DPs, you now have 8 DPs that last until used.
+
+- name: Mage Armor, Ultimate
+  tiers: [Thaumaturgy6]
+  description: If you have fewer than 12 DPs, you now have 12 DPs that last until used.
+
+- name: Slow
+  tiers: [Witchcraft3]
+  description: >
+    If subject fails a WIL test they will only be able to take one
+    action per round while the magic user concentrates.
+
+- name: Confusion
+  tiers: [Witchcraft4]
+  description: >
+    If subject fails a WIL test, all attack tests made by the subject
+    become *harder*. The effect lasts as long as you concentrate.
+
+- name: Sleep
+  tiers: [Witchcraft1]
+  description: |
+    If subject fails an easy WIL test they fall asleep until they
+    succeed an easy WIL test. They can make one such test per round.
+    The sleeper wakes up if anyone takes an action to slap them awake.
+
+- name: Sleep, Mass
+  tiers: [Witchcraft3, Thaumaturgy4]
+  description: |
+    Create a cloud of colorless and odorless gas within 10 squares.
+    The cloud takes up 9 squares (a cube of 3·3 squares).
+    Subjects within the cloud must pass an easy WIL test or fall asleep
+    until the gas cloud disappears.  The gas cloud remains as long as you concentrate.
+
+- name: Stink Spray
+  tiers: [Witchcraft2, Thaumaturgy3]
+  description: >
+    You spray skunk-spray at an opponent directly in fron of you.
+    They have to succeed a TOU or WIL check (whichever is higher),
+    or loose their next 1d8 actions. The target can use Surge Actions
+    to get better faster.
+
+- name: Babel
+  tiers: [Witchcraft3, Thaumaturgy3]
+  description: >
+    You can understand the meaning of any spoken or written language.
+    You can even find some meaning in animal growls.
+
+- name: Hint
+  tiers: [Leadership1]
+  description:
+    The next Surge Action taken by the subject does not cause any strain.
+
+- name: Hint, Mass
+  tiers: [Leadership5]
+  description:
+    All friendly subjects within 5 squares can take a Surge Action on their
+    next turn without any strain.
+
+- name: Inspiration, Mass
+  tiers: [Leadership3]
+  description:
+    Each friendly subject within 5 squares has their next combat related test made *easier*.
+
+- name: Inspiration
+  tiers: [Leadership1]
+  description:
+    The next combat related test made by the subject is made *easier*.
+
+- name: Terrain Awareness, Minor
+  tiers: [Leadership1]
+  description:
+    The subject has their movement rate increased by 1 until the end of their next turn.
+
+- name: Terrain Awareness, Moderate
+  tiers: [Leadership2]
+  description:
+    The subject has their movement rate increased by 3 until the end of their next turn.
+
+- name: Terrain Awareness, Mass
+  tiers: [Leadership3]
+  description:
+    All friendly subjects within 5 squares have their movement rate increased by 2 until
+    the end of their next turns.
+
+- name: Dual Strike
+  tiers: [Battle3]
+  description:
+    You attack with two melee weapons at the same time.
+    Both your weapons deal normal damage. No attack rolls are necessary.
+
+- name: Berserk
+  tiers: [Battle3]
+  description:
+    You can take two additional Surge Actions this round (they each cause normal strain damage).
+
+- name: Durable Rope
+  tiers: [Thaumaturgy3, Witchcraft4]
+  tags:
+  - 'Ritual: 15 minutes'
+  - 'Permanent'
+  description:
+    Makes a rope 10 times stronger than it was,
+    but reduce it to half its original length.
+
+- name: Search
+  tiers: [Witchcraft2, Thaumaturgy2]
+  tags: ['Ritual: 10 minutes']
+  description:
+    You get a single yes/no answer to a question about the location of a specific
+    person, creature or object you are thinking of.
+  example: |-
+    You use this ritual six times to narrow down the location of
+    the person you are tracking:
+    * Is my target in the same country as me? **Yes**.
+    * Is my target in the same city as me? **No**.
+    * Is my target in the capital? **Yes**.
+    * Is my target in the northern half of the capital ? **Yes**.
+    * Is my target in the market place of the capital? **No**.
+    * Is my target in the butcher’s district of the capital?. **Yes**.
+
+## LEADERSHIP BRAINSTORM
+# Keywords:
+# Lead from the front
+# Inspiration
+# Coordination
+# Tactics
+# Strategy
+# Awareness
+# Rally
+# Combat Attunement
+# Fearless
+# Enrage
+# Negotiation (non-combat)
+# Rile (you rile people up)
+# Synchronicity - All willing party members (except you) now have an initiative of 1.
+#                 This means that certain party members may be able to act twice this
+#                 round without spending surge actions.
+#
+# BATTLE BRAINSTORM
+# Unarmed Combat
+#   Brawling
+#   Power Punch
+#   Swift Kick
+#   Sweep (kick)
+#   Stunning blow
+#
+# Sap (use a sap to sleep an opponent)
+#
+# Far Shot (longer range)
+# Shot in the Dark (your shot ignores penalties from low light, etc.)
+# Lucky Shot (you make an easy attack no matter what kind of penalties you are under).
+# Surprise Strike
+# Sneak Attack
+# Battle Shout
+# Great Leap
+# Three Surges (in addition to using this power, you may make three Surge Actions)
+# Attunement (The next surge action you make does not strain any HP)
+# Sprint (You move MR·2 squares)
+# Charge
+# Rage
+
+
+# SPELL BRAINSTORM
+# Runes that protect against charms or other effects.
+# Runes that affect or curses the caster of malicious magic cast against the wearer.
+#   - For instance a rune that would put a mark on the caster of any charms or control spells on the wearer.
+# Circle of Power - you create a circular area wherein you are more powerful.
+#                     - Ritual (2 couple of hours for a small circile. Longer for a big one).
+#                     - The circle only helps you
+#                     - Maybe it affects other mages negatively.
+#                     - Maybe you lose less HP when spellscasting.
+#                     - Maybe spells have their teir lowered.
+#                     - Maybe all dice you roll when inside the circle that comes up as 1's are re-rolled.
+#
+# Ward (Ritual) - you protect a building from magical attacks
+#                   - Undead are weakened.
+#                   - Scrying does not work.
+#                   - Fear spells do not work.
+#                   - Spellcasting strain is higher.
+#                   - Spellcasting alerts the warder.
+#                   - Cannot teleport inside the area.
+#                   - Cannot read minds inside the area.
+# Summoning - when summoning imps, demons and elementals you make a "contract" with the creature.
+#             It will never truly die, just be banished to its home plane. You can summon it again
+#             at your leisure.
+# Map making
+# Map verification.
+# Polymorph
+# Animal Messenger
+# Purge - Remove all "bad effects" such as bleeding wounds, stuns, diseases from target. Target receives X damage + Y damage per effect removed.
+# Speak with animal
+# Babel (comprehend any language)
+# Anti-scry
+# Antimagic circle (hemisphere / sphere where magic doesn't work)
+# Teleportation circle
+# Rift / Gate (mega powerful spell of d00m) - may useful for travelling to other asteroid worlds - maybe even other universes.
+# Fear
+# Lubricate: Mage spits on his finger and applies it to an object. The spit will then turn into whatever kind of lubrication the caster needs it to be.
+# Lure (enchant an object that will somehow attract ppl with sound, gleam or otherwise. The lured ppl will have reduced awareness of their surroundings)
+# Woodskin (tmp hp maybe? extra DPs that will not recover?)
+# Making metal like tin look like gold
+# Making lenses for glasses
+# Fog: Use fog as shield
+# Fog: Use fog as fist
+# Fog: Create weapons and armors from fog
+# Fog: Create boats, ships and sleds from fog
+# Commune with dead (Ritual): Caster clads herself in heavy iron chains and gets an assistant
+#                             to feed them the heart of a recently dead intelligent creature.
+#                             Caster is then temporarily possessed by the soul of that creature.
+#                             Through the caster, the soul must answer all questions put to it
+#                             truthfully and to the best of its abilities.
+# Journal of Elects (Ritual, 2 days):  Enchant a leather-bound book to become a Journal of Elects
+#  * The book is impervious to water and cold.
+#  * The book is highly resistant to fire.
+#  * Only a confirmed Elect can write in the journal. If other people attempt it, the ink will not bind to the page.
+#  * The text cannot be altered (not even stricken through) when the ink has dried.
+#  * You can only read what you yourself have written.
+#  * A magical item, possessed only to Masters of Arion can unlock the Journal so that the text can be read.
+#
+# Magical Bookscroll (ritual): a single piece of paper that can contain hundreds of pages of writing.
+# Via minor magical spells you can control what page to view.
+# Some scrolls require quite powerful magic to turn pages.
+#
+# EVOLVING WEAPON:
+# A weapon that leeches some of your APs, but that may also become more powerful
