@@ -60,6 +60,7 @@ Consult the lists below for inspiration and make up your own to suit your campai
 {% if item.remark %}
 > {{ item.remark }}
 {% endif %}
+
 {% endfor %}
 
 ### Disadvantages
@@ -211,11 +212,82 @@ Is the number of additional points of strain damage you take every time you take
 | Weapon | H | Cost | Damage | Range |
 |--------|:-:|:----:|:------:|:-----:|
 {%- for item in site.data.weapons %}
-| {{ item.name -}} {%- if item.remark -%} * {%- endif -%}
+| {{ item.name -}}
 | {{ item.hands -}}
 | {{ item.cost -}}
 | {{ item.damage -}}
 | {{ item.range }}
+{%- endfor %}
+
+### Lifestyles
+
+The costs of living outlined below is an indication how how much it would
+cost per day to live that given life. It includes everything such as housing,
+clothes, food and any type of luxury that might be associated with the
+lifestyle such as servants, transportation (sedans, carts, horses, etc.).
+
+{:.nobreak}
+{:.goods}
+| Lifestyle | Cost |
+|-----------|:----:|
+{%- for item in site.data.goods.lifestyles %}
+| {{ item.name -}}
+| {{ item.cost -}}
+{%- endfor %}
+
+### Goods
+
+{:.nobreak}
+{:.goods}
+| Food | Cost |
+|-----------|:----:|
+{%- for item in site.data.goods.food %}
+| {{ item.name -}}
+| {{ item.cost -}}
+{%- endfor %}
+
+{:.nobreak}
+{:.goods}
+| Clothing | Cost |
+|-----------|:----:|
+{%- for item in site.data.goods.clothing %}
+| {{ item.name -}}
+| {{ item.cost -}}
+{%- endfor %}
+
+{:.nobreak}
+{:.goods}
+| Lodging | Cost |
+|-----------|:----:|
+{%- for item in site.data.goods.lodging %}
+| {{ item.name -}}
+| {{ item.cost -}}
+{%- endfor %}
+
+{:.goods}
+| Gear | Cost |
+|-----------|:----:|
+{%- for item in site.data.goods.gear %}
+| {{ item.name -}}
+| {{ item.cost -}}
+{%- endfor %}
+
+{:.nobreak}
+{:.goods}
+| Animal | Cost |
+|-----------|:----:|
+{%- for item in site.data.goods.animals %}
+| {{ item.name -}}
+| {{ item.cost -}}
+{%- endfor %}
+
+{:.nobreak}
+{:.goods}
+| Light | Cost |
+|-----------|:----:|
+{%- for item in site.data.goods.light %}
+| {{ item.name -}}
+| {{ item.cost -}}
 {%- endfor %}
 
 The Dice and The Game
@@ -344,7 +416,7 @@ You die if you are reduced to negative 30 HP.
 **Natural healing**:
 Complete rest, such as sitting or lying down, for 1 hour will replenish 10 HP.
 
-#Actions
+Actions
 --------
 During each round you can take an »action« such as move, attack, use a power, etc.
 This is called your Main Actions.
