@@ -55,8 +55,8 @@
 - name: Witch
   description: You can cast witchcraft spells.
 
-- name: Sorcerer
-  description: You can cast sorcery spells.
+- name: Thaumaturge
+  description: You can cast thaumaturgy spells.
 
 - name: Nightvision
   description: You can see as well in dim light such as starlight or moonlight as if it were daylight.

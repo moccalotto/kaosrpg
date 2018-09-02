@@ -460,18 +460,11 @@ of the spell. A tier 1 Thaumaturgy spell requires you to
 have a Thaumaturgy score of 15. A Tier 2 spell would require
 a skill score of 30, and so on.
 
-{% for power in site.data.powerskills %}
-**{{ power.name }}**:
-{{ power.description }}
-{% endfor %}
-
 The sum of the scores of your Power Skills may never exceed 90.
-In other words, having Leadership 60 and Thaumaturgy 30 would
+In other words, having Witchcraft 60 and Thaumaturgy 30 would
 be OK because their combined score is exactly 90,
 but you would never be able to further increase the scores
-of your chosen skills, nor would you be able to buy
-scores in the Battle or Witchcraft Power Skills.
-
+of these skills.
 
 **Using powers**:
 When you use a power you must first make a Standard Test
@@ -508,8 +501,20 @@ as walking, talking, etc. People who know you might notice that you are distract
 Unless otherwise specified, powers can reach any target within
 the caster's line of sight.
 
-All available powers are listed in the
-[power list]({{ '/rulebook/powers/' | prepend: site.baseurl }})
+### List of powers
+
+{% for power in site.data.powers %}
+
+**{{ power.name }}** *
+{{- power.tiers | join: ', ' -}}
+{%- if power.tags -%}
+, {{ power.tags | join: ', ' -}}
+{%- endif -%}
+*
+<br>
+{{ power.description }}
+
+{% endfor %}
 
 Advancement
 -----------
