@@ -78,23 +78,16 @@ Consult the lists below for inspiration and make up your own to suit your campai
 Skills
 ------
 
-The third thing to do is to choose your skill scores by spending a number
-of your *skill points*.
-Skills have a *base score* and a *max score* and your starting skill scores
-must be within those two limits.
+The third thing to do is to choose your skill scores.
 
-**Base Score**:
-You get the Base Score for free. You can improve your skills further by spending *skill points*.
-For every skill point spent you can increase one skill score by one point.
+You get 50 + INT + PER + CHA points to assign to your skils
 
-**Max Score**:
-You cannot advance Skill Scores beyond their max score.
+All skills start at zero, and they all have a **max score**,
+which is the maximum allowed score for that skill.
 
-> The *Acrobatics* skill has a base score of STR ÷ 2 and a max score of STR + AGI.
-> A character with STR 21 and AGI 15 would have a base score of 21÷2=10 in *Acrobatics*,
-> and would be able to increase that skill to 21+15=36 by spending 26 skill points.
+> A character with STR 21 and AGI 15 would be able to increase
+> the acrobatics skill up to 36. This would cost 36 skill points.
 
-### Skill List
 {% assign skills = site.data.skills | sort: 'name' %}
 {% for item in skills %}
 **{{ item.name}}**:
@@ -146,55 +139,24 @@ Is the number of additional points of strain damage you take every time you take
 > Such a character would take 1d4&nbsp;+&nbsp;3 points of strain damage
 > for every surge action taken.
 
-<table class="nobreak">
-    <thead>
-    <tr>
-        <th>Armor</th>
-        <th>Cost</th>
-        <th>DP</th>
-        <th>MR</th>
-        <th>Athletics</th>
-        <th>Strain</th>
-    </tr>
-    </thead>
-    <tbody>
-    {% for armor in site.data.armors %}
-        <tr id="{{ armor.name | slugify }}">
-            <td>{{ armor.name }}</td>
-            <td>{{ armor.cost }}</td>
-            <td>{{ armor.dp }}</td>
-            <td>{{ armor.mr }}</td>
-            <td>{{ armor.athletics }}</td>
-            <td>{{ armor.strain }}</td>
-        </tr>
-    {% endfor %}
-    </tbody>
-</table>
-
-<table class="nobreak">
-    <thead>
-    <tr>
-        <th class="left">Shield</th>
-        <th class="center">Cost</th>
-        <th class="center">DP</th>
-        <th class="center">MR</th>
-        <th class="center">Athletics</th>
-        <th class="center">Strain</th>
-    </tr>
-    </thead>
-    <tbody>
-    {% for shield in site.data.shields %}
-        <tr id="{{ shield.name | slugify }}">
-        <td class="left">{{ shield.name }}</td>
-        <td class="center">{{ shield.cost }}</td>
-        <td class="center">{{ shield.dp }}</td>
-        <td class="center">{{ shield.mr }}</td>
-        <td class="center">{{ shield.athletics }}</td>
-        <td class="center">{{ shield.strain }}</td>
-    </tr>
-    {% endfor %}
-    </tbody>
-</table>
+| Armor | Cost | DPs | MR | Athletics | Strain |
+|:------|:----:|:---:|:--:|:---------:|:------:|
+{%- for item in site.data.armors %}
+{{  item.name }}      |
+{{- item.cost }}      |
+{{- item.dp }}        |
+{{- item.mr }}        |
+{{- item.athletics }} |
+{{- item.strain }}    |
+{%- endfor %}
+{%- for item in site.data.shields %}
+{{  item.name }}      |
+{{- item.cost }}      |
+{{- item.dp }}        |
+{{- item.mr }}        |
+{{- item.athletics }} |
+{{- item.strain }}    |
+{%- endfor %}
 
 ### Weapons
 
@@ -265,8 +227,9 @@ lifestyle such as servants, transportation (sedans, carts, horses, etc.).
 {%- endfor %}
 
 {:.goods}
-| Gear | Cost |
+| Gear      | Cost |
 |-----------|:----:|
+
 {%- for item in site.data.goods.gear %}
 | {{ item.name -}}
 | {{ item.cost -}}
@@ -274,18 +237,19 @@ lifestyle such as servants, transportation (sedans, carts, horses, etc.).
 
 {:.nobreak}
 {:.goods}
-| Animal | Cost |
-|-----------|:----:|
-{%- for item in site.data.goods.animals %}
+| Light Source | Cost |
+|--------------|:----:|
+{%- for item in site.data.goods.light %}
 | {{ item.name -}}
 | {{ item.cost -}}
 {%- endfor %}
 
 {:.nobreak}
 {:.goods}
-| Light | Cost |
+| Animal    | Cost |
 |-----------|:----:|
-{%- for item in site.data.goods.light %}
+
+{%- for item in site.data.goods.animals %}
 | {{ item.name -}}
 | {{ item.cost -}}
 {%- endfor %}
@@ -318,25 +282,24 @@ test remains at its original difficulty level.
 GM determines the Target Number for each party.
 Both parties then roll d100.
 If one party beats the target number but the other does not, that party wins.
-Otherwise redo the test until exactly one party has a success.
+If it is a tie (i.e. both sides succeeded, or both sides failed), flip a
+coin to determine the winner.
 
-Note that the target number does not have to be the same for each party;
-You can pit the Strength of one character against the Agility of another -
-or you can pit one persons Perception against another persons Stealth.
+> **Note**: The target number does not have to be the same for each party;
+> You can pit the Strength of one character against the Agility of another -
+> or you can pit one persons Perception against another persons Stealth.
 
 **The 01-rule**:
-A roll of 01 on the d100 is always a success.
-If you roll a 01 in an Opposed Test, you automatically win the test.
-If any of your rolls in a Hard Test is a 1, the Hard Test is a success.
+Whenever you roll a 01 on a roll, you always succeed, even if the test
+is *hard* or *opposed*.
+
+**The 100-rule**:
+A roll of 100 on the d100 is always a failure, even if the test is *easy*
+or *opposed*.
 
 **The 95-rule**:
 No matter how high your skill score is or which circumstantial advantages
 you may have, your target number can never be higher than 95.
-
-**The 100-rule**:
-A roll of 100 on the d100 is always a failure.
-If you roll a 100 in an opposed test, you automatically fail the test.
-If you roll a 100 on the first roll of an Easy Test, the easy test fails.
 
 Combat
 ------
@@ -376,11 +339,8 @@ This costs 3 DP, and it forces the attacker to re-roll their attack test.
 You can also defend against an attack after the attacker has rolled damage.
 This costs 5 DP, and it forces the attacker to re-roll both attack and damage.
 
-The number of DPs your character has depends on their AGI and the armor they're wearing.
-
-Take a look at the
-[equipment list]({{ '/rulebook/equipment/#armors' | prepend: site.baseurl }})
-for more information about armors.
+The number of DPs your character has depends on their AGI and the armor
+they're wearing.
 
 **Attack Rolls**:
 To attack someone, you make a skill test to see if you strike the target.
@@ -396,16 +356,6 @@ Magical attacks do not have a Damage Bonus.
 
 See the [equipment list]({{ '/rulebook/equipment/' | prepend: site.baseurl }})
 to find out how much damage your weapon deals.
-
-**Damage Reduction**:
-If you have Damage Reduction [X] against some type of damage,
-you reduce that by X points whenever you suffer such types of damage.
-Damage Reduction can never protected against strain damage, such as
-the HP drain you suffer when you use powers or take surge actions.
-
-> If you have Damage Reduction 20 against fire and you suffer 35 points of fire damage in a single attack,
-> you reduce that damage to 35-20=15 points. If you suffer 15 points of fire damage or less, you do not
-> loose a single HP.
 
 **Unconsciousness**:
 You loose consciousness if you are reduced to 0 Hit Points or lower.

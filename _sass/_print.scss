@@ -1,4 +1,5 @@
 @media print {
+
     @page {
         size: A4;
         size: 210mm 297mm;
@@ -68,7 +69,7 @@
     h2 { font-size: 1.3em; }
     h3 { font-size: 1.2em; }
 
-    a {
+    p a {
         color: #000;
         text-decoration:none;
         font: inherit;
@@ -77,6 +78,14 @@
             color: #000;
             text-decoration:none;
         }
+
+        // print the URL after each absolute link.
+        &[href*="://"]:after {
+            content: " (" attr(href) ")";
+            // font-size: 80%;
+            word-wrap: break-word;
+        }
+        word-wrap: break-word;
     }
 
     .site-header, .site-footer {
