@@ -1,5 +1,5 @@
 - name: Learned
-  description: |
+  description: |-
       You can assign 100 + INT + WIS + CHA points to your skills.
       This is 50 more points than an average character.
 
@@ -8,7 +8,7 @@
 #       XXXX Good at making new social connections.
 
 - name: Tiny
-  description: |
+  description: |-
       Once per scene you can completely avoid an attack.
       If you declare your intent to avoid the attack before the attacker rolls their dice it costs 1 karma point.
       If you avoid the attack after the attacker rolls their dice it costs 2 karma points.
@@ -23,33 +23,33 @@
   description: You begin play with CHA · 3 gold pieces instead of the usual CHA gold pieces.
 
 - name: Tough
-  description: |
+  description: |-
       Once per scene you can avoid avoid the consequences of an attack.
       Instead of getting a wound and resetting your stress points, your stress points are set to their maximum value, but you do not get the wound.
       Doing this costs one karma point.
 
 - name: Stubborn
-  description: |
+  description: |-
       When you have the “dying” condition, you are awake and conscious.
       You can take actions like any normal character, but doing so costs a karma point.
 
 - name: Socialite
-  description: |
+  description: |-
       Once per session you can overcome a challenge of trust or etiquette by invoking your background and heritage.
       Doing so costs one karma point.
 
 - name: Quick Draw
-  description: |
+  description: |-
       It only costs you a single karma point to reroll the karma die when you roll initiative.
 
 - name: Fast
-  description: |
+  description: |-
       During combat you can move extra squares at the cost of 1 karma point per square.
-  remark: |
+  remark: |-
       If you use areas instead of squares, you may spend 2 karma points to make an extra move, but only once per round.
 
 - name: Street Smart
-  description: |
+  description: |-
       It only costs you a single karma point to reroll your base die during challenges that involve shady
       city connections, finding your way in cities, or evaluating black market prices.
 
@@ -66,22 +66,22 @@
   description: You can see in complete darkness, but only in shades of gray.
 
 - name: Famous
-  description: |
+  description: |-
       When engaged in a social challenge with entities that are able to appreciate your reputation, you can reroll your base die for free.
       You can do this once per scene.
 
 - name: Mnemonist
-  description: |
+  description: |-
       You can accurately recall anything you have ever seen or heard at the cost of 1 karma point.
       It only costs you a single karma point to make rerolls during challenges that rely purely on your memory and experience.
 
 - name: Polyglot
-  description: |
+  description: |-
       When you hear or read a language that was not hitherto known by you, you can proclaim that you are familiar with it,
       enabling you to read, write and speak it. This can be done once per session and it costs 3 karma points.
 
 - name: Connected
-  description: |
+  description: |-
       When engaged in a social challenge, you may spend one karma point to be able allude to a relevant mutual acquaintance
       in order to gain the favor of the other party, allowing you to reroll the base die.
       You can do this once per scene.
