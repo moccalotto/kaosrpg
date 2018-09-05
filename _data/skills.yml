@@ -15,17 +15,6 @@
   max: TOU + WIL
   description: Run, march, swim, endure physical stress.
 
-- name: Battle
-  power: true
-  base: 0
-  max: STR + PER
-  description: |
-    Use Battle powers.
-    You cannot use Battle powers if you have not
-    met the Athletics requirements of any armor you are
-    wearing.
-
-
 - name: '[Craft]'
   base: PER ÷ 2
   max: PER + WIL
@@ -68,31 +57,25 @@
   max: PER + CHA
   description: Speak score ÷ 10 langauges in addition to your mother tongue.
 
-- name: Leadership
-  power: true
-  base: 0
-  max: WIL + CHA
-  description: Use Leadership powers.
-
 - name: Literacy
   base: 0
   max: PER · 2
   description: Read and write score ÷ 10 languages.
 
-- name: Melee Combat
+- name: Combat, Melee
   base: AGI ÷ 2
   max: STR + AGI
   description: Attack with a melee weapon or hand-to-hand.
+
+- name: Combat, Ranged
+  base: PER ÷ 2
+  max: AGI + PER
+  description: Attack with a missile- or thrown weapon.
 
 - name: Negotiation
   base: CHA ÷ 2
   max: PER + CHA
   description: Intimidation, haggling, interrogation.
-
-- name: Ranged Combat
-  base: PER ÷ 2
-  max: AGI + PER
-  description: Attack with a missile- or thrown weapon.
 
 - name: Riding
   base: WIL ÷ 2

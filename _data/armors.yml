@@ -1,76 +1,98 @@
 - name: Unarmored
   cost:  0
-  dp: AGI÷10
+  hp: ±0
   mr: ±0
   athletics: 0
   strain: 0
 
 - name: Leather
   cost:  10gp
-  dp: AGI÷10+1
+  hp: '+1'
   mr: ±0
   athletics: 10
   strain: 0
 
 - name: Hardened Leather
   cost:  25gp
-  dp:  AGI÷10+2
+  hp:  '+2'
   mr: ±0
   athletics: 20
   strain: 1
+  properties:
+      - 'bulky'
 
 - name: Hide Armor
   cost:  10gp
-  dp:  3
+  hp:  '+3'
   mr: ±0
   athletics: 30
   strain: 1
+  properties:
+      - 'bulky'
 
 - name: Chain Shirt
   cost:  100gp
-  dp:  4
+  hp:  '+4'
   mr: ±0
   athletics: 25
   strain: 0
 
 - name: Scale Mail
   cost:  75gp
-  dp:  5
+  hp: '+5'
   mr: -1
   athletics: 45
   strain: 2
+  properties:
+      - cumbersome
+      - slow
 
 - name: Chain Mail
   cost:  150gp
-  dp:  5
+  hp: '+5'
   mr: -1
   athletics: 40
   strain: 1
+  properties:
+      - bulky
+      - slow
 
 - name: Breastplate
   cost:  200gp
-  dp:  5
+  hp: '+5'
   mr: -1
   athletics: 30
   strain: 1
+  properties:
+      - bulky
+      - slow
 
 - name: Banded Mail
   cost:  250gp
-  dp:  6
+  hp: '+6'
   mr: -1
   athletics: 45
   strain: 3
+  properties:
+      - fatiguing
+      - slow
 
 - name: Half Plate
   cost:  500gp
-  dp:  6
+  hp: '+6'
   mr: -1
   athletics: 45
   strain: 2
+  properties:
+      - cumbersome
+      - slow
 
 - name: Full Plate
   cost:  1000gp
-  dp:  7
+  hp: '+7'
   mr: -1
   athletics: 50
   strain: 2
+  properties:
+      - cumbersome
+      - slow

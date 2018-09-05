@@ -30,11 +30,15 @@ There are six attributes that quantify a KAOS character:
 **Willpower** (WIL),
 and **Charisma** (CHA).
 
-To create your character, roll d4+d6+d8+d10+d10+d12+d20 (thats right, roll all your 7 dice and add them up)
-for each attribute. This is now your character! Maybe the GM will let you roll another if you're whiny about it.
+To create your character, roll d4+d6+d8+d10+d10+d12+d20 for each attribute.
+This is now your character; maybe the group will let you re-roll or rearrange
+your scores if you buy dinner!
 
-When we append a `:10` to one of the attributes (for instance STR:10), it means that we want the value of that
-attribute, divided by 10. We use these `:10` throughout these rules.
+When we append a `:10` to an attribute's name (for instance `STR:10`), it means that we want the value of that
+attribute, divided by 10. We use these `:10`'s throughout these rules.
+>
+> **Example**:
+> A character with a STR of 42 and an AGI of 39 would have a STR:10 of 4 and a AGI:10 of 3.
 
 Traits
 ------
@@ -78,14 +82,11 @@ Skills
 ------
 
 The third thing to do is to choose your skill scores.
-
-You get 50 + INT + PER + CHA points to assign to your skils
-
-All skills start at zero, and they all have a **max score**,
-which is the maximum allowed score for that skill.
-
-> A character with STR 21 and AGI 15 would be able to increase
-> the acrobatics skill up to 36. This would cost 36 skill points.
+You have: 
+* 1 skill with a score of 20 + WIL + 1d6.
+* 1 skill with a score of 10 + PER + 1d6.
+* 1 skill with the same score as an attribute of your choice.
+* `PER:10` skills with scores of 10 + PER:10 + WIL:10 + 1d10.
 
 {% assign skills = site.data.skills | sort: 'name' %}
 {% for item in skills %}
@@ -106,55 +107,34 @@ No matter how many GP you use, you will begin play with CHA gold pieces.
 
 ### Armors
 
-**DP**:
-The number of Defense Points you have if wearing this armor.
-Defense Points are used to deflect an opponent's attacks.
-Shields increase the number of DPs.
-You can spend one DP to make a single attack against you
-<i>harder</i> or you can spend 3 DP to make an attacker re-roll
-their last attack roll.
+Wearing armors and shields will increase your number of hit points,
+but often at the cost of one or more penalties.
 
-**MR**:
-This is how the armor affects your movement rate.
+| Penalty    | Effect
+|------------|-------------------------------------------------------------------
+| Bulky      | You take 1 extra point of strain when you take a surge action.
+| Cumbersome | You take 2 extra points of strain when you take a surge action.
+| Fatiguing  | You take 3 extra points of strain when you take a surge action.
+| Exhausting | You take 4 extra points of strain when you take a surge action.
+| Awkward    | You cannot cast magical spells while wearing this armor or shield.
+| Slow       | Your movement rate is decreased by 1.
 
-**Athletics**:
-Armors may require you to have a certain score in Athletics - otherwise
-your movement rate is reduced by 2 (in addition to any penalties the armor may already impose).
-Shields add to your DPs, but also the overall Athletics requirements, movement rate penalties and
-strain penalties.
+Penalties stack. This means that wearing a bulky shield and a cumbersome armor will
+result in you taking 3 extra points of strain damage when you take surge actions.
 
-**Strain**:
-Is the number of additional points of strain damage you take every time you take a Surge Action.
+> **Note**:
+> Use common sense if a character takes off her armor after suffering damage.
+> Taking off your armor cannot kill you, and donning your armor will not heal you.
 
-> **Example 1**: A person wearing Hardened Leather and a Light Shield and an
-> AGI of 23 will have a Defense Score of 23÷10+2+1&nbsp;=&nbsp;5,
-> and an Athletics requirement of 20+10&nbsp;=&nbsp;30.
-> Such a character would take 1d4&nbsp;+&nbsp;1 points of strain damage
-> for every surge action taken.
 
-> **Example 2**: A person wearing Chain Mail and a Tower Shield will have
-> a Defense Score of 4+3 = 7, a Movement Rate penalty of 1+2&nbsp;=&nbsp;3, and
-> an Athletics requirement of 35+20 = 55.
-> Such a character would take 1d4&nbsp;+&nbsp;3 points of strain damage
-> for every surge action taken.
-
-| Armor | Cost | DPs | MR | Athletics | Strain |
-|:------|:----:|:---:|:--:|:---------:|:------:|
+| Armor | Cost | HP | Athletics | Penalties   |
+|-------|:----:|:--:|:---------:|-------------|
 {%- for item in site.data.armors %}
-{{  item.name }}      |
-{{- item.cost }}      |
-{{- item.dp }}        |
-{{- item.mr }}        |
-{{- item.athletics }} |
-{{- item.strain }}    |
-{%- endfor %}
-{%- for item in site.data.shields %}
-{{  item.name }}      |
-{{- item.cost }}      |
-{{- item.dp }}        |
-{{- item.mr }}        |
-{{- item.athletics }} |
-{{- item.strain }}    |
+{{  item.name }}                              |
+{{- item.cost }}                              |
+{{- item.hp }}                                |
+{{- item.athletics | prepend: '≥'}}           |
+{{- item.properties  | join: ', ' }}          |
 {%- endfor %}
 
 ### Weapons
@@ -288,6 +268,10 @@ coin to determine the winner.
 > You can pit the Strength of one character against the Agility of another -
 > or you can pit one persons Perception against another persons Stealth.
 
+> **A gang of thieves try to sneak past a squad of guards**:
+> Each thief rolls stealth and each guard all rolls PER.
+> The side with fewest failures win. Coinflip breaks ties.
+
 **The 01-rule**:
 Whenever you roll a 01 on a roll, you always succeed, even if the test
 is *hard* or *opposed*.
@@ -319,27 +303,17 @@ The number of squares you can move depends on your Movement Rate (MR).
 
 **Hit Points**:
 *HP* is how many points of damage you can loose before going unconscious.
-Your character has STR + TOU + WIL hit points.
+Your character has `10` + `AGI:10` + `TOU:10` + `WIL:10` hit points.
 You can be damaged by physical attacks against you or by suffering strain
 from strenuous activity such as taking Surge Actions or using Powers.
 Such damage reduces your current number of HP. If you reach zero HP, you go
-[unconscious](#unconsciousness), and  you [die](#death) if you reach -30 HP.
+unconscious, and  you die if you reach -10 HP.
 
-**Defense Points**:
-*DP* are the number of times per combat (not round) you can try and avoid
-non-magical attacks. When an opponent declares that they want to attack you,
-but before they actually roll any dice, you can declare that you want to
-defend against the attack, making the test [*Harder*](#harder-and-easier).
+> **Example** A character with AGI 51, TOU 28, and WIL 42 will have 
+> 10 + 5 + 2 + 4 = 21 hit points. 
 
-You can also defend against an attack *after* an attacker has successfully
-struck you, but *before* they roll for damage.
-This costs 3 DP, and it forces the attacker to re-roll their attack test.
-
-You can also defend against an attack after the attacker has rolled damage.
-This costs 5 DP, and it forces the attacker to re-roll both attack and damage.
-
-The number of DPs your character has depends on their AGI and the armor
-they're wearing.
+> **Note**: Wearing armor will increase your HPs. See the [equipment list](#armors)
+> to find out how much your HP maximum is increased.
 
 **Attack Rolls**:
 To attack someone, you make a skill test to see if you strike the target.
@@ -349,18 +323,17 @@ and Witchcraft or Thaumaturgy for magical attacks.
 **Damage Rolls**:
 Having successfully struck an opponent you determine how many Hit Points your opponent
 looses by rolling the damage dice applicable for your weapon and adding your Damage Bonus.
-If you are making a melee attack, the Damage Bonus is STR÷10.
-If you are making a ranged attack, the Damage Bonus is PER÷10.
+If you are making a melee attack, the Damage Bonus is `STR:10`.
+If you are making a ranged attack, the Damage Bonus is `PER:10`.
 Magical attacks do not have a Damage Bonus.
 
-See the [equipment list]({{ '/rulebook/equipment/' | prepend: site.baseurl }})
-to find out how much damage your weapon deals.
+See the [equipment list](#weapons) to find out how much damage your weapon deals.
 
 **Unconsciousness**:
 You loose consciousness if you are reduced to 0 Hit Points or lower.
 
 **Death**:
-You die if you are reduced to negative 30 HP.
+You die if you are reduced to negative 10 HP.
 
 **Natural healing**:
 Complete rest, such as sitting or lying down, for 1 hour will replenish 10 HP.
@@ -371,10 +344,10 @@ During each round you can take an »action« such as move, attack, use a power, 
 This is called your Main Actions.
 
 **Surge Actions**:
-When you have taken your main action you can choose to take one or two Surge Actions.
+When you have taken your main action you may choose to take one or even two Surge Actions.
 Surge Actions are just like Main Actions except that they are strenuous.
 Taking a surge action drains 1d4 of your HP.
-If you are wearing heavy armor, the strain of taking surge actions may be even higher.
+Wearing heavy armors and shields increase the strain of taking surge actions.
 
 See the [equipment list]({{ '/rulebook/equipment/' | prepend: site.baseurl }})
 for more info about additional strain incurred by wearing heavy armor.
