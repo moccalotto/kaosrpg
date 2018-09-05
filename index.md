@@ -2,19 +2,15 @@
 layout: post
 ---
 
-KAOS is a set of simple and all-purpose tabletop role playing game rules. 
-Even though this document is focussed on the classic medieval fantasy setting,
-these should be adaptable for most campaign types.
-
-This work is licensed under a
-[Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+Welcome to KAOS. 
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 You are free to share and adapt this material for any purpose, including commercially, 
 as long as you give attribution.
 
-Round fractions down,
-modify the rules,
+Hack the rules,
 use common sense,
-*Have Fun!*.
+round fractions down (if you want),
+and *Have Fun!*.
 
 Characters
 ==========
@@ -34,8 +30,11 @@ There are six attributes that quantify a KAOS character:
 **Willpower** (WIL),
 and **Charisma** (CHA).
 
-Distribute 100 points between these six attributes,
-assigning at least 5 and at most 30 points to each attribute.
+To create your character, roll d4+d6+d8+d10+d10+d12+d20 (thats right, roll all your 7 dice and add them up)
+for each attribute. This is now your character! Maybe the GM will let you roll another if you're whiny about it.
+
+When we append a `:10` to one of the attributes (for instance STR:10), it means that we want the value of that
+attribute, divided by 10. We use these `:10` throughout these rules.
 
 Traits
 ------
