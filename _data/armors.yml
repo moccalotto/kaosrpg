@@ -1,21 +1,18 @@
 - name: Unarmored
   cost:  0
   hp: ±0
-  mr: ±0
   athletics: 0
   strain: 0
 
 - name: Leather
   cost:  10gp
   hp: '+1'
-  mr: ±0
   athletics: 10
   strain: 0
 
 - name: Hardened Leather
   cost:  25gp
   hp:  '+2'
-  mr: ±0
   athletics: 20
   strain: 1
   properties:
@@ -24,7 +21,6 @@
 - name: Hide Armor
   cost:  10gp
   hp:  '+3'
-  mr: ±0
   athletics: 30
   strain: 1
   properties:
@@ -33,14 +29,12 @@
 - name: Chain Shirt
   cost:  100gp
   hp:  '+4'
-  mr: ±0
   athletics: 25
   strain: 0
 
 - name: Scale Mail
   cost:  75gp
   hp: '+5'
-  mr: -1
   athletics: 45
   strain: 2
   properties:
@@ -50,7 +44,6 @@
 - name: Chain Mail
   cost:  150gp
   hp: '+5'
-  mr: -1
   athletics: 40
   strain: 1
   properties:
@@ -60,7 +53,6 @@
 - name: Breastplate
   cost:  200gp
   hp: '+5'
-  mr: -1
   athletics: 30
   strain: 1
   properties:
@@ -70,7 +62,6 @@
 - name: Banded Mail
   cost:  250gp
   hp: '+6'
-  mr: -1
   athletics: 45
   strain: 3
   properties:
@@ -80,7 +71,6 @@
 - name: Half Plate
   cost:  500gp
   hp: '+6'
-  mr: -1
   athletics: 45
   strain: 2
   properties:
@@ -90,9 +80,30 @@
 - name: Full Plate
   cost:  1000gp
   hp: '+7'
-  mr: -1
   athletics: 50
   strain: 2
   properties:
       - cumbersome
+      - slow
+
+- name: Shield, Light
+  cost: 10gp
+  hp:  '+1'
+  athletics: '+15'
+
+- name: Shield, Heavy
+  cost: 20gp
+  hp: '+2'
+  athletics: '+20'
+  strain: '+1'
+  properties:
+      - bulky
+      - slow
+
+- name: Shield, Tower
+  cost: 40gp
+  hp: '+3'
+  athletics: '+25'
+  properties:
+      - fatiguing
       - slow

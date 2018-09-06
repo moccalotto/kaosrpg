@@ -291,10 +291,8 @@ There are a number of common terms used in combat:
 
 **Initiative**:
 Combat is divided into rounds of about 6 seconds in which combatants act in turn.
-In the beginning of every combat, each combatant rolls the *initiative* they use
-for the rest of that combat: AGI+1d10.
-Each round, each combatant acts in turn in the order of their initiative, from highest to
-lowest.
+At the beginning of each round, each side rolls d100. The side with the highest roll
+gets to go first. 
 
 **Movement**:
 The battle scene is divided into squares about a meter on a side.
@@ -367,63 +365,81 @@ Below is a list of possible actions.
 {% endfor %}
 
 
-Powers
-------
-Powers are special abilities you can use during the game.
-Using powers will drain a number of HP, depending on how
-strenuous the power is. There are certain skills that
-do nothing except allow you to use powers. These skills
-are called Power Skills.
-For instance, the Thaumaturgy is a Power Skill; having
-a given score in the that skill would grant you the ability
-to cast certain Thaumaturgy spells.
-Exactly which spells you can cast to depends on the »tier«
-of the spell. A tier 1 Thaumaturgy spell requires you to
-have a Thaumaturgy score of 15. A Tier 2 spell would require
-a skill score of 30, and so on.
+Magic
+-----
+If you have the skills Witchcraft or Thaumaturgy, you can
+cast magical spells.
 
-The sum of the scores of your Power Skills may never exceed 90.
-In other words, having Witchcraft 60 and Thaumaturgy 30 would
-be OK because their combined score is exactly 90,
-but you would never be able to further increase the scores
-of these skills.
+**Memorization**:
+A magic user can only have a certain number of spells memorized
+at any given time. The number of spells memorized is equal to the
+relevant skill score divided by 10.
 
-**Using powers**:
-When you use a power you must first make a Standard Test
-for the given Power Skill. If the test succeeds, the power
-takes effect and you suffer strain.
+> **Example**:
+> A character with Witchcraft 56 and Thaumaturgy 21 can
+> Memorize 5 Witchcraft spells and 2 Thaumaturgy spells.
+
+**Casting spells**:
+To cast a memorized spell, you make a Standard Test for the relevant
+skill (Witchcraft or Thaumaturgy). If the test succeeds, the 
+spell takes effect, and you suffer strain.
+
+**Casting non-memorized spells**:
+A character *can* cast spells that they have not memorized.
+Doing so, she must succeed a *hard* test for the relevant skill.
+And she suffers 1d6 extra strain damage. The character
+suffers strain damage *even if the spell fails*.
 
 **Strain**:
-Using powers causes strain damage.
-The number of HP drained depends on how strenuous the power is.
-The strain occurs *after* the power has taken effect.
-This means that you can successfully use a power and
+The number of HP drained after successfully casting a spell
+depends on how powerful the spell is.
+The strain occurs *after* the spell was cast.
+This means that you can successfully cast a spell and
 then fall unconscious by the strain it caused.
-Conversely, if you fail to use the power, you do not suffer any
-strain damage.
+You do not suffer any strain damage if you fail to cast your spell.
 
 **Healing**:
-You do not regenerate and cannot be healed *in any way* for an hour after using a power.
+You do not regenerate and cannot be healed *in any way* for an hour after
+successfully casting a spell.
 
 **Tiers**:
-Powers are divided into tiers from 1 to 6. Tier one powers are the easiest
-to use and they drain only a 2 HPs per use.
-Tier six powers are very difficult to use and drain 12 HPs per use.
-Powers have a Skill Score requirements that must be met in order for
-the character to be able to use them.
+Spells are divided into tiers from 1 to 6. Tier 1 spells are very easy to cast,
+whereas tier 6 spells are difficult to cast and require a lot of strain.
+You cannot cast spells of tiers where your skill score is too low.
+
+> **Example**:
+> Casting a tier 4 Thaumaturgy spell requires that you have at least 50 in
+> the Thaumaturgy skill. It also means that you suffer 1d8 after successfully
+> casting the spell (if memorized).
+
+| Tier | Strain | Skill Score |
+|:----:|:------:|:-----------:|
+|  1   |   0    |     ≥20     |
+|  2   |  1d4   |     ≥30     |
+|  3   |  1d6   |     ≥40     |
+|  4   |  1d8   |     ≥50     |
+|  5   |  1d10  |     ≥60     |
+|  6   |  1d12  |     ≥70     |
 
 **Duration**:
-Unless specified, all non-instantaneous and non-permanent powers
-fade away at the *end* of your *next* turn. If you want to keep the power from fading away,
-you must take an action next round to Concentrate on that power, which will keep it going for
-another round. Outside combat, you can maintain a single power and still do simple tasks such
+Unless specified, all non-instantaneous and non-permanent spells
+fade away at the *end* of the *next* round.
+You can keep the spell from ending by using an action the action next round to Concentrate on that spell,
+which will keep it going for another round, where you are free to Concentrate on that spell again.
+Outside combat, you can maintain a single spell and still do simple tasks such
 as walking, talking, etc. People who know you might notice that you are distracted though.
+
+> **Note**:
+> My reasons for using this type of concentration is to require spell casters to do nothing
+> but concentrating to keep a spell going. They can of course take surge actions to
+> move, cast more spells, or even concentrate on more spells. But this will of course be
+> extremely draining.
 
 **Range**:
 Unless otherwise specified, powers can reach any target within
-the caster's line of sight.
+the caster's line of sight and that the caster can realistically make out.
 
-### List of powers
+### Spells
 
 {% for power in site.data.powers %}
 
