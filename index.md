@@ -2,9 +2,9 @@
 layout: post
 ---
 
-Welcome to KAOS. 
+Welcome to KAOS.
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
-You are free to share and adapt this material for any purpose, including commercially, 
+You are free to share and adapt this material for any purpose, including commercially,
 as long as you give attribution.
 
 Hack the rules,
@@ -82,7 +82,7 @@ Skills
 ------
 
 The third thing to do is to choose your skill scores.
-You have: 
+You have:
 * 1 skill with a score of 20 + WIL + 1d6.
 * 1 skill with a score of 10 + PER + 1d6.
 * 1 skill with the same score as an attribute of your choice.
@@ -133,7 +133,7 @@ Your movement rate is decreased by 1.
 Armor properties and requirements stack.
 > **Example**:
 > In order to wear a heavy shield and a scale mail,
-> you will need an athletics score of 45+20 = 65, and 
+> you will need an athletics score of 45+20 = 65, and
 > take 3 extra points of strain damage when you take surge actions.
 > On the other hand, you also get a total of (5 + 2) 7
 > extra hit points.
@@ -304,7 +304,7 @@ There are a number of common terms used in combat:
 **Initiative**:
 Combat is divided into rounds of about 6 seconds in which combatants act in turn.
 At the beginning of each round, each side rolls d100. The side with the highest roll
-gets to go first. 
+gets to go first.
 
 **Movement**:
 The battle scene is divided into squares about a meter on a side.
@@ -319,8 +319,8 @@ from strenuous activity such as taking Surge Actions or using Powers.
 Such damage reduces your current number of HP. If you reach zero HP, you go
 unconscious, and  you die if you reach -10 HP.
 
-> **Example** A character with AGI 51, TOU 28, and WIL 42 will have 
-> 10 + 5 + 2 + 4 = 21 hit points. 
+> **Example** A character with AGI 51, TOU 28, and WIL 42 will have
+> 10 + 5 + 2 + 4 = 21 hit points.
 
 > **Note**: Wearing armor will increase your HPs. See the [equipment list](#armors)
 > to find out how much your HP maximum is increased.
@@ -393,7 +393,7 @@ relevant skill score divided by 10.
 
 **Casting spells**:
 To cast a memorized spell, you make a Standard Test for the relevant
-skill (Witchcraft or Thaumaturgy). If the test succeeds, the 
+skill (Witchcraft or Thaumaturgy). If the test succeeds, the
 spell takes effect, and you suffer strain.
 
 **Casting non-memorized spells**:
