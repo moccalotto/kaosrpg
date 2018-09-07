@@ -16,7 +16,7 @@
   athletics: 20
   strain: 1
   properties:
-      - 'bulky'
+      - ①
 
 - name: Hide Armor
   cost:  10gp
@@ -24,13 +24,15 @@
   athletics: 30
   strain: 1
   properties:
-      - 'bulky'
+      - ①
 
 - name: Chain Shirt
   cost:  100gp
   hp:  '+4'
   athletics: 25
   strain: 0
+  properties:
+    - ⓜ
 
 - name: Scale Mail
   cost:  75gp
@@ -38,8 +40,9 @@
   athletics: 45
   strain: 2
   properties:
-      - cumbersome
-      - slow
+    - ②
+    - ⓜ
+    - Ⓢ
 
 - name: Chain Mail
   cost:  150gp
@@ -47,8 +50,9 @@
   athletics: 40
   strain: 1
   properties:
-      - bulky
-      - slow
+    - ①
+    - ⓜ
+    - Ⓢ
 
 - name: Breastplate
   cost:  200gp
@@ -56,8 +60,9 @@
   athletics: 30
   strain: 1
   properties:
-      - bulky
-      - slow
+    - ①
+    - ⓜ
+    - Ⓢ
 
 - name: Banded Mail
   cost:  250gp
@@ -65,8 +70,9 @@
   athletics: 45
   strain: 3
   properties:
-      - fatiguing
-      - slow
+    - ③
+    - ⓜ
+    - Ⓢ
 
 - name: Half Plate
   cost:  500gp
@@ -74,8 +80,9 @@
   athletics: 45
   strain: 2
   properties:
-      - cumbersome
-      - slow
+    - ②
+    - ⓜ
+    - Ⓢ
 
 - name: Full Plate
   cost:  1000gp
@@ -83,27 +90,30 @@
   athletics: 50
   strain: 2
   properties:
-      - cumbersome
-      - slow
+    - ②
+    - ⓜ
+    - Ⓢ
 
-- name: Shield, Light
+- name: Small Shield
   cost: 10gp
   hp:  '+1'
   athletics: '+15'
 
-- name: Shield, Heavy
+- name: Large Shield
   cost: 20gp
   hp: '+2'
   athletics: '+20'
   strain: '+1'
   properties:
-      - bulky
-      - slow
+    - ①
+    - ⓜ
+    - Ⓢ
 
-- name: Shield, Tower
+- name: Tower Shield
   cost: 40gp
   hp: '+3'
   athletics: '+25'
   properties:
-      - fatiguing
-      - slow
+    - ③
+    - ⓜ
+    - Ⓢ

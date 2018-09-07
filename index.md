@@ -110,31 +110,43 @@ No matter how many GP you use, you will begin play with CHA gold pieces.
 Wearing armors and shields will increase your number of hit points,
 but often at the cost of one or more penalties.
 
-| Penalty    | Effect
-|------------|-------------------------------------------------------------------
-| Bulky      | You take 1 extra point of strain when you take a surge action.
-| Cumbersome | You take 2 extra points of strain when you take a surge action.
-| Fatiguing  | You take 3 extra points of strain when you take a surge action.
-| Exhausting | You take 4 extra points of strain when you take a surge action.
-| Awkward    | You cannot cast magical spells while wearing this armor or shield.
-| Slow       | Your movement rate is decreased by 1.
-
-Penalties stack. This means that wearing a bulky shield and a cumbersome armor will
-result in you taking 3 extra points of strain damage when you take surge actions.
-
-> **Note**:
-> Use common sense if a character takes off her armor after suffering damage.
-> Taking off your armor cannot kill you, and donning your armor will not heal you.
 
 
-| Armor | Cost | HP | Athletics | Penalties   |
+**①**:
+You take 1 extra point of strain when you take a surge action.
+
+**②**:
+You take 2 extra points of strain when you take a surge action.
+
+**③**:
+You take 3 extra points of strain when you take a surge action.
+
+**④**:
+You take 4 extra points of strain when you take a surge action.
+
+**ⓜ**:
+You cannot cast magical spells while wearing this armor or shield.
+
+**ⓢ**:
+Your movement rate is decreased by 1.
+
+Armor properties and requirements stack.
+> **Example**:
+> In order to wear a heavy shield and a scale mail,
+> you will need an athletics score of 45+20 = 65, and 
+> take 3 extra points of strain damage when you take surge actions.
+> On the other hand, you also get a total of (5 + 2) 7
+> extra hit points.
+
+
+| Armor | Cost | HP | Athletics | Properties  |
 |-------|:----:|:--:|:---------:|-------------|
 {%- for item in site.data.armors %}
 {{  item.name }}                              |
 {{- item.cost }}                              |
 {{- item.hp }}                                |
-{{- item.athletics | prepend: '≥'}}           |
-{{- item.properties  | join: ', ' }}          |
+{{- item.athletics }}                         |
+{{- item.properties  | join: '&nbsp;' }}      |
 {%- endfor %}
 
 ### Weapons
