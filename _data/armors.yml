@@ -97,12 +97,12 @@
 - name: Small Shield
   cost: 10gp
   hp:  '+1'
-  athletics: '+15'
+  athletics: 15
 
 - name: Large Shield
   cost: 20gp
   hp: '+2'
-  athletics: '+20'
+  athletics: 20
   strain: '+1'
   properties:
     - ①
@@ -112,7 +112,7 @@
 - name: Tower Shield
   cost: 40gp
   hp: '+3'
-  athletics: '+25'
+  athletics: 25
   properties:
     - ③
     - ⓜ

@@ -108,26 +108,26 @@ No matter how many GP you use, you will begin play with CHA gold pieces.
 ### Armors
 
 Wearing armors and shields will increase your number of hit points,
-but often at the cost of one or more penalties.
+but they have athletics requirements, and often come with a number of penalties.
 
 
+| Armor | Cost | HP | Ath. | Notes            |
+|-------|:----:|:--:|:-----|------------------|
+{%- for item in site.data.armors %}
+{{  item.name }}                              |
+{{- item.cost }}                              |
+{{- item.hp }}                                |
+{{- item.athletics }}                         |
+{{- item.properties  | join: '&nbsp;' }}      |
+{%- endfor %}
 
-**①**:
-You take 1 extra point of strain when you take a surge action.
+`①/②/③/④`:
+You take 1, 2, 3, or 4 extra points of strain when you take a surge action.
 
-**②**:
-You take 2 extra points of strain when you take a surge action.
-
-**③**:
-You take 3 extra points of strain when you take a surge action.
-
-**④**:
-You take 4 extra points of strain when you take a surge action.
-
-**ⓜ**:
+`ⓜ`:
 You cannot cast magical spells while wearing this armor or shield.
 
-**ⓢ**:
+`ⓢ`:
 Your movement rate is decreased by 1.
 
 Armor properties and requirements stack.
@@ -137,17 +137,6 @@ Armor properties and requirements stack.
 > take 3 extra points of strain damage when you take surge actions.
 > On the other hand, you also get a total of (5 + 2) 7
 > extra hit points.
-
-
-| Armor | Cost | HP | Athletics | Properties  |
-|-------|:----:|:--:|:---------:|-------------|
-{%- for item in site.data.armors %}
-{{  item.name }}                              |
-{{- item.cost }}                              |
-{{- item.hp }}                                |
-{{- item.athletics }}                         |
-{{- item.properties  | join: '&nbsp;' }}      |
-{%- endfor %}
 
 ### Weapons
 
