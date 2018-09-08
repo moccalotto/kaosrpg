@@ -304,7 +304,7 @@ The number of squares you can move depends on your Movement Rate (MR).
 *HP* is how many points of damage you can loose before going unconscious.
 Your character has `10` + `AGI:10` + `TOU:10` + `WIL:10` hit points.
 You can be damaged by physical attacks against you or by suffering strain
-from strenuous activity such as taking Surge Actions or using Powers.
+from strenuous activity such as taking Surge Actions or using magic.
 Such damage reduces your current number of HP. If you reach zero HP, you go
 unconscious, and  you die if you reach -10 HP.
 
@@ -448,16 +448,11 @@ the caster's line of sight and that the caster can realistically make out.
 
 ### Spells
 
-
 {% assign powers = site.data.powers | sort: 'name' %}
 
 {% for item in powers %}
-**{{ item.name }}** *
-{{- item.tiers | join: ', ' -}}
-{%- if item.tags -%}
-, {{ item.tags | join: ', ' -}}
-{%- endif -%}
-*
+**{{ item.name }}**
+*{{ item.tags | join: ', ' }}*
 <br>
 {{ item.description }}
 {% if item.remark %}

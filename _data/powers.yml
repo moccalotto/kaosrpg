@@ -10,6 +10,18 @@
   tags: [Witchcraft1]
   description: You know when people tell you lies.
 
+- name : Clean Air
+  tags:
+    - Witchcraft1
+    - Thaumaturgy1
+    - Instantaneous
+    - Boostable
+  description: |-
+    You remove poisonous gasses, dust, particles, etc. from the air
+    in a 2 meter radius around you.
+    You can boost the radius by 1 meter per additional point of strain spent.
+
+
 - name: Detect Magic
   tags: [Thaumaturgy1, Witchcraft1]
   description: You can detect magic users, spells, and magical items.
@@ -156,7 +168,7 @@
   description: The soil and flora within 200 squares of you is healed and cured of any natural diseases.
 
 - name: Animal Essense
-  tiers: [Witchcraft2]
+  tags: [Witchcraft2]
   description: You gain any attribute of the animal that is greater than yours for 10 minutes.
 
 - name: Control Athryss
@@ -170,7 +182,7 @@
   description: You can enchant an infant Athryss to grow into the species of Athryss you specify.
 
 - name: Animal Weapon
-  tiers: [Witchcraft3]
+  tags: [Witchcraft3]
   description: You gain the claws, talons, punces, tail or even head (bite) of an animal.
     Your unarmed combat damage is replaced by the one of the animal for 10 minutes.
 
@@ -476,7 +488,7 @@
     The subject can spend one DP per round for free.
 
 - name: Armor
-  tiers: [Thaumaturgy2, Witchcraft3]
+  tags: [Thaumaturgy2, Witchcraft3]
   description:
     You gain 1 point of damage resistance against physical, non-magical attacks.
     You can boost the resistance by 1 point per two additional points of strain taken.
