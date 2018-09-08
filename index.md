@@ -422,6 +422,12 @@ You cannot cast spells of tiers where your skill score is too low.
 |  5   |  1d10  |     ≥60     |
 |  6   |  1d12  |     ≥70     |
 
+**Boosting**:
+Some spells are *boostable*.
+This means that, by spending additional points of strain when casting the spell,
+you can increase the given one or more of the spell's aspects such as 
+duration, damage, range, area of effect, etc.
+
 **Duration**:
 Unless specified, all non-instantaneous and non-permanent spells
 fade away at the *end* of the *next* round.
@@ -442,16 +448,21 @@ the caster's line of sight and that the caster can realistically make out.
 
 ### Spells
 
-{% for power in site.data.powers %}
 
-**{{ power.name }}** *
-{{- power.tiers | join: ', ' -}}
-{%- if power.tags -%}
-, {{ power.tags | join: ', ' -}}
+{% assign powers = site.data.powers | sort: 'name' %}
+
+{% for item in powers %}
+**{{ item.name }}** *
+{{- item.tiers | join: ', ' -}}
+{%- if item.tags -%}
+, {{ item.tags | join: ', ' -}}
 {%- endif -%}
 *
 <br>
-{{ power.description }}
+{{ item.description }}
+{% if item.remark %}
+> {{ item.remark }}
+{% endif %}
 
 {% endfor %}
 

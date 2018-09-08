@@ -1,3 +1,6 @@
+# NOTE:
+# mayme some armors should have damage reduction against physical, non-magical attacks.
+# 
 - name: Unarmored
   cost:  0
   hp: ±0
