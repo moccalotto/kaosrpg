@@ -463,22 +463,22 @@ the caster's line of sight and that the caster can realistically make out.
 Advancement
 -----------
 
-Characters advance by gaining and spending advancement points (AP).
-The GM chooses when APs awards are handed out.
-Each player should be awarded around 5 to 20 APs per hour of good roleplaying,
-depending on how fast-paced you want your campaign to be.
+Characters increase 3 skills by 1 per "episode"
+Characers additionally increase 2 attributes by 1 per "plotline" (plot that spans multiple episodes,
+characters can have multiple plotlines per season.
+The characters karma-reset value is increased by 1 per season.
+The character max-karma is increased by 1 per season.
 
-> **Note**:
-> Feel free to devise your own AP system. Here are some examples:
-> a) Characters get 1 APs per 10 GP they accumulate,
-> b) characters get 10-50 APs per relevant accomplishment, or
-> c) characters get 500 APs per milestone they reach.
 
-{% assign advances = site.data.advancement | sort: 'name' %}
-{% for item in advances %}
-**{{ item.name }}**:
-{{ item.description }}
-{% if item.remark %}
-> {{ item.remark }}
-{% endif %}
-{% endfor %}
+Karma
+-----
+
+When characters miss a relevant roll, they get a Karma point.
+A character can never have more than 10 Karma points.
+Karma is reset to 2 at the beginning of every episode.
+
+Certain advantages may increase the karma-reset value
+and the max-karma value.
+
+Karma can be spent to make rerolls, avoid damage, etc.
+
