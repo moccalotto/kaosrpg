@@ -98,7 +98,6 @@ You have:
 {% endfor %}
 
 
-
 Equipment
 ---------
 
@@ -425,7 +424,7 @@ You cannot cast spells of tiers where your skill score is too low.
 **Boosting**:
 Some spells are *boostable*.
 This means that, by spending additional points of strain when casting the spell,
-you can increase the given one or more of the spell's aspects such as 
+you can increase the given one or more of the spell's aspects such as
 duration, damage, range, area of effect, etc.
 
 **Duration**:
@@ -466,7 +465,14 @@ Advancement
 
 Characters advance by gaining and spending advancement points (AP).
 The GM chooses when APs awards are handed out.
-Each player should be awarded around 5 to 20 APs per hour of good roleplaying.
+Each player should be awarded around 5 to 20 APs per hour of good roleplaying,
+depending on how fast-paced you want your campaign to be.
+
+> **Note**:
+> Feel free to devise your own AP system. Here are some examples:
+> a) Characters get 1 APs per 10 GP they accumulate,
+> b) characters get 10-50 APs per relevant accomplishment, or
+> c) characters get 500 APs per milestone they reach.
 
 {% assign advances = site.data.advancement | sort: 'name' %}
 {% for item in advances %}
