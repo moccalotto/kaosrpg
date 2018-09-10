@@ -284,6 +284,62 @@ or *opposed*.
 No matter how high your skill score is or which circumstantial advantages
 you may have, your target number can never be higher than 95.
 
+Karma
+-----
+
+When your character fails a meaningful roll
+(i.e.  one that actually affects the character, party or plot),
+she is awarded a karma point.
+
+You can spend these points to create advantages later in the game.
+Most notably, you can spend 2 karma points to make a test *easier*.
+You can also spend 3 karma points to reroll a failed test.
+
+A character cannot have more than 10 karma points (this is called the max-karma value).
+
+A character begins every session with 2 karma points (called the karma-reset value),
+no matter how many points they accumulated during the previous session
+
+Milestones
+----------
+
+We use a tv-series analogy to describe the adventuring milestones.
+
+**Sessions**:
+are usually 4-hours of game play.
+Characters begin every session with exactly 2 karma points,
+no matter how many points they accumulated during the previous session.
+
+**Scenes**:
+are short sequences within a session. This could be a combat encounter,
+a challenging social interaction, or similar.
+
+**Episodes**:
+are small adventures or segments of larger adventures.
+It usually takes somewhere between 1-3 sessions to complete an episode.
+Characters increase the scores of 2 skills by 3 points and one skill by 5 points
+at the end of every episode.
+
+**Plotlines**:
+Plotlines span multiple episodes. They may even span multiple seasons.
+And multiple plotlines can coexist at the same time.
+A plotline could be part of the main adventure path or it could be
+a recurring side quest, such as an arch nemisis, that keeps popping up.
+Characers increase the scores of one attribute by 5 and another attribute by
+3 points ant the end of every plotline.
+
+**Seasons**:
+can be considered to be anveture paths. They usually consist of a number of
+main plotlines and possibly a number of side-plotlines that do not necessarily
+have to be completed.
+Characters increase their karma-reset and max-karma by 1 each at the end of every season.
+
+> **Note**:
+> It is up to players and GM to decide in advance how often milestones should occur.
+>
+> The simplest rule is to say that it takes 2-3 sessions to complete an episode, it takes
+> 2-3 episodes to complete a plotline, and it takes 2-3 plotlines to complete a season.
+
 Combat
 ------
 
@@ -366,7 +422,8 @@ Below is a list of possible actions.
 
 
 Magic
------
+=====
+
 If you have the skills Witchcraft or Thaumaturgy, you can
 cast magical spells.
 
@@ -459,26 +516,4 @@ the caster's line of sight and that the caster can realistically make out.
 {% endif %}
 
 {% endfor %}
-
-Advancement
------------
-
-Characters increase 3 skills by 1 per "episode"
-Characers additionally increase 2 attributes by 1 per "plotline" (plot that spans multiple episodes,
-characters can have multiple plotlines per season.
-The characters karma-reset value is increased by 1 per season.
-The character max-karma is increased by 1 per season.
-
-
-Karma
------
-
-When characters miss a relevant roll, they get a Karma point.
-A character can never have more than 10 Karma points.
-Karma is reset to 2 at the beginning of every episode.
-
-Certain advantages may increase the karma-reset value
-and the max-karma value.
-
-Karma can be spent to make rerolls, avoid damage, etc.
 
