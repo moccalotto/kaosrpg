@@ -11,10 +11,11 @@
       Once per scene you can completely avoid an attack.
       If you declare your intent to avoid the attack before the attacker rolls their dice it costs 1 karma point.
       If you avoid the attack after the attacker rolls their dice it costs 2 karma points.
-      ADVANCEMENT POINTS?
 
 - name: Nimble
-  description: Same effect as the tiny advantage. A character that is both tiny and nimble will be able to avoid two attacks per scene.
+  description: |-
+      Same effect as the tiny advantage.
+      A character that is both tiny and nimble will be able to avoid two attacks per scene.
 
 - name: Well-equipped
   description: You have CHA · 10 gold pieces instead of the usual CHA · 5.
@@ -25,13 +26,15 @@
 - name: Tough
   description: |-
       Once per scene you can avoid avoid the consequences of an attack.
-      Instead of getting a wound and resetting your stress points, your stress points are set to their maximum value, but you do not get the wound.
+      Instead of getting a wound and resetting your stress points,
+      your stress points are set to their maximum value, but you do not get the wound.
       Doing this costs one karma point.
 
 - name: Stubborn
   description: |-
-      When you have the “dying” condition, you are awake and conscious.
-      You can take actions like any normal character, but doing so costs a karma point.
+      You can remain awake when you would otherwise be unconscious (such as when you are below
+      zero hit points). When in this state, you loose one karma point at the beginning of each round.
+      You remain awake as long as you can pay the karma cost.
 
 - name: Socialite
   description: |-
