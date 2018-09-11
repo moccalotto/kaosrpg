@@ -49,9 +49,10 @@ Consult the lists below for inspiration and make up your own to suit your campai
 > **Note**:
 > By utilizing advantages and disadvantages, we eliminate the traditional race-selection,
 > and subsequent tweaking via feats, sub-races, backgrounds, etc.
-> Of course you should choose traits that are more or less in line with your race. Playing an orc
+> Of course you should choose traits that are more or less in line with your race; playing an orc
 > with the »tiny« advantage might be a bit weird, but on the other hand, it could lead to some cool back story
-> stuff.
+> stuff; maybe the orc was cursed by a god, or manipulated by a powerful mage while still in the womb.
+>
 > If you want more powerful players, you could use three advantages and one or two disadvantages.
 
 ### Advantages
