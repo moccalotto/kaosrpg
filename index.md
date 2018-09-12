@@ -290,7 +290,7 @@ Karma
 
 When your character fails a meaningful roll
 (i.e.  one that actually affects the character, party or plot),
-she is awarded a karma point.
+she is awarded a karma point. 
 
 You can spend these points to create advantages later in the game.
 Most notably, you can spend 2 karma points to make a test *easier*.
@@ -299,7 +299,19 @@ You can also spend 3 karma points to reroll a failed test.
 A character cannot have more than 10 karma points (this is called the max-karma value).
 
 A character begins every session with 2 karma points (called the karma-reset value),
-no matter how many points they accumulated during the previous session
+no matter how many points they accumulated during the previous session.
+
+The GM may The GM can also award karma points to a character if she invokes some
+of the character's disadvantages.
+
+> **Note**:
+> Karma points are intended to soften the "blow" of missing a roll, as well as adding a
+> luck/fate dimension to the game.
+> We reset the karma every session to avoid power gaming through the accumulation of karma points.
+> It also allows players to refresh their karma without having to fail any checks.
+> High powered campaigns might reset the karma to 3 or 4, while more realistic campaigns might reset
+> karma to 1 or 0. Some players prefer not to reset at all, possibly imposing upper limits on how many
+> karma points a character can have.
 
 Milestones
 ----------

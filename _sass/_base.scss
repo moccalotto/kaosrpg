@@ -27,6 +27,10 @@ article {
     text-align: justify;
 }
 
+strong, b {
+    font-weight: 700;
+}
+
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -67,15 +71,13 @@ a {
 
     &:visited {
         color: inherit;
-        // color: darken($brand-color, 15%);
     }
 
     &:hover {
-        color: $brand-color;
+        color: $link-hover-color;
         text-decoration: underline;
     }
     text-decoration: none;
-    // box-shadow: inset 0 0px 0 white, inset 0 -1px 0 black
     font-weight: bolder;
 }
 
