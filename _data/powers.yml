@@ -17,8 +17,7 @@
     - Instantaneous
     - Boostable
   description: |-
-    You remove poisonous gasses, dust, particles, etc. from the air
-    in a 2 meter radius around you.
+    You remove poisonous gasses, dust, particles, etc. from the air in a 2 meter radius around you.
     You can boost the radius by 1 meter per additional point of strain spent.
 
 
@@ -221,9 +220,10 @@
 
 - name: Friend Doll
   tags:
+    - Witchcraft2
     - 'Ritual: 30 minutes'
-  tiers: [Witchcraft2]
-  description: You create a small doll whose materials include hair, nail clippings
+  description: |-
+    You create a small doll whose materials include hair, nail clippings
     or similar from the subject.
     As long as you hold he doll in your hands, the subject considers you a friend.
     Letting go of the doll will end the spell.
@@ -232,20 +232,27 @@
 
 - name: Friend
   tiers: [Witchcraft4]
-  description: Subject considers you a friend for the next 8 hours.
+  description: |-
+    Subject considers you a friend for the next 8 hours.
     Any violent action towards the subject will cancel the spell.
 
 - name: Paralyze Animal
   tiers: [Witchcraft1, Thaumaturgy3]
-  description: The animal subject is paralyzed until it succeeds a WIL Test (made at the beginning of its turn each round).
+  description: |-
+    The animal subject is paralyzed until it succeeds a WIL Test
+    (made at the beginning of each round).
 
 - name: Paralyze Person
   tiers: [Witchcraft3, Thaumaturgy5]
-  description: The humanoid subject is paralyzed until it succeeds a WIL Test (made at the beginning of its turn each round).
+  description: |-
+    The humanoid subject is paralyzed until it succeeds a WIL Test 
+    (made at the beginning of each round).
 
 - name: Paralyze Monster
   tiers: [Witchcraft4, Thaumaturgy6]
-  description: "The monstrous subject is paralyzed until it succeeds a WIL Test (made at the beginning of the subjects turn each round)."
+  description: |-
+    "The monstrous subject is paralyzed until it succeeds a WIL Test
+    (made at the beginning of each round).
 
 - name: Binding Handshake
   tags:
@@ -358,19 +365,26 @@
 
 - name: Wood to Stone
   tags:
+    - Thaumaturgy4
     - 'Ritual: 5 minutes'
-  tiers: [Thaumaturgy4]
-  description: You turn one cubic meter of non-living wood into stone.
+    - Boostable
+  description: |-
+    You turn one cubic meter of non-living wood into stone.
+    You can boost this ritual; for every 3 points of strain spent you can
+    increae the area of effect by one cubic meter.
 
 - name: Stone to Sand
   tiers: [Thaumaturgy5]
-  description: You turn a touched up to one cubic meters of a stone object to fine sand.
+  description: |-
+    You turn a touched up to one cubic meters of a stone object to fine sand.
+    You can boost this ritual; for every 3 points of strain spent you can
+    increae the area of effect by one cubic meter.
 
 - name: Stone to Glass
-  tiers: [Thaumaturgy3]
   tags:
+    - Thaumaturgy3
     - 'Ritual: 5 minutes'
-  description: You convert up to 20kg of stone to glass.
+      description: You convert up to 20kg of stone to glass.
 
 - name: Water Control, minor
   tiers: [Thaumaturgy1]
@@ -556,20 +570,20 @@
     The next combat related test made by the subject is made *easier*.
 
 - name: Terrain Awareness, Minor
-  tiers: [Witchcraft1]
+  tags: 
+    - Witchcraft1
+    - Boostable
   description:
-    The subject has their movement rate increased by 1 until the end of their next turn.
-
-- name: Terrain Awareness, Moderate
-  tiers: [Witchcraft1]
-  description:
-    The subject has their movement rate increased by 3 until the end of their next turn.
+    The subject has their movement rate increased by 1 on their next turn.
+    This movement rate increase can be boosted; for each two strain spent,
+    the movement rate increase is boosted by one.
 
 - name: Terrain Awareness, Mass
   tiers: [Witchcraft3]
   description:
-    All friendly subjects within 5 squares have their movement rate increased by 2 until
-    the end of their next turns.
+    All friendly subjects within 5 squares have their movement rate increased by 2 on their next turn.
+    This movement rate increase can be boosted; for each two strain spent, the movement rate increase is
+    boosted by one.
 
 - name: Durable Rope
   tiers: [Thaumaturgy3, Witchcraft4]
