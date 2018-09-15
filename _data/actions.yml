@@ -1,11 +1,10 @@
-- name: Use Power
-  description: >
-    Using the applicable power-skill, you use one of the powers
-    (or cast one of the spells) available to you.
+- name: Cast spell
+  description: |-
+    Use Arcana to cast a spell.
 
 - name: Concentrate
-  description: >
-    You concentrate on keeping a power (or spell) going until your next turn.
+  description: |-
+    You concentrate on keeping a spell going until your next turn.
     You are free to use Surge Actions to take further actions this rund without
     it interfering with your concentration.
 
@@ -34,7 +33,7 @@
   description: You move up to MR squares. Note that wearing certain armors and shields can lower your MR.
 
 - name: Stunt
-  description: >
+  description: |-
     Perform some kind of acrobatic maneuver, possibly requiring an Acrobatics Test.
     Sometimes this action involves movement. The maximum distance is up to the GM.
 
