@@ -43,7 +43,8 @@
 
 - name: Quick Draw
   description: |-
-      It only costs you a single karma point to reroll the karma die when you roll initiative.
+      You can spend 2 karma points to reroll your party's initiative. You can only do this once per round,
+      but if multiple characters have this advantage, each character may attempt it every round.
 
 - name: Fast
   description: |-
