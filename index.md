@@ -125,7 +125,7 @@ but they have athletics requirements, and often come with a number of penalties.
 You take 1, 2, 3, or 4 extra points of strain when you take a surge action.
 
 `ⓜ`:
-You cannot cast magical spells while wearing this armor or shield.
+You can cast magical spells while wearing this armor or shield.
 
 `ⓢ`:
 Your movement rate is decreased by 1.
@@ -438,7 +438,10 @@ Magic
 =====
 
 If you have the »Arcana« skill and the »Spellcaster« advantage,
-you can cast magical spells.
+You can only cast magic if you are not wearing armor, or wearing 
+armor with the `ⓜ` symbol and have met their Athletics requirements.
+If you are wearing armor, you must succeed an Athletics Test
+in addition to your Spellcasting test every time you cast a spell.
 
 **Memorization**:
 A magic user can only have a certain number of spells memorized

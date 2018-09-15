@@ -101,10 +101,9 @@
     You must have the »Spellcaster« advantage.
     You cannot cast spells if you have not met the
     Athletics requirements of any armor you are wearing.
-    You cannot use magic if your armor does not permit it.
+    Unless otherwise specified, you cannot cast magic when wearing armor.
     If you are wearing armor, you must succeed an Athletics Test
-    in addition to your Spellcasting test
-    every time you cast a spell.
+    in addition to your Spellcasting test every time you cast a spell.
 
 - name: Thievery
   base: AGI ÷ 2

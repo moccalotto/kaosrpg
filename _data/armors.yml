@@ -6,12 +6,16 @@
   hp: ±0
   athletics: 0
   strain: 0
+  properties:
+      - ⓜ
 
 - name: Leather
   cost:  10gp
   hp: '+1'
   athletics: 10
   strain: 0
+  properties:
+      - ⓜ
 
 - name: Hardened Leather
   cost:  25gp
@@ -20,6 +24,7 @@
   strain: 1
   properties:
       - ①
+      - ⓜ
 
 - name: Hide Armor
   cost:  10gp
@@ -28,14 +33,13 @@
   strain: 1
   properties:
       - ①
+      - ⓜ
 
 - name: Chain Shirt
   cost:  100gp
   hp:  '+4'
   athletics: 25
   strain: 0
-  properties:
-    - ⓜ
 
 - name: Scale Mail
   cost:  75gp
@@ -44,7 +48,6 @@
   strain: 2
   properties:
     - ②
-    - ⓜ
     - Ⓢ
 
 - name: Chain Mail
@@ -54,7 +57,6 @@
   strain: 1
   properties:
     - ①
-    - ⓜ
     - Ⓢ
 
 - name: Breastplate
@@ -64,7 +66,6 @@
   strain: 1
   properties:
     - ①
-    - ⓜ
     - Ⓢ
 
 - name: Banded Mail
@@ -74,7 +75,6 @@
   strain: 3
   properties:
     - ③
-    - ⓜ
     - Ⓢ
 
 - name: Half Plate
@@ -84,7 +84,6 @@
   strain: 2
   properties:
     - ②
-    - ⓜ
     - Ⓢ
 
 - name: Full Plate
@@ -94,13 +93,14 @@
   strain: 2
   properties:
     - ②
-    - ⓜ
     - Ⓢ
 
 - name: Small Shield
   cost: 10gp
   hp:  '+1'
   athletics: 15
+  properties:
+    - ⓜ
 
 - name: Large Shield
   cost: 20gp
@@ -109,7 +109,6 @@
   strain: '+1'
   properties:
     - ①
-    - ⓜ
     - Ⓢ
 
 - name: Tower Shield
@@ -118,5 +117,4 @@
   athletics: 25
   properties:
     - ③
-    - ⓜ
     - Ⓢ
