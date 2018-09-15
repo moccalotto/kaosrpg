@@ -87,7 +87,7 @@ You have:
 * 1 skill with a score of 20 + WIL + 1d6.
 * 1 skill with a score of 10 + PER + 1d6.
 * 1 skill with the same score as an attribute of your choice.
-* `PER:10` skills with scores of 10 + PER:10 + WIL:10 + 1d10.
+* `PER:10` skills with scores of 10 + PER:10 + WIL:10 + 1d6.
 
 {% assign skills = site.data.skills | sort: 'name' %}
 {% for item in skills %}

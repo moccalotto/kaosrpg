@@ -18,9 +18,9 @@
       Once per session, at the cost of 3 karma points, The GM can enforce your obsession to create a conflict, problem or disadvantage to you or the party.
 
 - name: Poor
-  description: >-
-      You only have 500 copper pieces with which to purchase starting equipment, and you begin play with only 50.
-      Normal characters have 1000 copper pieces with which to purcahse starting equipment and begin play with 100 cp.
+  description: |-
+      You have CHA · 2 gold pieces with which to buy equipment, and you begin play with 2d6 gold pieces.
+      Normal characters have CHA · 5 gold pieces for equipment, and begin play with CHA gold pieces.
 
 - name: Hunted
   description: >-
