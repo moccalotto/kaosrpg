@@ -384,7 +384,7 @@
   tags:
     - Thaumaturgy3
     - 'Ritual: 5 minutes'
-      description: You convert up to 20kg of stone to glass.
+  description: You convert up to 20kg of stone to glass.
 
 - name: Water Control, minor
   tiers: [Thaumaturgy1]
