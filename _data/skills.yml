@@ -13,7 +13,7 @@
 - name: Athletics
   base: STR ÷ 2
   max: TOU + WIL
-  description: Run, march, swim, endure physical stress.
+  description: Run, march, swim, wear heavy armor, endure physical stress.
 
 - name: '[Craft]'
   base: PER ÷ 2

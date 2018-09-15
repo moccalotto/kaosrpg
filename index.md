@@ -125,7 +125,7 @@ but they have athletics requirements, and often come with a number of penalties.
 You take 1, 2, 3, or 4 extra points of strain when you take a surge action.
 
 `ⓜ`:
-You can cast magical spells while wearing this armor or shield.
+You can cast magical spells if all pieces of armor worn have the `ⓜ`-symbol.
 
 `ⓢ`:
 Your movement rate is decreased by 1.
