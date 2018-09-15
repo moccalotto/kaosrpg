@@ -1,19 +1,18 @@
 - name: Light
-  tags: [Witchcraft1, Thaumaturgy1]
+  tags: [Tier 1]
   description: Object shines like a candle for the next 8 hours.
 
 - name: Mend
-  tags: [Thaumaturgy1, Instantaneous]
+  tags: [Tier 1, Instantaneous]
   description: You make a minor repair to a single object.
 
 - name : Detect Lies
-  tags: [Witchcraft1]
+  tags: [Tier 2]
   description: You know when people tell you lies.
 
 - name : Clean Air
   tags:
-    - Witchcraft1
-    - Thaumaturgy1
+    - Tier 1
     - Instantaneous
     - Boostable
   description: |-
@@ -22,17 +21,16 @@
 
 
 - name: Detect Magic
-  tags: [Thaumaturgy1, Witchcraft1]
+  tags: [Tier 1]
   description: You can detect magic users, spells, and magical items.
 
 - name: Warmth
-  tags: [Witchcraft1, Thaumaturgy2]
+  tags: [Tier 2]
   description: Touched subject gains Damage Resistance 10 against cold.
 
 - name: Light Fire
   tags:
-  - Witchcraft2
-  - Thaumaturgy1
+  - Tier 1
   - Instantaneous
   description: |-
     Snap your finger and light a candle, some dry kindling, etc.
@@ -40,12 +38,12 @@
 
 
 - name: Cure Disease
-  tags: [Witchcraft2, Instantaneous]
+  tags: [Tier 3, Instantaneous]
   description: Touched subject is cured of all diseases and infections.
 
 - name: Healing Touch
   tags:
-  - Witchcraft1
+  - Tier 2
   - Instantaneous
   - Boostable
   description: |-
@@ -54,13 +52,13 @@
 
 - name: Healing Rite
   tags:
-    - Witchcraft4
+    - Tier 5
     - 'Ritual: 15 minutes'
   description: The subject regains all their hit points.
 
 - name: Healing Zone
   tags:
-    - Witchcraft3
+    - Tier 4
     - 'Ritual: 30 minutes'
     - Boostable
     - Instantaneous
@@ -70,25 +68,23 @@
     the spell.
 
 - name: Revivify
-  tags: [Witchcraft4, Instantaneous]
+  tags: [Tier 4, Instantaneous]
   description: >-
     Touched subject who has died within the last minute
     (10 combat rounds) is brought back to life with 1 HP.
 
 - name: Dark Vision
   tags: 
-   - Witchcraft1
-   - Thaumaturgy1
+   - Tier 1
   description: You can see in complete darkness as though it was twilight.
 
 - name: Dark Vision, Other
-  tags: [Witchcraft2]
+  tags: [Tier 2]
   description: Subject can see in complete darkness as though it was twilight.
 
 - name: Firebolt
   tags: 
-  - Thaumaturgy3
-  - Witchcraft5
+  - Tier 3
   - Instantaneous
   - Boostable
   description: |-
@@ -101,8 +97,8 @@
     With a throwing motion you send the ball towards your opponent, engulfing them in flames.
 
 - name: Fireball
-  tiers: [Thaumaturgy4, Witchcraft5]
   tags:
+    - Tier 4
     - Instantaneous
     - Boostable
   description: |-
@@ -111,8 +107,8 @@
     You can boost the damage by 1d6 per additional point of strain taken.
 
 - name: Fireball, Geater
-  tiers: [Thaumaturgy5, Witchcraft6]
   tags:
+    - Tier 5
     - Instantaneous
     - Boostable
   description: |-
@@ -121,24 +117,23 @@
     You can boost the damage by 1d6 per additional point of strain taken.
 
 - name: Stay Awake (ritual)
-  tiers: [Witchcraft1, Thaumaturgy3]
   tags:
+    - Tier 2
     - 'Ritual: 15-minutes'
   description: All the effects of sleep deprivation are removed from the subject.
 
 - name: Stay Awake (Spell)
-  tiers: [Witchcraft2, Thaumaturgy4]
+  tags: [Tier 3]
   description: All effects of sleep deprivation are removed from the subject.
 
 - name: Stay Awake, Mass
   tags:
+    - Tier 4
     - 'Ritual: 2-hours'
-  tiers: [Witchcraft3]
   description: You remove the effects of sleep deprivation from all subjects within 5 squares of you.
 
 - name: Destroy Undead
-  tiers: [Thaumaturgy3]
-  tags: [Instantaneous, Boostable]
+  tags: [Tier 3, Instantaneous, Boostable]
   description: |-
     All undead creatures in sight suffer 8d6 points of damage.
     You can boost the damage by 1d6 per ad
@@ -146,81 +141,71 @@
 
 - name: Longevity, Major
   tags:
+    - Tier 6
     - 'Ritual: 24 hours'
-  tiers: [Thaumaturgy6]
   description: The magic user will not age for the next 3 months.
 
 - name: Longevity
   tags:
+    - Tier 5
     - 'Ritual: 30 minutes'
-  tiers: [Thaumaturgy5]
   description: The magic user will not age for the next week.
 
 - name: Purify
-  tiers: [Witchcraft1]
+  tags: [Tier 1]
   description: You purify food or water, making it potable.
 
 - name: Purify, Area
   tags:
+    - Tier 3
     - 'Ritual: 1 hour'
-  tiers: [Witchcraft3]
   description: The soil and flora within 200 squares of you is healed and cured of any natural diseases.
 
 - name: Animal Essense
-  tags: [Witchcraft2]
+  tags: [Tier 2]
   description: You gain any attribute of the animal that is greater than yours for 10 minutes.
 
-- name: Control Athryss
-  tiers: [Witchcraft2, Thaumaturgy2]
-  description: You control a single Athryss creature within 20 squares.
-
-- name: Modify Athryss
-  tags:
-    - 'Ritual: 5 minutes'
-  tiers: [Witchcraft3, Thaumaturgy3]
-  description: You can enchant an infant Athryss to grow into the species of Athryss you specify.
-
 - name: Animal Weapon
-  tags: [Witchcraft3]
+  tags: [Tier 3]
   description: You gain the claws, talons, punces, tail or even head (bite) of an animal.
     Your unarmed combat damage is replaced by the one of the animal for 10 minutes.
 
 - name: Heat Mineral
-  tiers: [Thaumaturgy2]
+  tags: [Tier 2]
   description: You heat a single metal or stone object to extreme temperatures.
     The object will stay at that temperature as long as you concentrate on the spell.
     Anyone wearing the targeted mineral will suffer 2d6 points of damage per round.
 
 - name: Heat Tolerance
   tags:
+    - Tier 2
     - 'Ritual: 5 minutes'
-  tiers: [Thaumaturgy2]
   description: The subject gains Damage Reduction 20 against heat and fire damage.
 
 - name: Create Water
-  tiers: [Thaumaturgy1]
+  tags: [Tier 1]
   description: Water trickles slowly from an elemental rift in your closed fist.
 
 - name: Water Rift
-  tiers: [Thaumaturgy3]
+  tags: [Tier 3]
   description: You create a 20x20cm rift into the elemental plane of water.
     Water spews forth from it at violent rate (like a fire hose).
 
 - name: Get Up Soldier
-  tiers: [Witchcraft3]
+  tags: [Tier 3]
   description: Touched ally with negative HP wakes up and is able to
     stay conscious for WIL minutes. While in this state,
     all tests are made *harder*. Subject dies if they reach -30 HP.
 
 - name: Self-esteem
   tags:
+    - Tier 1
     - 'Ritual: 1 hour'
-  tiers: [Witchcraft1]
   description: "Subject's CHA and Negotiation scores are increased by 20 points for 8 hours."
 
 - name: Friend Doll
   tags:
-    - Witchcraft2
+    - Tier 1
     - 'Ritual: 30 minutes'
   description: |-
     You create a small doll whose materials include hair, nail clippings
@@ -231,44 +216,44 @@
     and you suffer 2d6 points of damage.
 
 - name: Friend
-  tiers: [Witchcraft4]
+  tags: [Tier 4]
   description: |-
     Subject considers you a friend for the next 8 hours.
     Any violent action towards the subject will cancel the spell.
 
 - name: Paralyze Animal
-  tiers: [Witchcraft1, Thaumaturgy3]
+  tags: [Tier 3]
   description: |-
     The animal subject is paralyzed until it succeeds a WIL Test
     (made at the beginning of each round).
 
 - name: Paralyze Person
-  tiers: [Witchcraft3, Thaumaturgy5]
+  tags: [Tier 5]
   description: |-
     The humanoid subject is paralyzed until it succeeds a WIL Test 
     (made at the beginning of each round).
 
 - name: Paralyze Monster
-  tiers: [Witchcraft4, Thaumaturgy6]
+  tags: [Tier 6]
   description: |-
-    "The monstrous subject is paralyzed until it succeeds a WIL Test
+    The monstrous subject is paralyzed until it succeeds a WIL Test
     (made at the beginning of each round).
 
 - name: Binding Handshake
   tags:
+    - Tier 2
     - 'Ritual: 1 minute'
     - 'duration: 1 year'
-  tiers: [Witchcraft2, Thaumaturgy2]
   description: The willing subject swears an oath while you draw a small symbol on some part of their body.
     If they break their oath within a year they suffer 10d10 points of damage.
 
 - name: Enchanted Contract
   tags:
-    - Witchcraft3
-    - Thaumaturgy3
+    - Tier 3
     - 'Ritual: 5 minutes'
     - Boostable
-  description: You inscribe a pre-drawn contract with magical runes.
+  description: |-
+    You inscribe a pre-drawn contract with magical runes.
     All parties then sign the contract and you put a final rune upon it.
     If at any point any party willingly and knowingly acts in a manner that
     directly counters the spirit of the contract, they will suffer 10d10 points of damage.
@@ -277,8 +262,7 @@
 
 - name: Levitate Object
   tags:
-    - Thaumaturgy1
-    - Witchcraft2
+    - Tier 1
     - 'Ritual: 1 minute'
     - Boostable
   description: |- 
@@ -289,12 +273,10 @@
     for the duration.
     You can boost the allowed weight of the levitated object. For each additional point of strain taken, you
     the object can be 100kg heavier.
-    
 
 - name: Levitate Self
-  tiers:
-    - Thaumaturgy1
-    - Witchcraft2
+  tags:
+    - Tier 1
     - Boostable
   description: |-
     You can fly with a movement rate of 1.
@@ -303,14 +285,12 @@
     would require surge actions. Outside combat, this is not the case.
 
 - name: Crane
-  tiers: [Thaumaturgy2, Witchcraft3]
-  description:
-    Touched object (of max 200kg) can fly (at Movement Rate 6) and carry a load of up to 250kg.
+  tags: [Tier 2]
+  description: Touched object (of max 200kg) can fly (at Movement Rate 6) and carry a load of up to 250kg.
 
 - name: Drill
   tags: 
-    - Thaumaturgy1
-    - Witchcraft2
+    - Tier 1
     - 'Ritual: 1 minute'
   description: |-
     Create a hole in a touched object made of wood, metal, or stone.
@@ -318,15 +298,15 @@
 
 - name: Durable Wood
   tags:
-    - Witchcraft2
+    - Tier 2
     - 'Ritual: 2 minutes'
   description: |-
     Protects a cubic meter of wood from rot, mold, weather, etc.
     The wood lasts 10 times as long as unprotected wood.
 
 - name: Nails
-  tiers: [Thaumaturgy1, Witchcraft2]
   tags:
+    - Tier 1
     - 'Ritual: 5 minutes'
   description: You enchant 10 nails. The nails can be made out of metal, stone, bone or hardwood.
     They become at least twice as durable as they were.
@@ -335,37 +315,37 @@
     They will never rust, corrode or rot.
 
 - name: Mold Mineral
-  tiers: [Thaumaturgy4]
   tags:
+    - Tier 4
     - 'Ritual: 2 minutes'
   description: You can mold a single metal or stone object (max 10kg) with your hands (not by tools).
     The object is not heated by this process and it remains moldable by you for 1 hour.
 
 - name: Smelt, minor
   tags:
+    - Tier 3
     - 'range: touch'
     - 'Ritual: 2 hours'
-  tiers: [Thaumaturgy3]
   description: You extract the pure metal (not just ore, but actual metal) from dirt, stone and water
     that contain trace metals or ore. Up to 1kg of metal can be extracted.
 
 - name: Smelt, Major
   tags:
+    - Tier 4
     - 'Ritual: 2 hours'
-  tiers: [Thaumaturgy4]
   description: You extract the pure metal (not ore) from dirt, stone and water that contain trace metals or ore.
     You extract the metal from minerals within a 250 meter radius.
     The metal is extracted from the area, and will slowly fly/levitate toward you.
 
 - name: Temper
   tags:
+    - Tier 2
     - 'Ritual: 1 minute'
-  tiers: [Thaumaturgy2]
   description: You temper a single iron-alloy object of max 10 kg.
 
 - name: Wood to Stone
   tags:
-    - Thaumaturgy4
+    - Tier 4
     - 'Ritual: 5 minutes'
     - Boostable
   description: |-
@@ -374,7 +354,7 @@
     increae the area of effect by one cubic meter.
 
 - name: Stone to Sand
-  tiers: [Thaumaturgy5]
+  tags: [Tier 5]
   description: |-
     You turn a touched up to one cubic meters of a stone object to fine sand.
     You can boost this ritual; for every 3 points of strain spent you can
@@ -382,30 +362,29 @@
 
 - name: Stone to Glass
   tags:
-    - Thaumaturgy3
+    - Tier 3
     - 'Ritual: 5 minutes'
   description: You convert up to 20kg of stone to glass.
 
 - name: Water Control, minor
-  tiers: [Thaumaturgy1]
+  tags: [Tier 1]
   description: You animate, change the texture, color or opacity of 10 liters of water within 10 squares of you for up to one hour.
 
 - name: Hold Breath
-  tiers: [Thaumaturgy2, Witchcraft3]
+  tags: [Tier 2]
   description: Touched subject does not need to breathe for the next 8 hours.
 
 - name: Unseen
-  tiers: [Witchcraft2]
+  tags: [Tier 2]
   description: Subject is unnoticable (by normal senses, but not magic) for 5 minutes or until it attacks.
 
 - name: Fly
-  tiers: [Thaumaturgy3, Witchcraft4]
+  tags: [Tier 3]
   description: Subject can fly (Movement Rate 6) for 5 minutes.
 
 - name: Flight
   tags:
-  - Thaumaturgy4
-  - Witchcraft4
+  - Tier 4
   - Boostable
   description: |-
     You can fly with a Movement Rate of 3.
@@ -415,33 +394,32 @@
 
 
 - name: True Sight
-  tiers: [Witchcraft2]
+  tags: [Tier 2]
   description: Hear or see any location within 100 squares for 10 rounds, one location per round.
 
 - name: Message
-  tiers: [Thaumaturgy1, Witchcraft1]
+  tags: [Tier 1]
   description:
     Subject within line of sight and 100 meters can hear a short message that you whisper silently.
 
 - name: Mind Link
-  tiers: [Thaumaturgy3, Witchcraft2]
+  tags: [Tier 2]
   description:
     You create a telepathic mind link to a close friend or relative.
     The two of you can communicate telepathically as long as you concentrate.
 
 - name: Prestidigitation
-  tiers: [Thaumaturgy1, Witchcraft1]
+  tags: [Tier 1]
   description: Minor magical tricks and illusions.
 
 - name: Calm
-  tiers: [Witchcraft2]
+  tags: [Tier 2]
   description: You calm an enraged or frightend subject. If subject is magically frightened or enraged,
     they have to succeed an Easy WIL Test in order to counter that spell.
 
 - name: Dispell Magic
   tags:
-    - Witchcraft2
-    - Thaumaturgy2
+    - Tier 2
     - Boostable
     - Instantaneous
   description: |-
@@ -454,124 +432,116 @@
 
 
 - name: Sonic Boom
-  tiers: [Witchcraft3, Thaumaturgy1]
-  description: You create an explosive sound centered on you.
+  tags: 
+    - Tier 2
+    - Boostable
+  description: |-
+    You create an explosive sound centered on you.
     Anyone in adjacent squares must make a TOU test or suffer 2d6 Points of Damage.
     You, the caster, are not affected by the spell.
-
-- name: Sonic Boom, Greater
-  tiers: [Witchcraft4, Thaumaturgy2]
-  description: You create an explosive sound centered on you.
-    Anyone in adjacent squares must make a TOU test or suffer 4d6 Points of Damage.
-    You, the caster, are not affected by the spell.
+    You can boost the damage of this spell by 1d6 per additional point of strain taken.
 
 - name: Break
-  tiers: [Thaumaturgy1, Witchcraft2]
-  tags: ['Ritual: 1 minute', Permanent]
+  tags: 
+    - Tier 1
+    - 'Ritual: 1 minute'
+    - Permanent
   description:
     Touched non-living and non-magical object weighing no more than 100kg breaks in half.
 
 - name: Shatter
-  tiers: [Witchcraft4, Thaumaturgy3]
-  tags: ['range: touch', Permanent]
+  tags: 
+    - Tier 3
+    - 'range: touch'
+    - Instantaneous
   description: Target non-living and non-magical object weighing max 100kg breaks in half.
 
 - name: Fear
-  tiers: [Witchcraft3]
+  tags: [Tier 3]
   description: |
     The subject must move at least 1 square away from you on their next turn.
     If they do not, all tests made by them that turn will become *harder*.
 
-- name: Defense Attunement, Minor
-  tiers: [Witchcraft2, Thaumaturgy2]
-  description: >
-    The subject regains 1 Defense Points.
-
-
-- name: Defense Attunement, Moderate
-  tiers: [Witchcraft3, Thaumaturgy3]
-  description: The subject regains 2d4 Defense Points.
-
-- name: Defense Attunement, Mass
-  tiers: [Witchcraft4, Thaumaturgy4]
-  description: All friendly subjects within 5 squares regain 1d6 Defense Points.
-
 - name: Shield
-  tiers: [Witchcraft4, Thaumaturgy4]
-  description: >
-    The subject can spend one DP per round for free.
+  tags: 
+    - Tier 2
+    - Boostable
+  description: |-
+    Subject gains 1d6 extra HPs (these are lost when the spell ends).
+    You can boost this spell; subject gains 1d6 extra hit points per
+    point of strain you spend.
 
 - name: Armor
-  tags: [Thaumaturgy2, Witchcraft3]
-  description:
+  tags: [Tier 2, Boostable]
+  description: |-
     You gain 1 point of damage resistance against physical, non-magical attacks.
     You can boost the resistance by 1 point per two additional points of strain taken.
 
 - name: Slow
-  tiers: [Witchcraft3]
-  description: >
+  tags: [Tier 3]
+  description: |-
     If subject fails a WIL test they will only be able to take one
     action per round while the magic user concentrates.
 
 - name: Confusion
-  tiers: [Witchcraft4]
-  description: >
+  tags: [Tier 4]
+  description: |-
     If subject fails a WIL test, all attack tests made by the subject
     become *harder*. The effect lasts as long as you concentrate.
 
 - name: Sleep
-  tiers: [Witchcraft1]
-  description: |
+  tags: [Tier 1]
+  description: |-
     If subject fails an easy WIL test they fall asleep until they
     succeed an easy WIL test. They can make one such test per round.
     The sleeper wakes up if anyone takes an action to slap them awake.
 
 - name: Sleep, Mass
-  tiers: [Witchcraft3, Thaumaturgy4]
-  description: |
+  tags: [Tier 3]
+  description: |-
     Create a cloud of colorless and odorless gas within 10 squares.
     The cloud takes up 9 squares (a cube of 3·3 squares).
     Subjects within the cloud must pass an easy WIL test or fall asleep
     until the gas cloud disappears.  The gas cloud remains as long as you concentrate.
 
 - name: Stink Spray
-  tiers: [Witchcraft2, Thaumaturgy3]
-  description: >
+  tags: [Tier 2]
+  description: |-
     You spray skunk-spray at an opponent directly in fron of you.
     They have to succeed a TOU or WIL check (whichever is higher),
     or loose their next 1d8 actions. The target can use Surge Actions
     to get better faster.
 
 - name: Babel
-  tiers: [Witchcraft3, Thaumaturgy3]
+  tags: [Tier 3]
   description: >
     You can understand the meaning of any spoken or written language.
     You can even find some meaning in animal growls.
 
 - name: Hint
-  tiers: [Witchcraft2]
+  tags: [Tier 2]
   description:
     The next Surge Action taken by the subject does not cause any strain.
 
 - name: Hint, Mass
-  tiers: [Witchcraft5]
+  tags: [Tier 5]
   description:
     All friendly subjects within 5 squares can take a Surge Action on their
     next turn without any strain.
 
 - name: Inspiration, Mass
-  tiers: [Witchcraft3]
+  tags: [Tier 3]
   description:
     Each friendly subject within 5 squares has their next combat related test made *easier*.
 
 - name: Inspiration
-  tiers: [Witchcraft1]
+  tags: [Tier 1]
   description:
     The next combat related test made by the subject is made *easier*.
 
 - name: Terrain Awareness, Minor
   tags: 
-    - Witchcraft1
+    - Tier 1
     - Boostable
   description:
     The subject has their movement rate increased by 1 on their next turn.
@@ -579,17 +549,17 @@
     the movement rate increase is boosted by one.
 
 - name: Terrain Awareness, Mass
-  tiers: [Witchcraft3]
-  description:
+  tags: [Tier 3]
+  description: |-
     All friendly subjects within 5 squares have their movement rate increased by 2 on their next turn.
     This movement rate increase can be boosted; for each two strain spent, the movement rate increase is
     boosted by one.
 
 - name: Durable Rope
-  tiers: [Thaumaturgy3, Witchcraft4]
   tags:
-  - 'Ritual: 5 minutes'
-  - 'Permanent'
+    - Tier 3
+    - 'Ritual: 5 minutes'
+    - 'Permanent'
   description:
     Touched rope (up to 100 meters long) permanently 
     becomes 10 times stronger and more durable than it was,
@@ -597,10 +567,9 @@
 
 - name: Search
   tags: 
-   - Witchcraft2
-   - Thaumaturgy2
+   - Tier 1
    - 'Ritual: 10 minutes'
-  description:
+  description: |-
     You get a single yes/no answer to a question about the location of a specific
     person, creature or object you are thinking of.
   remark: |-

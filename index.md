@@ -385,7 +385,7 @@ unconscious, and  you die if you reach -10 HP.
 **Attack Rolls**:
 To attack someone, you make a skill test to see if you strike the target.
 Use the applicable skill: Melee Combat or Ranged Combat for physical attack,
-and Witchcraft or Thaumaturgy for magical attacks.
+and Arcana for magical attacks.
 
 **Damage Rolls**:
 Having successfully struck an opponent you determine how many Hit Points your opponent
@@ -437,28 +437,30 @@ Below is a list of possible actions.
 Magic
 =====
 
-If you have the skills Witchcraft or Thaumaturgy, you can
-cast magical spells.
+If you have the »Arcana« skill and the »Spellcaster« advantage,
+you can cast magical spells.
 
 **Memorization**:
 A magic user can only have a certain number of spells memorized
 at any given time. The number of spells memorized is equal to the
-relevant skill score divided by 10.
+Arcana skill score divided by 10.
 
 > **Example**:
-> A character with Witchcraft 56 and Thaumaturgy 21 can
-> Memorize 5 Witchcraft spells and 2 Thaumaturgy spells.
+> A character with Arcana 56 can memorize 5 spells.
 
 **Casting spells**:
-To cast a memorized spell, you make a Standard Test for the relevant
-skill (Witchcraft or Thaumaturgy). If the test succeeds, the
-spell takes effect, and you suffer strain.
+To cast a memorized spell, you make an Arcana test.
+If the test succeeds, the spell takes effect, and you suffer strain.
 
 **Casting non-memorized spells**:
 A character *can* cast spells that they have not memorized.
-Doing so, she must succeed a *hard* test for the relevant skill.
-And she suffers 1d6 extra strain damage. The character
-suffers strain damage *even if the spell fails*.
+The character must succeed a *hard* Arcana test and will suffer 1d6 additional strain damage,
+*even if the spell fails*.
+
+> **Example**:
+> A charcter that casts a non-memorized tier 2 spell will need to roll a *hard*
+> Arcana test. If the test succeeds, the spell takes effect and the charcter
+> suffers 1d4 + 1d6 damage. If the test fails, the character suffers 1d6 damage.
 
 **Strain**:
 The number of HP drained after successfully casting a spell
@@ -478,8 +480,8 @@ whereas tier 6 spells are difficult to cast and require a lot of strain.
 You cannot cast spells of tiers where your skill score is too low.
 
 > **Example**:
-> Casting a tier 4 Thaumaturgy spell requires that you have at least 50 in
-> the Thaumaturgy skill. It also means that you suffer 1d8 after successfully
+> Casting a tier 4 spell requires that you have at least 50 in
+> the Arcana skill. It also means that you suffer 1d8 after successfully
 > casting the spell (if memorized).
 
 | Tier | Strain | Skill Score |
@@ -521,8 +523,7 @@ the caster's line of sight and that the caster can realistically make out.
 
 {% for item in powers %}
 **{{ item.name }}**
-*{{ item.tags | join: ', ' }}*
-<br>
+*{{ item.tags | join: '*,  *' }}:*
 {{ item.description }}
 {% if item.remark %}
 > {{ item.remark }}

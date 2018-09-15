@@ -92,31 +92,21 @@
   max: PER + WIL
   description: Hunting, gathering, direction sense.
 
-- name: Thaumaturgy
+- name: Arcana
   power: true
   base: 0
   max: PER · 2
   description: |
-    Cast Thaumaturgy spells.
+    Cast spells.
+    You must have the »Spellcaster« advantage.
     You cannot cast spells if you have not met the
     Athletics requirements of any armor you are wearing.
-    You cannot cast spells when wearing a shield.
+    You cannot use magic if your armor does not permit it.
     If you are wearing armor, you must succeed an Athletics Test
-    every time you try and cast a spell.
+    in addition to your Spellcasting test
+    every time you cast a spell.
 
 - name: Thievery
   base: AGI ÷ 2
   max: AGI + PER
   description: Pick locks, slight of hand.
-
-- name: Witchcraft
-  power: true
-  base: 0
-  max: WIL + CHA
-  description: |
-    Cast Witchcraft spells.
-    You cannot cast spells if you have not met the
-    Athletics requirements of any armor you are wearing.
-    You cannot cast spells when wearing a shield.
-    If you are wearing armor, you must succeed an Athletics Test
-    every time you try and cast a spell.
