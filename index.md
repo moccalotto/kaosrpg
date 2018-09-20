@@ -269,10 +269,6 @@ coin to determine the winner.
 > You can pit the Strength of one character against the Agility of another -
 > or you can pit one persons Perception against another persons Stealth.
 
-> **A gang of thieves try to sneak past a squad of guards**:
-> Each thief rolls stealth and each guard all rolls PER.
-> The side with fewest failures win. A coin flip breaks ties.
-
 **The 01-rule**:
 Whenever you roll a 01 on a roll, you always succeed, even if the test
 is *hard* or *opposed*.
