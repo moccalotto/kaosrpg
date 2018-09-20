@@ -271,7 +271,7 @@ coin to determine the winner.
 
 > **A gang of thieves try to sneak past a squad of guards**:
 > Each thief rolls stealth and each guard all rolls PER.
-> The side with fewest failures win. Coinflip breaks ties.
+> The side with fewest failures win. A coin flip breaks ties.
 
 **The 01-rule**:
 Whenever you roll a 01 on a roll, you always succeed, even if the test
@@ -316,7 +316,7 @@ of the character's disadvantages.
 Milestones
 ----------
 
-We use a tv-series analogy to describe the adventuring milestones.
+We use a TV-series analogy to describe the adventuring milestones.
 
 **Sessions**:
 are usually 4-hours of game play.
@@ -334,11 +334,11 @@ Characters increase the scores of 2 skills by 3 points and one skill by 5 points
 at the end of every episode.
 
 **Plotlines**:
-Plotlines span multiple episodes. They may even span multiple seasons.
-And multiple plotlines can coexist at the same time.
+span multiple episodes. They may even span multiple seasons.
+Multiple plotlines can coexist at the same time.
 A plotline could be part of the main adventure path or it could be
 a recurring side quest, such as an arch nemisis, that keeps popping up.
-Characers increase the scores of one attribute by 5 and another attribute by
+Characters increase the scores of one attribute by 5 and another attribute by
 3 points ant the end of every plotline.
 
 **Seasons**:
