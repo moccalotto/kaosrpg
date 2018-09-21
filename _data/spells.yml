@@ -21,6 +21,12 @@
   description: |-
     Touched object (1+B kg) is not subject to time for the next 1+B years.
 
+- name : Greed
+  tier: 3
+  tags: []
+  description: |-
+    Subject becomes pathologically greedy for the next 1+B hours.
+
 - name : Clean Air
   tier: 1
   tags: []
