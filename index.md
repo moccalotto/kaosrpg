@@ -467,7 +467,10 @@ You do not suffer any strain damage if you fail to cast your spell.
 
 **Healing**:
 You do not regenerate and cannot be healed *in any way* for an hour after
-successfully casting a spell.
+successfully casting a spell or concentrating on a spell.
+
+> **Note**: Casters *can* heal themselves once per hour because the
+> healing cooldown only takes effect after casting the spell.
 
 **Tiers**:
 Spells are divided into tiers from 1 to 6. Tier 1 spells are very easy to cast,
@@ -494,6 +497,13 @@ This means that, by spending additional points of strain when casting the spell,
 you can increase the given one or more of the spell's aspects such as
 duration, damage, range, area of effect, etc.
 
+> **Example**: A spell such as **Healing Touch** has the Boostable tag.
+> This means that it costs a single point of strain for each level of boost.
+> The spell will heal 1d6 + Bd6 points of damage. Meaning
+> that it will heal 1d6 damage, plus an additional 1d6 per level of boost.
+> A this a mage can cast the spell with 3 levels of boost, healing 4d6 points
+> of damage, and causing the mage 1d4+3 points of strain.
+
 **Duration**:
 Unless specified, all non-instantaneous and non-permanent spells
 fade away at the *end* of the *next* round.
@@ -501,6 +511,7 @@ You can keep the spell from ending by using an action the action next round to C
 which will keep it going for another round, where you are free to Concentrate on that spell again.
 Outside combat, you can maintain a single spell and still do simple tasks such
 as walking, talking, etc. People who know you might notice that you are distracted though.
+Spells with fixed durations do not require concentration in any way.
 
 > **Note**:
 > My reasons for using this type of concentration is to require spell casters to do nothing
@@ -512,13 +523,15 @@ as walking, talking, etc. People who know you might notice that you are distract
 Unless otherwise specified, spells can reach any target within
 the caster's line of sight and that the caster can realistically make out.
 
+> **Example**: Targeting a castle 
+
 ### Spells
 
-{% assign spells = site.data.spells | sort: 'name' %}
+{% assign spells = site.data.spells | sort: 'name' | sort: 'tier' %}
 
 {% for item in spells %}
-**{{ item.name }}**
-*{{ item.tags | join: '*,  *' }}:*
+**{{ item.name }}**:
+*Tier {{ item.tags | unshift: item.tier | join: ', '}}*:
 {{ item.description }}
 {% if item.remark %}
 > {{ item.remark }}
