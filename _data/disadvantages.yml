@@ -2,20 +2,22 @@
   description: The GM can make you reroll your base die in intimidation check in exchange for 2 karma points.
 
 - name: Short Legs
-  description: >-
-      You can only move 4 squares per round instead of 5. If you do not use squares (i.e.
-  remark: >-
+  description: |-
+      You can only move 4 squares per round instead of 5.
+  remark: |-
       If you use areas instead), you must succeed a base(3) roll in order to be able to move to an adjacent area.
 
 - name: Addicted
-  description: >-
+  description: |-
       You have an addiction (alcohol, drugs, sex, gambling).
-      Once per session, at the cost of 3 karma points, the GM can enforce your addiction to create a conflict, problem or disadvantage to you or the party.
+      Once per session, at the cost of 3 karma points, the GM can enforce your addiction to create a conflict,
+      problem or disadvantage to you or the party.
 
 - name: Obsessed
-  description: >-
+  description: |-
       You are obsessed with a person, place, thing or phenomenon.
-      Once per session, at the cost of 3 karma points, The GM can enforce your obsession to create a conflict, problem or disadvantage to you or the party.
+      Once per session, at the cost of 3 karma points, The GM can enforce your obsession to create a conflict,
+      problem or disadvantage to you or the party.
 
 - name: Poor
   description: |-
@@ -23,40 +25,51 @@
       Normal characters have CHA · 5 gold pieces for equipment, and begin play with CHA gold pieces.
 
 - name: Hunted
-  description: >-
+  description: |-
       You are hunted, wanted, or stalked by a creature, person, organization, or entity.
-      Once per session, at the cost of 3 karma points, the GM can enforce your obsession to create a conflict, problem or disadvantage to you or the party.
+      Once per session, at the cost of 3 karma points, the GM can enforce your obsession to create a conflict,
+      problem or disadvantage to you or the party.
 
 - name: Kleptomaniac
-  description: >-
+  description: |-
       You are addicted to stealing.
-      Once per session, at the cost of 2 karma points, the GM can enforce your obsession to create a potential conflict, problem or disadvantage to you or the party.
+      Once per session, at the cost of 2 karma points, the GM can enforce your obsession to create a potential conflict,
+      problem or disadvantage to you or the party.
 
 - name: Thickheaded
-  description: Once per session, at the cost of 2 karma points, the GM can enforce your stupidity by making you reroll the base die of a relevant challenge.
+  description: |-
+    Once per session, at the cost of 2 karma points,
+    the GM can enforce your stupidity by making you reroll the base die of a relevant challenge.
 
 - name: Uncouth
-  description: Once per scene, at the cost of 2 karma points, the GM can rule that you failed a given social challenge due to your social ineptitude.
+  description: |-
+    Once per scene, at the cost of 2 karma points,
+    the GM can rule that you failed a given social challenge due to your social ineptitude.
 
 - name: Infamous
-  description: Once per session, at the cost of 1 karma point, the GM can rule that you failed a given social challenge because of your bad reputation.
+  description: |-
+    Once per session, at the cost of 1 karma point,
+    the GM can rule that you failed a given social challenge because of your bad reputation.
 
 - name: Favor
-  description: >-
+  description: |-
       You owe a favor to a powerful person, organization, or entity.
-      Once per session, at the cost of 3 karma points, the GM can invoke this debt to create a conflict for you or your party.
+      Once per session, at the cost of 3 karma points,
+      the GM can invoke this debt to create a conflict for you or your party.
 
 - name: Weak
-  description: >-
+  description: |-
       You have trouble with forced marches, etc.
       At the cost of 3 karma points, the GM can limit your ability to perform demanding physical tasks over long periods of time.
       At the cost of 2 karma points the GM can enforce your weakness by making you reroll the base die of a check that relies heavily on endurance.
 
 - name: Infirm
-  description: >-
+  description: |-
       You easily get sick.
       At the cost of 2 karma points the GM can make you reroll the base die of a check to resist disease or poison.
       At the cost of 3 karma points the GM can invoke your fragile health to create a situation that is hazardous to you or your party.
 
 - name: Ugly
-  description: Once per scene, at the cost of 2 karma points, the GM can rule that you failed a given social challenge because of your physical appearance.
+  description: |-
+    Once per scene, at the cost of 2 karma points,
+    the GM can rule that you failed a given social challenge because of your physical appearance.

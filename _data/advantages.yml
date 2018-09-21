@@ -58,7 +58,7 @@
       city connections, finding your way in cities, or evaluating black market prices.
 
 - name: Spellcaster
-  description: You can cast spells.
+  description: You can cast spells via the Arcana skill.
 
 - name: Nightvision
   description: You can see as well in dim light such as starlight or moonlight as if it were daylight.
