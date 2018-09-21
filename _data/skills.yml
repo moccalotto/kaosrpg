@@ -98,7 +98,7 @@
   max: PER · 2
   description: |
     Cast spells.
-    You must have the »Spellcaster« advantage.
+    You must have the [»Spellcaster« advantage](#advantages).
     You cannot cast spells if you have not met the
     Athletics requirements of any armor you are wearing.
     Unless otherwise specified, you cannot cast magic when wearing armor.

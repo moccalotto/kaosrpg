@@ -11,7 +11,7 @@
 
 - name: Leather
   cost:  10gp
-  hp: '+1'
+  hp: '+2'
   athletics: 10
   strain: 0
   properties:
@@ -19,7 +19,7 @@
 
 - name: Hardened Leather
   cost:  25gp
-  hp:  '+2'
+  hp:  '+3'
   athletics: 20
   strain: 1
   properties:
@@ -28,8 +28,8 @@
 
 - name: Hide Armor
   cost:  10gp
-  hp:  '+3'
-  athletics: 30
+  hp:  '+4'
+  athletics: 40
   strain: 1
   properties:
       - ①
@@ -99,8 +99,7 @@
   cost: 10gp
   hp:  '+1'
   athletics: 15
-  properties:
-    - ⓜ
+  properties: []
 
 - name: Large Shield
   cost: 20gp
