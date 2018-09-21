@@ -484,12 +484,12 @@ You cannot cast spells of tiers where your skill score is too low.
 
 | Tier | Strain | Skill Score |
 |:----:|:------:|:-----------:|
-|  1   |   0    |     ≥20     |
+|  1   |   0    |     ≥30     |
 |  2   |  1d4   |     ≥30     |
-|  3   |  1d6   |     ≥40     |
-|  4   |  1d8   |     ≥50     |
-|  5   |  1d10  |     ≥60     |
-|  6   |  1d12  |     ≥70     |
+|  3   |  1d6   |     ≥45     |
+|  4   |  1d8   |     ≥60     |
+|  5   |  1d10  |     ≥75     |
+|  6   |  1d12  |     ≥90     |
 
 **Boosting**:
 Some spells are *boostable*.

@@ -5,8 +5,10 @@
 
 - name: Mend
   tier: 1
-  tags: 
-  description: You make a minor repair to a single object.
+  tags: []
+  description:
+    You make a minor repair to a single object, massing no more 1+B kg
+    and 10+B cm in any dimension.
 
 - name : Detect Lies
   tier: 2
@@ -15,11 +17,9 @@
 
 - name : Clean Air
   tier: 1
-  tags:
-    - Boostable
+  tags: []
   description: |-
-    You remove poisonous gasses, dust, particles, etc. from the air in a 2 meter radius around you.
-    You can boost the radius by 1 meter per additional point of strain spent.
+    You remove poisonous gasses, dust, particles, etc. from the air in a 2+B meter radius around you.
 
 
 - name: Detect Magic
@@ -42,19 +42,18 @@
 
 - name: Cure Disease
   tier: 3
-  tags: []
+  tags:
+    - 'Ritual: 15 minutes'
   description: Touched subject is cured of all diseases and infections.
 
 - name: Healing Touch
   tier: 2
-  tags:
-  - Boostable
+  tags: []
   description: |-
-    Touched subject recovers 1d6 HP + 1d6 per additional point of strain
-    you spend to boost the spell.
+    Touched subject recovers 1d6 + Bd6 HP.
 
 - name: Healing Rite
-  tier: 5
+  tier: 3
   tags:
     - 'Ritual: 15 minutes'
   description: The subject regains all their hit points.
@@ -63,11 +62,8 @@
   tier: 4
   tags:
     - 'Ritual: 30 minutes'
-    - Boostable
   description: |-
-    All subjects within 3 squares of you, including yourself regain
-    4d6 HP + 1d6 HP per additional point of strain you spend to boost
-    the spell.
+    All subjects within 3 squares of you, including yourself regain 4d6 + Bd6 HP.
 
 - name: Revivify
   tier: 4
@@ -87,31 +83,25 @@
 
 - name: Firebolt
   tier: 3
-  tags:
-  - Boostable
   description: |-
     Ranged attack against subject, who can avoid damage (4d6+Bd6) with an AGI Test.
-    You can boost the damage by 1d6 per additional point of strain taken.
-
   remark: |-
-    **Example**:
+    **Flavor**:
     You create a ball of reddish fire the size of your fist, swirling between your hands.
     With a throwing motion you send the ball towards your opponent, engulfing them in flames.
 
 - name: Fireball
   tier: 4
-  tags:
-    - Boostable
+  tags: []
   description: |-
-    You create an explosion within 10 squares that affect 9 squares (3x3 squares).
+    You create an explosion within 10+B squares that affect 9 squares (3x3 squares).
     Subjects within the area can avoid damage (4d6+Bd6) with an AGI Test.
 
-- name: Fireball, Geater
+- name: Fireball, Greater
   tier: 5
-  tags:
-    - Boostable
+  tags: []
   description: |-
-    Create an explosion within 20 squares that affect 13 squares (3 square diameter).
+    Create an explosion within 20+B squares that affect 13 squares (3 square diameter).
     Subjects within the area can avoid damage (6d6+Bd6) with an AGI Test.
 
 - name: Stay Awake (ritual)
@@ -133,12 +123,8 @@
 
 - name: Destroy Undead
   tier: 3
-  tags: 
-    - Boostable
   description: |-
-    All undead creatures in sight suffer 8d6 points of damage.
-    You can boost the damage by 1d6 per ad
-
+    All undead creatures in sight suffer 4d6+Bd6 points of damage.
 
 - name: Longevity, Major
   tier: 6
@@ -264,36 +250,33 @@
   tier: 3
   tags:
     - 'Ritual: 5 minutes'
-    - Boostable
   description: |-
     You inscribe a pre-drawn contract with magical runes.
     All parties then sign the contract and you put a final rune upon it.
     If at any point any party willingly and knowingly acts in a manner that
-    directly counters the spirit of the contract, they will suffer 10d10 points of damage.
+    directly counters the spirit of the contract, they will suffer 1d10 + Bd10 points of damage.
     Although only once per day. Physically destroying the contract will cancel the spell.
-    You can boost the damage dealt by 1d6 per additional point of strain taken.
 
 - name: Levitate Object
   tier: 1
   tags:
     - 'Ritual: 1 minute'
-    - Boostable
+    - 'Duration: 2 + B hours'
   description: |-
-    Touched object (of max 200kg) levitates for 2 hours.
+    Touched object (of max 100+B·50 kg) levitates for the duration.
     It retains its full mass, but it acts as if not affected by gravity
     (i.e. it can be pushed up and down somewhat easily).
-    This spell can be cast on an armor or weapon, in which case all atheltics requirements would be removed
+    This spell can be cast on an armor or weapon, in which case all Athletics requirements would be removed
     for the duration.
-    You can boost the allowed weight of the levitated object. For each additional point of strain taken, you
-    the object can be 100kg heavier.
 
 - name: Levitate Self
   tier: 1
-  tags:
-    - Boostable
+  tags: []
   description: |-
-    You can fly with a movement rate of 1.
-    You can boost the movement rate by 1 for every additional point of strain taken.
+    You can levitate yourself. You can move up and down at the rate
+    of 1 meter per round (10 meters per minute).
+    You can move laterally with a movement rate of 0+B.
+  remark:
     During combat you must concentrate on this spell, so actually using it to move
     would require surge actions. Outside combat, this is not the case.
 
@@ -338,48 +321,47 @@
 - name: Smelt, minor
   tier: 3
   tags:
-    - 'range: touch'
     - 'Ritual: 2 hours'
-  description: You extract the pure metal (not just ore, but actual metal) from dirt, stone and water
-    that contain trace metals or ore. Up to 1kg of metal can be extracted.
+  description: |-
+    You extract the pure metal (not just ore, but actual metal) from touched dirt, stone, or water
+    that contain trace metals or ore. Up to 1+B kg of metal can be extracted.
 
 - name: Smelt, Major
   tier: 4
   tags:
     - 'Ritual: 2 hours'
-  description: You extract the pure metal (not ore) from dirt, stone and water that contain trace metals or ore.
-    You extract the metal from minerals within a 250 meter radius.
+  description: |-
+    You extract the pure metal (not ore) from dirt, stone, and water that contain trace metals or ore.
+    You extract the metal from minerals within a 250+B·25 meter radius.
     The metal is extracted from the area, and will slowly fly/levitate toward you.
+    Buried and hidden items are not "extracted" this way.
 
 - name: Temper
   tier: 2
   tags:
     - 'Ritual: 1 minute'
-    - Boostable
-  description: You temper a single iron-alloy object of max 10+2B kg.
+  description: You heat treat a single metal object of max 10+2B kg to the hardness and toughness you desire.
+  remark: |-
+    **Remark**: Metal toughness and hardness is a science unto itself. You might need Craft: Metallurgy,
+    Craft: Smithing or similar to really udnerstand what you are doing.
 
 - name: Wood to Stone
   tier: 4
   tags:
     - 'Ritual: 5 minutes'
-    - Boostable
   description: |-
-    You turn one cubic meter of non-living wood into stone.
-    You can boost this ritual; for every 3 points of strain spent you can
-    increae the area of effect by one cubic meter.
+    You turn 1+B/3 cubic meters of non-living wood into stone.
 
 - name: Stone to Sand
   tier: 5
   description: |-
-    You turn a touched up to one cubic meters of a stone object to fine sand.
-    You can boost this ritual; for every 3 points of strain spent you can
-    increae the area of effect by one cubic meter.
+    You turn a touched up to 1+B/3 cubic meters of a stone object to fine sand.
 
 - name: Stone to Glass
   tier: 3
   tags:
     - 'Ritual: 5 minutes'
-  description: You convert up to 20kg of stone to glass.
+  description: You convert up to 20+B·5 kg of stone to glass.
 
 - name: Water Control, minor
   tier: 1
@@ -392,22 +374,31 @@
   description: Touched subject does not need to breathe for the next 8 hours.
 
 - name: Unseen
-  tier: 2
-  tags: []
-  description: Subject is unnoticable (by normal senses, but not magic) for 5 minutes or until it attacks.
+  tier: 4
+  tags: 
+    - "Duration: special"
+  description: Subject is unnoticeable (by normal senses, but not magic) for 5+B minutes or until it attacks someone.
 
-- name: Fly
+- name: Invisibility
   tier: 3
   tags: []
-  description: Subject can fly (Movement Rate 6) for 5 minutes.
-
-- name: Flight
-  tier: 4
-  tags:
-  - Boostable
   description: |-
-    You can fly with a Movement Rate of 3.
-    You can boost the movement rate by 1 for every additional point of strain taken.
+    You are unnoticeable (by normal senses, but not magic).
+    If you cast spells, attack someone, etc. They will notice you temporarily,
+    allowing them to attack you for the rest of the round.
+
+- name: Fly, Friend
+  tier: 4
+  tags: 
+  - "Duration: 5+B minutes"
+  description: Subject can fly with a Movement Rate of 2+B.
+
+- name: Fly, Self
+  tier: 4
+  tags: []
+  description: |-
+    You can fly with a Movement Rate of 4 + B.
+  remark: |-
     During combat you must concentrate on this spell, so actually using it to move
     would require surge actions. Outside combat, this is not the case.
 
@@ -443,26 +434,16 @@
 
 - name: Dispell Magic
   tier: 2
-  tags:
-    - Boostable
+  tags: []
   description: |-
-    You dispell/break a tier 1 spell.
-    You break boost the tier of the spell you can break by 1 per additional point of strain taken.
-  remark: |-
-    **Example**:
-      dispelling a tier 4 spell would require 3 points of strain in addition to the
-      strain taken from casting the spell.
-
+    You dispell/break a tier 1+B spell.
 
 - name: Sonic Boom
   tier: 2
-  tags:
-    - Boostable
   description: |-
     You create an explosive sound centered on you.
-    Anyone in adjacent squares must make a TOU test or suffer 2d6 Points of Damage.
+    Anyone in adjacent squares must make a TOU test or suffer 2d6 + Bd6 Points of Damage.
     You, the caster, are not affected by the spell.
-    You can boost the damage of this spell by 1d6 per additional point of strain taken.
 
 - name: Break
   tier: 1
@@ -474,9 +455,8 @@
 
 - name: Shatter
   tier: 3
-  tags:
-    - 'range: touch'
-  description: Target non-living and non-magical object weighing max 100kg breaks in half.
+  tags: []
+  description: Touched non-living and non-magical object weighing max 50+B·10 kg breaks in half.
 
 - name: Fear
   tier: 3
@@ -487,17 +467,13 @@
 
 - name: Shield
   tier: 2
-  tags:
-    - Boostable
+  tags: []
   description: |-
-    Subject gains 1d6 extra HPs (these are lost when the spell ends).
-    You can boost this spell; subject gains 1d6 extra hit points per
-    point of strain you spend.
+    Subject gains 1d6 + Bd6 temporary HPs.
 
 - name: Armor
   tier: 2
-  tags: 
-    - Boostable
+  tags: []
   description: |-
     You gain 1+B/2 points of damage resistance against physical, non-magical attacks.
 
@@ -534,10 +510,9 @@
 
 - name: Stink Spray
   tier: 2
-  tags: 
-    - Boostable
+  tags: []
   description: |-
-    You spray skunk-spray at an opponent directly in fron of you.
+    You spray skunk-spray at an opponent directly in front of you.
     They have to succeed a TOU or WIL check (whichever is higher),
     or loose their next 1d8+B/2 actions. The target can use Surge Actions
     to get better faster.
@@ -574,20 +549,15 @@
 
 - name: Terrain Awareness, Minor
   tier: 1
-  tags:
-    - Boostable
+  tags: []
   description:
-    The subject has their movement rate increased by 1 on their next turn.
-    This movement rate increase can be boosted; for each two strain spent,
-    the movement rate increase is boosted by one.
+    The subject has their movement rate increased by 1+B/2 on their next turn.
 
 - name: Terrain Awareness, Mass
   tier: 3
   tags: []
   description: |-
-    All friendly subjects within 5 squares have their movement rate increased by 2 on their next turn.
-    This movement rate increase can be boosted; for each two strain spent, the movement rate increase is
-    boosted by one.
+    All friendly subjects within 5 squares have their movement rate increased by 2+B/2 on their next turn.
 
 - name: Durable Rope
   tier: 3
@@ -607,7 +577,7 @@
     You get a single yes/no answer to a question about the location of a specific
     person, creature or object you are thinking of.
   remark: |-
-    **Example**:
+    **Flavor**:
     You use this ritual six times to narrow down the location of
     the person you are tracking:
     * Is my target in the same country as me? **Yes**.
@@ -621,9 +591,24 @@
   tier: 3
   tags:
     - 'Ritual: 20 + B·5 minutes'
-    - Boostable
+    - 'Duration: 5+B hours'
   description: |-
-    You create a small hut with room for 3+B/2 human-sized creatures.
+    You create a small "hut" or shelter with room for 3+B/2 human-sized creatures.
+    The shelter will keep out most wind and rain, and it can weather most storms.
+    It will disappear into ash when it wears out.
+
+- name: Interdimensional Shelter
+  tier: 5
+  tags:
+    - 'Ritual: 1 minute'
+  description: |-
+    You create a portal to a pocket dimension with room for 5+B human-sized creatures.
+    Creatures can only enter with your permission, but they can always exit. Once
+    inside the shelter, you cannot see what is happening on the outside.
+    The caster must concentrate on this spell. If she fails to do so, the shelter fails,
+    and all creatures in it will suffer 1d6 damage and be expelled in an area within
+    1d20 km from where the shelter was created.
+
 
 
 ## LEADERSHIP BRAINSTORM
