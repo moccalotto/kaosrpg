@@ -67,6 +67,7 @@
 
 - name: Revivify
   tier: 4
+  tags: []
   description: |-
     Touched subject who has died within the last minute
     (10 combat rounds) is brought back to life with 1 HP.
@@ -83,6 +84,7 @@
 
 - name: Firebolt
   tier: 3
+  tags: []
   description: |-
     Ranged attack against subject, who can avoid damage (4d6+Bd6) with an AGI Test.
   remark: |-
@@ -123,6 +125,7 @@
 
 - name: Destroy Undead
   tier: 3
+  tags: []
   description: |-
     All undead creatures in sight suffer 4d6+Bd6 points of damage.
 
@@ -326,6 +329,28 @@
     You extract the pure metal (not just ore, but actual metal) from touched dirt, stone, or water
     that contain trace metals or ore. Up to 1+B kg of metal can be extracted.
 
+- name: Glue
+  tier: 1
+  tags: []
+  description: Touched object is covered in sticky slime.
+
+- name: Animate Object
+  tier: 3
+  tags:
+    - 'Duration: 5+B hours'
+    - 'Ritual: 5+B minutes'
+  description:
+      Touched object (at most 1+B kg) becomes animated and will obey
+      simple commands as best it can. The commands are given when the
+      ritual is made.
+
+- name: Arcane Eye
+  tier: 2
+  tags: []
+  description: |-
+      You can see through a magical floating crystal (that looks like an eye).
+      You can move the eye 1+B meters per round (10+10·B meters per minute).
+
 - name: Smelt, Major
   tier: 4
   tags:
@@ -354,6 +379,7 @@
 
 - name: Stone to Sand
   tier: 5
+  tags: []
   description: |-
     You turn a touched up to 1+B/3 cubic meters of a stone object to fine sand.
 
@@ -375,8 +401,7 @@
 
 - name: Unseen
   tier: 4
-  tags: 
-    - "Duration: special"
+  tags: []
   description: Subject is unnoticeable (by normal senses, but not magic) for 5+B minutes or until it attacks someone.
 
 - name: Invisibility
@@ -389,7 +414,7 @@
 
 - name: Fly, Friend
   tier: 4
-  tags: 
+  tags:
   - "Duration: 5+B minutes"
   description: Subject can fly with a Movement Rate of 2+B.
 
@@ -440,6 +465,7 @@
 
 - name: Sonic Boom
   tier: 2
+  tags: []
   description: |-
     You create an explosive sound centered on you.
     Anyone in adjacent squares must make a TOU test or suffer 2d6 + Bd6 Points of Damage.
@@ -449,7 +475,6 @@
   tier: 1
   tags:
     - 'Ritual: 1 minute'
-    - Permanent
   description:
     Touched non-living and non-magical object weighing no more than 100kg breaks in half.
 
@@ -506,7 +531,7 @@
     Create a cloud of colorless and odorless gas within 10 squares.
     The cloud takes up 9 squares (a cube of 3·3 squares).
     Subjects within the cloud must pass an easy WIL test or fall asleep
-    until the gas cloud disappears.  The gas cloud remains as long as you concentrate.
+    until the spell ends (i.e. when you stop concentrating).
 
 - name: Stink Spray
   tier: 2
@@ -563,9 +588,8 @@
   tier: 3
   tags:
     - 'Ritual: 5 minutes'
-    - 'Permanent'
   description:
-    Touched rope (up to 100 meters long) permanently
+    Touched rope (up to 50+B·25 meters long) permanently
     becomes 10 times stronger and more durable than it was,
     but its length (and weight) is reduced by half.
 
