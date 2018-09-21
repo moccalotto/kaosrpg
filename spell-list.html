@@ -60,6 +60,7 @@ layout: none
         $(document).ready(() => {
             $('#spell-list').DataTable({
                 saveState:true,
+                stateDuration: -1,
                 lengthMenu: [[10, 25, 50, -1], [10, 25, 50, "All"]],
                 data: spells,
                 columnDefs: [

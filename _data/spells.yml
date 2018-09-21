@@ -25,13 +25,29 @@
   tier: 3
   tags: []
   description: |-
-    Subject becomes pathologically greedy for the next 1+B hours.
+    Subject must succeed a WIL test or become pathologically greedy for the next 1+B hours.
+
+- name : Counterspell
+  tier: 3
+  tags: 
+    - 'Duration: 1+B minutes'
+  description: |-
+    The first spell that targets you directly in the next 1+B minutes will be negated,
+    provided it is of tier 1+B or lower.
 
 - name : Clean Air
   tier: 1
   tags: []
   description: |-
     You remove poisonous gasses, dust, particles, etc. from the air in a 2+B meter radius around you.
+
+- name : Elemental Wall
+  tier: 5
+  tags: []
+  description: |-
+    You create a wall of fire, ice, water, earth, or wind. It can be no taller than 2 meters, no wider than 1 meter,
+    and no longer than 5+B meters. Anything that caught within the wall will suffer 3d6 points of damage per round.
+    The wall completely disappears as soon as you stop concentrating.
 
 - name: Detect Magic
   tier: 1
