@@ -15,12 +15,17 @@
   tags: []
   description: You know when people tell you lies.
 
+- name : Stasis
+  tier: 2
+  tags: []
+  description: |-
+    Touched object (1+B kg) is not subject to time for the next 1+B years.
+
 - name : Clean Air
   tier: 1
   tags: []
   description: |-
     You remove poisonous gasses, dust, particles, etc. from the air in a 2+B meter radius around you.
-
 
 - name: Detect Magic
   tier: 1
