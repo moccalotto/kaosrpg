@@ -403,8 +403,8 @@ Complete rest, such as sitting or lying down, for 1 hour will replenish 10 HP.
 
 Actions
 --------
-During each round you can take an »action« such as move, attack, use a power, etc.
-This is called your Main Actions.
+During each round you can take an »action« such as move, attack, cast a spell, etc.
+This is called your Main Action.
 
 **Surge Actions**:
 When you have taken your main action you may choose to take one or even two Surge Actions.
@@ -412,12 +412,8 @@ Surge Actions are just like Main Actions except that they are strenuous.
 Taking a surge action drains 1d4 of your HP.
 Wearing heavy armors and shields increase the strain of taking surge actions.
 
-See the [equipment list]({{ '/rulebook/equipment/' | prepend: site.baseurl }})
+See the [equipment list](#armors)
 for more info about additional strain incurred by wearing heavy armor.
-
-{:.noscreen}
-Take a look at the equipment list (a separate document) for more information about
-strain incurred when wearing heavy armor.
 
 Below is a list of possible actions.
 
@@ -513,14 +509,14 @@ as walking, talking, etc. People who know you might notice that you are distract
 > extremely draining.
 
 **Range**:
-Unless otherwise specified, powers can reach any target within
+Unless otherwise specified, spells can reach any target within
 the caster's line of sight and that the caster can realistically make out.
 
 ### Spells
 
-{% assign powers = site.data.powers | sort: 'name' %}
+{% assign spells = site.data.spells | sort: 'name' %}
 
-{% for item in powers %}
+{% for item in spells %}
 **{{ item.name }}**
 *{{ item.tags | join: '*,  *' }}:*
 {{ item.description }}
