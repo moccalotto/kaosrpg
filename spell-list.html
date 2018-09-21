@@ -61,8 +61,8 @@ layout: none
             $('#spell-list').DataTable({
                 saveState:true,
                 stateDuration: 99,
-                dom: "<l><f><p>",
-                lengthMenu: [[10, 25, 50, -1], [10, 25, 50, "All"]],
+                dom: "<f>",
+                lengthMenu: [[-1], ["all"]],
                 data: spells,
                 columnDefs: [
                     {
