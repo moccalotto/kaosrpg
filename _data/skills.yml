@@ -20,7 +20,7 @@
   max: PER + WIL
   description: |
     [Craft] can be a craft, art or science such as
-    alchemy, blacksmithing, carpentry, engineering, gambling, masonry or painting.
+    alchemy, blacksmithing, carpentry, engineering, gambling, masonry, metallurgy, or painting.
 
 - name: Creature Lore
   base: 0
@@ -50,7 +50,9 @@
 - name: History
   base: PER ÷ 2
   max: PER · 2
-  description: Local lore, ancient lore. Knowledge of the old gods, of ancient cultures, races heroes and items.
+  description: |-
+    Local lore, ancient lore.
+    Knowledge of the old gods, of ancient cultures, races heroes and items.
 
 - name: Languages
   base: 0
@@ -96,14 +98,17 @@
   power: true
   base: 0
   max: PER · 2
-  description: |
+  description: |-
     Cast spells.
-    You must have the [»Spellcaster« advantage](#advantages).
+    You must have the »Spellcaster« advantage.
     You cannot cast spells if you have not met the
     Athletics requirements of any armor you are wearing.
     Unless otherwise specified, you cannot cast magic when wearing armor.
     If you are wearing armor, you must succeed an Athletics Test
     in addition to your Spellcasting test every time you cast a spell.
+  remark: |-
+    People without the Spellcaster advantage may be proficient this skill;
+    they have magical knowledge, but cannot cast spells.
 
 - name: Thievery
   base: AGI ÷ 2
