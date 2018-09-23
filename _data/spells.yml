@@ -30,7 +30,7 @@
 - name : Counterspell
   tier: 3
   tags: 
-    - '⏰1+B minutes'
+    - 'Duration: 1+B minutes'
   description: |-
     The first spell that targets you directly in the next 1+B minutes will be negated,
     provided it is of tier 1+B or lower.
@@ -70,7 +70,7 @@
 - name: Cure Disease
   tier: 3
   tags:
-    - '🧘15 minutes'
+    - 'Ritual: 15 minutes'
   description: Touched subject is cured of all diseases and infections.
 
 - name: Healing Touch
@@ -82,13 +82,13 @@
 - name: Healing Rite
   tier: 3
   tags:
-    - '🧘15 minutes'
+    - 'Ritual: 15 minutes'
   description: The subject regains all their hit points.
 
 - name: Healing Zone
   tier: 4
   tags:
-    - '🧘30 minutes'
+    - 'Ritual: 30 minutes'
   description: |-
     All subjects within 3 squares of you, including yourself regain 4d6 + Bd6 HP.
 
@@ -111,10 +111,7 @@
 
 - name: Firebolt
   tier: 3
-  tags: 
-    - ⚔️4d6+Bd6
-    - 🏹10 sq
-    - 🛑 AGI
+  tags: []
   description: |-
     Ranged attack against subject, who can avoid damage (4d6+Bd6) with an AGI Test.
   remark: |-
@@ -139,7 +136,7 @@
 - name: Stay Awake (ritual)
   tier: 2
   tags:
-    - '🧘15-minutes'
+    - 'Ritual: 15-minutes'
   description: All the effects of sleep deprivation are removed from the subject.
 
 - name: Stay Awake (Spell)
@@ -150,7 +147,7 @@
 - name: Stay Awake, Mass
   tier: 4
   tags:
-    - '🧘2-hours'
+    - 'Ritual: 2-hours'
   description: You remove the effects of sleep deprivation from all subjects within 5 squares of you.
 
 - name: Destroy Undead
@@ -162,13 +159,13 @@
 - name: Longevity, Major
   tier: 6
   tags:
-    - '🧘24 hours'
+    - 'Ritual: 24 hours'
   description: The magic user will not age for the next 3 months.
 
 - name: Longevity
   tier: 5
   tags:
-    - '🧘30 minutes'
+    - 'Ritual: 30 minutes'
   description: The magic user will not age for the next week.
 
 - name: Purify
@@ -179,7 +176,7 @@
 - name: Purify, Area
   tier: 3
   tags:
-    - '🧘1 hour'
+    - 'Ritual: 1 hour'
   description: The soil and flora within 200 squares of you is healed and cured of any natural diseases.
 
 - name: Animal Essense
@@ -203,7 +200,7 @@
 - name: Heat Tolerance
   tier: 2
   tags:
-    - '🧘5 minutes'
+    - 'Ritual: 5 minutes'
   description: The subject gains Damage Reduction 20 against heat and fire damage.
 
 - name: Create Water
@@ -227,13 +224,13 @@
 - name: Self-esteem
   tier: 1
   tags:
-    - '🧘1 hour'
+    - 'Ritual: 1 hour'
   description: "Subject's CHA and Negotiation scores are increased by 20 points for 8 hours."
 
 - name: Friend Doll
   tier: 2
   tags:
-    - '🧘30 minutes'
+    - 'Ritual: 30 minutes'
   description: |-
     You create a small doll whose materials include hair, nail clippings
     or similar from the subject.
@@ -274,15 +271,15 @@
 - name: Binding Handshake
   tier: 2
   tags:
-    - '🧘1 minute'
-    - '⏰1 year'
+    - 'Ritual: 1 minute'
+    - 'Duration: 1 year'
   description: The willing subject swears an oath while you draw a small symbol on some part of their body.
     If they break their oath within a year they suffer 10d10 points of damage.
 
 - name: Enchanted Contract
   tier: 3
   tags:
-    - '🧘5 minutes'
+    - 'Ritual: 5 minutes'
   description: |-
     You inscribe a pre-drawn contract with magical runes.
     All parties then sign the contract and you put a final rune upon it.
@@ -293,8 +290,8 @@
 - name: Levitate Object
   tier: 1
   tags:
-    - '🧘1 minute'
-    - '⏰2 + B hours'
+    - 'Ritual: 1 minute'
+    - 'Duration: 2 + B hours'
   description: |-
     Touched object (of max 100+B·50 kg) levitates for the duration.
     It retains its full mass, but it acts as if not affected by gravity
@@ -321,7 +318,7 @@
 - name: Drill
   tier: 1
   tags:
-    - '🧘1 minute'
+    - 'Ritual: 1 minute'
   description: |-
     Create a hole in a touched object made of wood, metal, or stone.
     The hole can be up to a meter in length and a few centimeters thick.
@@ -329,7 +326,7 @@
 - name: Durable Wood
   tier: 2
   tags:
-    - '🧘2 minutes'
+    - 'Ritual: 2 minutes'
   description: |-
     Protects a cubic meter of wood from rot, mold, weather, etc.
     The wood lasts 10 times as long as unprotected wood.
@@ -337,7 +334,7 @@
 - name: Nails
   tier: 1
   tags:
-    - '🧘5 minutes'
+    - 'Ritual: 5 minutes'
   description: You enchant 10 nails. The nails can be made out of metal, stone, bone or hardwood.
     They become at least twice as durable as they were.
     They can be pushed into any kind of non-magical wood with the bare hands.
@@ -347,14 +344,14 @@
 - name: Mold Mineral
   tier: 4
   tags:
-    - '🧘2 minutes'
+    - 'Ritual: 2 minutes'
   description: You can mold a single metal or stone object (max 10kg) with your hands (not by tools).
     The object is not heated by this process and it remains moldable by you for 1 hour.
 
 - name: Smelt, minor
   tier: 3
   tags:
-    - '🧘2 hours'
+    - 'Ritual: 2 hours'
   description: |-
     You extract the pure metal (not just ore, but actual metal) from touched dirt, stone, or water
     that contain trace metals or ore. Up to 1+B kg of metal can be extracted.
@@ -367,8 +364,8 @@
 - name: Animate Object
   tier: 3
   tags:
-    - '⏰5+B hours'
-    - '🧘5+B minutes'
+    - 'Duration: 5+B hours'
+    - 'Ritual: 5+B minutes'
   description:
       Touched object (at most 1+B kg) becomes animated and will obey
       simple commands as best it can. The commands are given when the
@@ -384,7 +381,7 @@
 - name: Smelt, Major
   tier: 4
   tags:
-    - '🧘2 hours'
+    - 'Ritual: 2 hours'
   description: |-
     You extract the pure metal (not ore) from dirt, stone, and water that contain trace metals or ore.
     You extract the metal from minerals within a 250+B·25 meter radius.
@@ -394,7 +391,7 @@
 - name: Temper
   tier: 2
   tags:
-    - '🧘1 minute'
+    - 'Ritual: 1 minute'
   description: You heat treat a single metal object of max 10+2B kg to the hardness and toughness you desire.
   remark: |-
     **Remark**: Metal toughness and hardness is a science unto itself. You might need Craft: Metallurgy,
@@ -403,7 +400,7 @@
 - name: Wood to Stone
   tier: 4
   tags:
-    - '🧘5 minutes'
+    - 'Ritual: 5 minutes'
   description: |-
     You turn 1+B/3 cubic meters of non-living wood into stone.
 
@@ -416,7 +413,7 @@
 - name: Stone to Glass
   tier: 3
   tags:
-    - '🧘5 minutes'
+    - 'Ritual: 5 minutes'
   description: You convert up to 20+B·5 kg of stone to glass.
 
 - name: Water Control, minor
@@ -445,7 +442,7 @@
 - name: Fly, Friend
   tier: 4
   tags:
-  - "⏰5+B minutes"
+  - "Duration: 5+B minutes"
   description: Subject can fly with a Movement Rate of 2+B.
 
 - name: Fly, Self
@@ -504,7 +501,7 @@
 - name: Break
   tier: 1
   tags:
-    - '🧘1 minute'
+    - 'Ritual: 1 minute'
   description:
     Touched non-living and non-magical object weighing no more than 100kg breaks in half.
 
@@ -617,7 +614,7 @@
 - name: Durable Rope
   tier: 3
   tags:
-    - '🧘5 minutes'
+    - 'Ritual: 5 minutes'
   description:
     Touched rope (up to 50+B·25 meters long) permanently
     becomes 10 times stronger and more durable than it was,
@@ -626,7 +623,7 @@
 - name: Search
   tier: 1
   tags:
-   - '🧘10 minutes'
+   - 'Ritual: 10 minutes'
   description: |-
     You get a single yes/no answer to a question about the location of a specific
     person, creature or object you are thinking of.
@@ -644,8 +641,8 @@
 - name: Shelter
   tier: 3
   tags:
-    - '🧘20 + B·5 minutes'
-    - '⏰5+B hours'
+    - 'Ritual: 20 + B·5 minutes'
+    - 'Duration: 5+B hours'
   description: |-
     You create a small "hut" or shelter with room for 3+B/2 human-sized creatures.
     The shelter will keep out most wind and rain, and it can weather most storms.
@@ -654,7 +651,7 @@
 - name: Interdimensional Shelter
   tier: 5
   tags:
-    - '🧘1 minute'
+    - 'Ritual: 1 minute'
   description: |-
     You create a portal to a pocket dimension with room for 5+B human-sized creatures.
     Creatures can only enter with your permission, but they can always exit. Once
