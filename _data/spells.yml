@@ -29,7 +29,7 @@
 
 - name : Counterspell
   tier: 3
-  tags: 
+  tags:
     - 'Duration: 1+B minutes'
   description: |-
     The first spell that targets you directly in the next 1+B minutes will be negated,
@@ -217,9 +217,41 @@
 - name: Get Up Soldier
   tier: 3
   tags: []
-  description: Touched ally with negative HP wakes up and is able to
+  description: |-
+    Touched ally with negative HP wakes up and is able to
     stay conscious for WIL minutes. While in this state,
     all tests are made *harder*. Subject dies if they reach -30 HP.
+
+  name: Hypnotic Whisper
+  tier: 4
+  tags:
+    - "Ritual: 1 minute"
+  description: Touched target will answer 1+B yes/no questions to the best of their ability.
+
+  name: Ears of the Bat
+  tier: 2
+  tags: []
+  description: You have an excellent hearing while concentrating on this spell.
+
+  name: Servant, minor
+  tier: 2
+  tags:
+    - "Ritual: 10 minutes"
+    - "Duration: 1+B hours"
+  description: |-
+    A translucent humanoid appears and does your bidding to the best of its ability.
+    It is not very strong, fast, durable or intelligent, and will disappear
+    if struck with a weapon.
+
+  name: Servant, major
+  tier: 5
+  tags:
+    - "Duration: 1+B days"
+  description: |-
+    You summon an *invisible* humanoid being that does your bidding to
+    the best of its ability.
+    It is not very strong, fast, durable or intelligent, and will disappear
+    if struck with a weapon.
 
 - name: Self-esteem
   tier: 1
