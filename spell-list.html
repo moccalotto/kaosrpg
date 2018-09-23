@@ -19,11 +19,6 @@ layout: none
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
     <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-    <style>
-        div.container {
-            width: 80%;
-        }
-    </style>
 </head>
 <body>
     <table id="spell-list" class="display" style="width:100%">
@@ -54,13 +49,13 @@ layout: none
     <script type="text/javascript" class="init">
         var spells = {{ site.data.spells | jsonify }};
         spells.forEach( (spell) => {
-            spell.tags = spell.tags.join('<br>').replace(' ', '&nbsp;');
+            spell.tags = spell.tags.sort().join('<br>').replace(' ', '&nbsp;');
         });
 
         $(document).ready(() => {
             $('#spell-list').DataTable({
-                saveState:true,
-                stateDuration: 99,
+                stateSave:true,
+                stateDuration: 60 * 60 * 24,
                 dom: "<f>",
                 lengthMenu: [[-1], ["all"]],
                 data: spells,
@@ -83,10 +78,5 @@ layout: none
 
 
     </script>
-    <style>
-        div.container {
-            width: 80%;
-        }
-    </style>
 </body>
 </html>

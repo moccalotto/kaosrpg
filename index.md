@@ -531,7 +531,7 @@ the caster's line of sight and that the caster can realistically make out.
 
 {% for item in spells %}
 **{{ item.name }}**:
-*Tier {{ item.tags | unshift: item.tier | join: ', '}}*:
+*Tier {{ item.tags | sort | unshift: item.tier | join: ', '}}*:
 {{ item.description }}
 {% if item.remark %}
 > {{ item.remark }}
