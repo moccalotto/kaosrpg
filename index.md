@@ -292,9 +292,9 @@ You can spend these points to create advantages later in the game.
 Most notably, you can spend 2 karma points to make a test *easier*.
 You can also spend 3 karma points to reroll a failed test.
 
-A character cannot have more than 10 karma points (this is called the max-karma value).
+A character cannot have more than 10 karma points (this is called the *Max Karma* value).
 
-A character begins every session with 2 karma points (called the karma-reset value),
+A character begins every session with 2 karma points (called the *Karma Reset* value),
 no matter how many points they accumulated during the previous session.
 
 The GM may The GM can also award karma points to a character if she invokes some
@@ -314,40 +314,41 @@ Milestones
 
 We use a TV-series analogy to describe the adventuring milestones.
 
-**Sessions**:
-are usually 4-hours of game play.
+**Sessions**
+are usually 4-hour chunks of game play.
 Characters begin every session with exactly 2 karma points,
-no matter how many points they accumulated during the previous session.
+no matter how many points they accumulated during the previous session
+(this is called the *Karma Reset*).
+Characters increase one skill by one point at the end of every session.
 
-**Scenes**:
+**Scenes**
 are short sequences within a session. This could be a combat encounter,
 a challenging social interaction, or similar.
 
-**Episodes**:
+**Episodes**
 are small adventures or segments of larger adventures.
 It usually takes somewhere between 1-3 sessions to complete an episode.
-Characters increase the scores of 2 skills by 3 points and one skill by 5 points
-at the end of every episode.
+Characters increase the scores of one skill by 5 points and another
+skill by 3 points at the end of every episode.
 
-**Plotlines**:
+**Plotlines**
 span multiple episodes. They may even span multiple seasons.
 Multiple plotlines can coexist at the same time.
 A plotline could be part of the main adventure path or it could be
-a recurring side quest, such as an arch nemisis, that keeps popping up.
+a recurring side quest, such as an arch nemesis, that keeps popping up.
 Characters increase the scores of one attribute by 5 and another attribute by
 3 points ant the end of every plotline.
 
-**Seasons**:
-can be considered to be anveture paths. They usually consist of a number of
-main plotlines and possibly a number of side-plotlines that do not necessarily
-have to be completed.
-Characters increase their karma-reset and max-karma by 1 each at the end of every season.
+**Seasons**
+can be considered to be adventure paths. They usually consist of a number of
+main plotlines and possibly a number of optional side-plotlines.
+Characters increase their *Karma Reset* and *Max Karma* by 1 each at the end of every season.
 
 > **Note**:
 > It is up to players and GM to decide in advance how often milestones should occur.
 >
-> The simplest rule is to say that it takes 2-3 sessions to complete an episode, it takes
-> 2-3 episodes to complete a plotline, and it takes 2-3 plotlines to complete a season.
+> The simplest rule is to say that it takes 2 sessions to complete an episode, it takes
+> 2 episodes to complete a plotline, and it takes 3 plotlines to complete a season.
 
 Combat
 ------

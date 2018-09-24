@@ -62,7 +62,8 @@
 - name: Warmth
   tier: 2
   tags: []
-  description: Touched subject gains Damage Resistance 10 against cold.
+  description: |-
+        Touched subject gains Damage Resistance 10 against cold.
 
 - name: Light Fire
   tier: 1
@@ -116,12 +117,12 @@
     makes an easy WIL or TOU test (their choice).
     If they succeed, they are revived.
 
-- name: Powerword Revive
+- name: Power Word Revive
   tier: 6
   tags: []
   description: |-
       Subject within 10 meters of you is revived if they
-      have been ded for less that 10+B rounds.
+      have been dead for less that 10+B rounds.
 
 
 - name: Dark Vision
@@ -746,7 +747,21 @@
     issues that inhibit the subject's performance are
     temporarily removed.
 
-
+- name: Warded Dwelling
+  tier: 6
+  tags: 
+    - "Ritual: 10 minute"
+  description:
+      You ward a small house or parts of a larger building.
+      All tests made by undead are made *harder*.
+      Any test made against *you* while inside the warded area are *harder*.
+      The area is impervious to scrying.
+      Mind reading is impossible inside the warded area.
+      Casting spells in the area is *harder* (even you are affected).
+      You are alerted if anyone casts spells inside the area or cast
+      spells that takes effect inside the area.
+      Mind reading spells do not work.
+      Mind affecting spells (illusions, suggestions, etc.) do not work.
 
 ## LEADERSHIP BRAINSTORM
 # Keywords:
@@ -856,3 +871,5 @@
 #
 # EVOLVING WEAPON:
 # A weapon that leeches some of your APs, but that may also become more powerful
+#
+# Slow: create a bubble of slow time.
