@@ -71,7 +71,18 @@
   tier: 3
   tags:
     - 'Ritual: 15 minutes'
-  description: Touched subject is cured of all diseases and infections.
+  description: |-
+    Touched subject is cured of 1+B/2 diseases, viruses, infections.
+
+- name: Summon Demon
+  tier: 4
+  tags: 
+    - "Duration: 5+B rounds"
+  description: |-
+    You summon a demon. It will remain on your plane of existence for
+    the duration of the spell, or until it dies.
+  todo:
+    how strong is the demon? Do we have levels?
 
 - name: Healing Touch
   tier: 2
@@ -691,6 +702,31 @@
     The caster must concentrate on this spell. If she fails to do so, the shelter fails,
     and all creatures in it will suffer 1d6 damage and be expelled in an area within
     1d20 km from where the shelter was created.
+
+
+- name: Warding Circle
+  tier: 4
+  tags: 
+    - 'Ritual: 15 minutes'
+    - 'Duration: 4+B hours'
+  description: |-
+    You draw a 10 meter circle on the ground.
+    Choose a creature type (animal, undead, fey, humanoid, dragon, etc.)
+    that is affected by this warding. This type of creature cannot enter the
+    circle without you knowing about it, and being able to track it completely.
+    It will also suffer 4d6 damage when crossing the threshold.
+
+- name: Spirit of the Nymph
+  tier: 2
+  tags:
+    - 'Ritual: 10 minutes'
+    - 'Duration: 8+B hours'
+  description: |-
+    For the duration of this spell, the willing subject will feel
+    increased pleasure during sexual intercourse.
+    Moreover, any physical or mental diseases, barriers or
+    issues that inhibit the subject's performance are
+    temporarily removed.
 
 
 
