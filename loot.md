@@ -4,6 +4,11 @@ layout: post
 
 Stuff about this "tome".
 
+{% comment %}
+* This list will be replaced with a table of content
+# {:toc}
+{% endcomment %}
+
 OWNING MAGICAL ITEMS
 ====================
 
