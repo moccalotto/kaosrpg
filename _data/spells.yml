@@ -6,14 +6,19 @@
 - name: Mend
   tier: 1
   tags: []
-  description:
+  description: |-
     You make a minor repair to a single object, massing no more 1+B kg
     and 10+B cm in any dimension.
 
-- name : Detect Lies
+- name: Detect Lies
   tier: 2
   tags: []
   description: You know when people tell you lies.
+
+- name: Increased Gravity
+  tier: 3
+  tags: []
+  description: Gravity within 3 squares of you is increased by a factor of 2 + B/10
 
 - name : Stasis
   tier: 2
@@ -76,7 +81,7 @@
 
 - name: Summon Demon
   tier: 4
-  tags: 
+  tags:
     - "Duration: 5+B rounds"
   description: |-
     You summon a demon. It will remain on your plane of existence for
@@ -103,12 +108,21 @@
   description: |-
     All subjects within 3 squares of you, including yourself regain 4d6 + Bd6 HP.
 
-- name: Revivify
+- name: Last Chance
   tier: 4
   tags: []
   description: |-
-    Touched subject who has died within the last minute
-    (10 combat rounds) is brought back to life with 1 HP.
+    Touched subject who has died within the last 5+B rounds
+    makes an easy WIL or TOU test (their choice).
+    If they succeed, they are revived.
+
+- name: Powerword Revive
+  tier: 6
+  tags: []
+  description: |-
+      Subject within 10 meters of you is revived if they
+      have been ded for less that 10+B rounds.
+
 
 - name: Dark Vision
   tier: 1
@@ -237,12 +251,14 @@
   tier: 4
   tags:
     - "Ritual: 1 minute"
-  description: Touched target will answer 1+B yes/no questions to the best of their ability.
+  description: |-
+      Touched target will answer 1+B yes/no questions
+      truthfully to the best of their ability.
 
   name: Ears of the Bat
-  tier: 2
+  tier: 1
   tags: []
-  description: You have an excellent hearing while concentrating on this spell.
+  description: You have perfect hearing.
 
   name: Servant, minor
   tier: 2
@@ -331,7 +347,7 @@
     Although only once per day. Physically destroying the contract will cancel the spell.
 
 - name: Levitate Object
-  tier: 1
+  tier: 2
   tags:
     - 'Ritual: 1 minute'
     - 'Duration: 2 + B hours'
@@ -343,13 +359,13 @@
     for the duration.
 
 - name: Levitate Self
-  tier: 1
+  tier: 2
   tags: []
   description: |-
     You can levitate yourself. You can move up and down at the rate
     of 1 meter per round (10 meters per minute).
     You can move laterally with a movement rate of 0+B.
-  remark:
+  remark: |-
     During combat you must concentrate on this spell, so actually using it to move
     would require surge actions. Outside combat, this is not the case.
 
@@ -409,7 +425,7 @@
   tags:
     - 'Duration: 5+B hours'
     - 'Ritual: 5+B minutes'
-  description:
+  description: |-
       Touched object (at most 1+B kg) becomes animated and will obey
       simple commands as best it can. The commands are given when the
       ritual is made.
@@ -479,8 +495,9 @@
   tags: []
   description: |-
     You are unnoticeable (by normal senses, but not magic).
-    If you cast spells, attack someone, etc. They will notice you temporarily,
-    allowing them to attack you for the rest of the round.
+    If you act against someone (attack, or cast spells)
+    They will notice you temporarily, allowing them to
+    attack you for the rest of the round.
 
 - name: Fly, Friend
   tier: 4
@@ -506,15 +523,15 @@
 - name: Message
   tier: 1
   tags: []
-  description:
-    Subject within line of sight and 100 meters can hear a short message that you whisper silently.
+  description: |-
+      Subject within line of sight and 100 meters can hear a short message that you whisper silently.
 
 - name: Mind Link
   tier: 2
   tags: []
-  description:
-    You create a telepathic mind link to a close friend or relative.
-    The two of you can communicate telepathically as long as you concentrate.
+  description: |-
+      You create a telepathic mind link to a close friend or relative.
+      The two of you can communicate telepathically as long as you concentrate.
 
 - name: Prestidigitation
   tier: 1
@@ -524,8 +541,9 @@
 - name: Calm
   tier: 2
   tags: []
-  description: You calm an enraged or frightend subject. If subject is magically frightened or enraged,
-    they have to succeed an Easy WIL Test in order to counter that spell.
+  description: |-
+      You calm an enraged or frightend subject. If subject is magically frightened or enraged,
+      they have to succeed an Easy WIL Test in order to counter that spell.
 
 - name: Dispell Magic
   tier: 2
@@ -627,7 +645,7 @@
 - name: Hint, Mass
   tier: 5
   tags: []
-  description:
+  description: |-
     All allies within 5 squares can take a Surge Action on their
     next turn without any strain.
 
@@ -658,7 +676,7 @@
   tier: 3
   tags:
     - 'Ritual: 5 minutes'
-  description:
+  description: |-
     Touched rope (up to 50+B·25 meters long) permanently
     becomes 10 times stronger and more durable than it was,
     but its length (and weight) is reduced by half.
@@ -703,18 +721,18 @@
     and all creatures in it will suffer 1d6 damage and be expelled in an area within
     1d20 km from where the shelter was created.
 
-
 - name: Warding Circle
   tier: 4
-  tags: 
+  tags:
     - 'Ritual: 15 minutes'
     - 'Duration: 4+B hours'
   description: |-
     You draw a 10 meter circle on the ground.
     Choose a creature type (animal, undead, fey, humanoid, dragon, etc.)
-    that is affected by this warding. This type of creature cannot enter the
-    circle without you knowing about it, and being able to track it completely.
-    It will also suffer 4d6 damage when crossing the threshold.
+    that is affected by this warding.
+    If that type of creature enters the circle they suffer 4d6+B points of damage,
+    and you are alerted to their presence and exact location; you can even track
+    them if they are invisible.
 
 - name: Spirit of the Nymph
   tier: 2
