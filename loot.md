@@ -2,12 +2,7 @@
 layout: post
 ---
 
-Stuff about this "tome".
-
-{% comment %}
-* This list will be replaced with a table of content
-# {:toc}
-{% endcomment %}
+This tome contains examples of cool loot the players can find.
 
 OWNING MAGICAL ITEMS
 ====================
@@ -30,7 +25,9 @@ that of course, but actually owning the item is a different matter.
 LIST OF LOOT
 ============
 
-{% for item in site.data.loot.magic_items %}
+{% assign items = site.data.loot.magic_items | sort: "name" %}
+
+{% for item in items %}
 
 #### {{ item.name }}
 
