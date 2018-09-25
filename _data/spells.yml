@@ -674,7 +674,7 @@
     All friendly subjects within 5 squares have their movement rate increased by 2+B/2 on their next turn.
 
 - name: Durable Rope
-  tier: 3
+  tier: 1
   tags:
     - 'Ritual: 5 minutes'
   description: |-
@@ -721,6 +721,13 @@
     The caster must concentrate on this spell. If she fails to do so, the shelter fails,
     and all creatures in it will suffer 1d6 damage and be expelled in an area within
     1d20 km from where the shelter was created.
+
+- name: Tether
+  tier: 2
+  tags: []
+  description: |-
+    Two objects of your choice that are no more than 2+B meters apart cannot
+    move any further apart than they already are.
 
 - name: Warding Circle
   tier: 4
