@@ -25,15 +25,12 @@ that of course, but actually owning the item is a different matter.
 LIST OF LOOT
 ============
 
-{% assign items = site.data.loot.magic_items | sort: "name" %}
+{% assign items = site.loot | sort: "name" %}
 
 {% for item in items %}
 
-#### {{ item.name }}
+### {{ item.name }}
 
-{{ item.description | markdownify }}
-<blockquote>
-{{ item.remark | markdownify }}
-</blockquote>
+{{ item.content | markdownify }}
 
 {% endfor %}

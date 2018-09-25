@@ -36,3 +36,8 @@ exclude:
     - vendor/cache/
     - vendor/gems/
     - vendor/ruby/
+
+collections_dir: collections
+
+collections:
+  - loot
