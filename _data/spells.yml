@@ -780,6 +780,13 @@
     If you boost the spell, you can place the mark at a distance
     of B meters away.
 
+- name: Map
+  tier: 2
+  tags: []
+  description: |-
+    While concentrating on this spell, you draw a perfect map of your immediate surroundings,
+    complete with notes, names, etc. There is no limit as to how fast you can draw.
+
 
 ## LEADERSHIP BRAINSTORM
 # Keywords:
