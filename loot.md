@@ -13,9 +13,9 @@ owning it.
 
 To truly own an item, you must 
 
-* Truly believe that the item is yours.
-* Have had the item in your possession for the last two days.
+* Honestly believe that the item is yours.
 * Have spent at least two hours studying the item.
+* Have had the item in your possession for the last two days.
 
 
 You can only truly »own« 3 magical items. You can carry more than

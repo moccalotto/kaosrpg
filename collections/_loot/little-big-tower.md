@@ -8,6 +8,9 @@ When this is done, the figurine expands into a real tower,
 complete with furniture, cozy accommodations, and a number of
 minor servants (as per the spell *Servant, Minor*).
 
+The servants can do domestic chores such as cleaning, cooking, mending, etc.
+Some towers also sport ghostly servants that can play musical instruments.
+
 When not inside the tower, the owner can speak the command word, and the tower
 collapses into its tiny form again.
 
