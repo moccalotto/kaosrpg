@@ -787,6 +787,14 @@
     While concentrating on this spell, you draw a perfect map of your immediate surroundings,
     complete with notes, names, etc. There is no limit as to how fast you can draw.
 
+  name: Far Shot
+  tier: 2
+  tags: []
+  description: |
+    You touch an arrow, spear, or other projectile.
+    That weapon can now fly as far as the archer can see,
+    so if she can see the target, she can hit it.
+
 
 ## LEADERSHIP BRAINSTORM
 # Keywords:
