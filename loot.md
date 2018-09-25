@@ -25,11 +25,11 @@ that of course, but actually owning the item is a different matter.
 LIST OF LOOT
 ============
 
-{% assign items = site.loot | sort: "name" %}
+{% assign items = site.loot | sort: "title" %}
 
 {% for item in items %}
 
-### {{ item.name }}
+### {{ item.title }}
 
 {{ item.content | markdownify }}
 

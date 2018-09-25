@@ -1,5 +1,4 @@
 ---
-name: Boosted Weapon
 ---
 
 A magical weapon that deals extra damage.

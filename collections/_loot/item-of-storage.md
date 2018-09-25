@@ -1,5 +1,4 @@
 ---
-name: Item of Storage
 ---
 
 Holds up to 10 cubic meters (or 10,000 kg) of stuff.

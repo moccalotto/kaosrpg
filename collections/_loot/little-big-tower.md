@@ -1,5 +1,4 @@
 ---
-name: Little Big Tower
 ---
 
 Tiny figurine of a tower, similar to in size and design of a chess-piece rook.
