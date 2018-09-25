@@ -751,7 +751,7 @@
   tier: 6
   tags: 
     - "Ritual: 10 minute"
-  description:
+  description: |-
       You ward a small house or parts of a larger building.
       All tests made by undead are made *harder*.
       Any test made against *you* while inside the warded area are *harder*.
@@ -762,6 +762,17 @@
       spells that takes effect inside the area.
       Mind reading spells do not work.
       Mind affecting spells (illusions, suggestions, etc.) do not work.
+
+- name: Hidden Mark
+  tier: 1
+  tags: 
+    - "Duration: 1 + B days"
+  description: |-
+    You can put an invisible mark on a touched surface.
+    Only you can see that mark.
+    If you boost the spell, you can place the mark at a distance
+    of B meters away.
+
 
 ## LEADERSHIP BRAINSTORM
 # Keywords:
