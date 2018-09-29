@@ -533,15 +533,19 @@
   tier: 1
   description: The next combat related test made by the ally is made *easier*.
 
-- name: Terrain Awareness, Minor
+- name: Speed, Self
   tier: 1
   description:
-    The subject has their movement rate increased by 1+B/2 on their next turn.
+      Your movement rate is increased by 1+B on your next turn.
 
-- name: Terrain Awareness, Mass
+- name: Speed, Other
+  tier: 2
+  description: Subject has their movement rate increased by 1+B on their next turn.
+
+- name: Speed, Mass
   tier: 3
   description: |-
-    All friendly subjects within 5 squares have their movement rate increased by 2+B/2 on their next turn.
+    All friendly subjects within 5 squares have their movement rate increased by 2+B on their next turn.
 
 - name: Durable Rope
   tier: 1
