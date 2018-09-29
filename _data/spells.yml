@@ -607,15 +607,11 @@
 - name: Warded Dwelling
   tier: 6
   description: |-
-      You ward a small house or parts of a larger building.
-      * All tests made by undead are made *harder*.
-      * All test made against *you* while inside the warded area are *harder*.
-      * The area is impervious to scrying.
-      * Mind reading is impossible inside the warded area.
-      * Mind affecting spells (illusions, suggestions, etc.) do not work.
-      * Casting spells in the area is *harder* (even you are affected).
-      * You are alerted if anyone casts spells inside the area or cast
-        spells that takes effect inside the area.
+      You ward a small house or parts of a larger building for 5+B hours.
+      While you are in the dwelling, all test (attacks, spells, abilities, etc.)
+      against you and your allies are *harder*.
+      All creatures in the area are always fully visible to you.
+      The dwelling protects all creatures against mind reading and scrying.
 
 - name: Hidden Mark
   tier: 1

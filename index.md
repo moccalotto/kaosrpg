@@ -532,8 +532,9 @@ the caster's line of sight and that the caster can realistically make out.
 
 {% for spells in spellsByTier %}
 {% assign sorted = spells.items | sort: "name" %}
+#### Tier {{ spells.name }}
 {% for item in sorted %}
-**[{{item.tier}}] {{ item.name }}**:
+**{{ item.name }}**:
 {{ item.description }}
 {% if item.remark %}
 > {{ item.remark }}
