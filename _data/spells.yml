@@ -40,6 +40,13 @@
     The first spell that targets you directly in the next 1+B minutes will be negated,
     provided it is of tier 1+B or lower.
 
+  name: Counterblast
+  tier: 5
+  description: |-
+      The first damaging elemental effect (fire, water, earth, air, lightning, etc.) that
+      targets you directly within the next 1+B minutes will be reflected back against the
+      aggressor, who can make a PER test to avoid the damage.
+
 - name : Clean Air
   tier: 1
   description: |-
@@ -343,7 +350,7 @@
   tier: 2
   description: You heat treat a single metal object of max 10+2B kg to the hardness and toughness you desire.
   remark: |-
-    **Remark**: Metal toughness and hardness is a science unto itself. You might need Craft: Metallurgy,
+    **Note**: Metal toughness and hardness is a science unto itself. You might need Craft: Metallurgy,
     Craft: Smithing or similar to really understand what you are doing.
 
 - name: Glue
@@ -413,7 +420,8 @@
 
 - name: True Sight
   tier: 2
-  description: Hear or see any location within 100 squares for 10 rounds, one location per round.
+  description: |-
+      You can detect hidden beings and objects within 10+B meters.
 
 - name: Message
   tier: 1
@@ -628,12 +636,19 @@
     While concentrating on this spell, you draw a perfect map of your immediate surroundings,
     complete with notes, names, etc. There is no limit as to how fast you can draw.
 
-  name: Far Shot
+- name: Far Shot
   tier: 2
-  description: |
+  description: |-
     You touch an arrow, spear, or other projectile.
     That weapon can now fly as far as the archer can see,
     so if she can see the target, she can hit it.
+
+- name: Recharge
+  tier: 3
+  description: |-
+      You recharge some of the power that a charged magical item
+      (such as a wand) has lost through use.
+      See the item description to find out if it can be recharged.
 
 
 ## LEADERSHIP BRAINSTORM

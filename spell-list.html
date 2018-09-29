@@ -52,6 +52,9 @@ layout: none
 
         spells.forEach( (spell) => {
             spell.html = converter.makeHtml(spell.description);
+            if (spell.remark) {
+                spell.html += `<blockquote>${converter.makeHtml(spell.remark)}</blockquote>`;
+            }
         });
 
         $(document).ready(() => {
