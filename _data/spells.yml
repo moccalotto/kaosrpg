@@ -69,7 +69,7 @@
   tier: 1
   tags: []
   description: |-
-    Snap your finger and light a candle, some dry kindling, etc.
+    Snap your finger and light a candle, charpaper, charcloth, dry kindling, etc.
     that you can see and that is within 10 squares.
 
 
@@ -163,18 +163,24 @@
   tier: 2
   tags:
     - 'Ritual: 15-minutes'
-  description: All the effects of sleep deprivation are removed from the subject.
+  description: |-
+    All the effects of sleep deprivation are removed from the subject.
+    Subject is immune to magical sleep effects for the next 8 hours.
 
 - name: Stay Awake (Spell)
   tier: 3
   tags: []
-  description: All effects of sleep deprivation are removed from the subject.
+  description: |-
+    All effects of sleep deprivation are removed from the subject.
+    Subject is immune to magical sleep effects for the next 8 hours.
 
 - name: Stay Awake, Mass
   tier: 4
   tags:
     - 'Ritual: 2-hours'
-  description: You remove the effects of sleep deprivation from all subjects within 5 squares of you.
+  description: |-
+    You remove the effects of sleep deprivation from all subjects within 5 squares of you.
+    Subjects are immune to magical sleep effects for the next 8 hours.
 
 - name: Destroy Undead
   tier: 3
@@ -617,10 +623,11 @@
   tier: 3
   tags: []
   description: |-
-    Create a cloud of colorless and odorless gas within 10 squares.
-    The cloud takes up 9 squares (a cube of 3·3 squares).
-    Subjects within the cloud must pass an easy WIL test or fall asleep
-    until the spell ends (i.e. when you stop concentrating).
+    You choose a point within 10 squares of you.
+    1d6 creatures near that square must make a WIL test or be sent int o a magical sleep.
+    The creatures are selected based on how close they are to the epicenter of the spell.
+    A creature wakes up when you stop concentrating on the spell or if it is wounded in
+    any way.
 
 - name: Stink Spray
   tier: 2
