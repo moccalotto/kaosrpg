@@ -646,9 +646,8 @@
 - name: Recharge
   tier: 3
   description: |-
-      You recharge some of the power that a charged magical item
-      (such as a wand) has lost through use.
-      See the item description to find out if it can be recharged.
+      Touched magical item regains 1+B HP.
+      Only certain magical items can be recharged this way.
 
 
 ## LEADERSHIP BRAINSTORM
