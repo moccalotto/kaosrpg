@@ -102,8 +102,8 @@ You have:
 Equipment
 ---------
 
-You have CHA · 5 gold pieces (GP) with which to purchase your starting equipment.
-No matter how many GP you use, you will begin play with CHA gold pieces.
+You have CHA · 500 copper pieces (cp) with which to purchase your starting equipment.
+No matter how many cp you use, you will begin play with CHA · 100 copper pieces.
 
 ### Armors
 

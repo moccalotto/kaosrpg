@@ -21,8 +21,8 @@
 
 - name: Poor
   description: |-
-      You have CHA · 2 gold pieces with which to buy equipment, and you begin play with 2d6 gold pieces.
-      Normal characters have CHA · 5 gold pieces for equipment, and begin play with CHA gold pieces.
+      You have CHA · 200 copper pieces with which to buy equipment, and you begin play with 1d100 copper pieces.
+      Normal characters have CHA · 500 copper pieces for equipment, and begin play with CHA · 100 copper pieces.
 
 - name: Hunted
   description: |-

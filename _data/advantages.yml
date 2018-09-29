@@ -18,10 +18,10 @@
       A character that is both tiny and nimble will be able to avoid two attacks per scene.
 
 - name: Well-equipped
-  description: You have CHA · 10 gold pieces instead of the usual CHA · 5 with which to purchase equipment.
+  description: You have CHA · 1000 copper pieces instead of the usual CHA · 5 with which to purchase equipment.
 
 - name: Wealthy
-  description: You begin play with CHA · 3 gold pieces instead of the usual CHA gold pieces.
+  description: You begin play with CHA · 300 copper pieces instead of the usual CHA · 100 copper pieces.
 
 - name: Tough
   description: |-
