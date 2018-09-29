@@ -4,105 +4,105 @@
 # lifestyle such as servants, transportation (sedans, carts, horses, etc.).
 lifestyles:
     - { name: "Wretched", cost: '0'}
-    - { name: "Squalid", cost: 1sp}
-    - { name: "Poor", cost: 2sp}
-    - { name: "Modest", cost: 1gp}
-    - { name: "Comfortable", cost: 2gp}
-    - { name: "Wealthy", cost: 4gp}
-    - { name: "Aristocratic", cost: ≥ 10gp}
+    - { name: "Squalid", cost: 10}
+    - { name: "Poor", cost: 20}
+    - { name: "Modest", cost: 100}
+    - { name: "Comfortable", cost: 200}
+    - { name: "Wealthy", cost: 400}
+    - { name: "Aristocratic", cost: ≥ 1000}
 
 food:
-    - { name: "Ale, 1 bottle", cost: 2cp }
-    - { name: "Animal Feed, 1 day", cost: 5cp }
-    - { name: "Rations, Regular, 1 day", cost: 3sp }
-    - { name: "Rations, Trail, 1 day", cost: 5sp }
-    - { name: "Wine, Common, 1 bottle", cost: 5cp }
-    - { name: "Wine, Fine, 1 bottle", cost: 5sp }
+    - { name: "Ale, 1 bottle", cost: 2 }
+    - { name: "Animal Feed, 1 day", cost: 5 }
+    - { name: "Rations, Regular, 1 day", cost: 30 }
+    - { name: "Rations, Trail, 1 day", cost: 50 }
+    - { name: "Wine, Common, 1 bottle", cost: 5 }
+    - { name: "Wine, Fine, 1 bottle", cost: 50 }
 
 clothing:
-    - { name: "Poor", cost: 1sp }
-    - { name: "Standard", cost: 5sp }
-    - { name: "Noble", cost: 30gp }
-    - { name: "Furs, Fine", cost: 50gp }
-    - { name: "Winter", cost: 1gp }
-    - { name: "Artisan's", cost: 1gp }
+    - { name: "Poor", cost: 10 }
+    - { name: "Standard", cost: 50 }
+    - { name: "Noble", cost: 3000 }
+    - { name: "Furs, Fine", cost: 5000 }
+    - { name: "Winter", cost: 100 }
+    - { name: "Artisan's", cost: 100 }
 
 lodging:
-    - { name: "Bed, Common Room", cost: 1cp }
-    - { name: "Bed, Private Room", cost: 5sp }
-    - { name: "Meal, Simple", cost: 2cp }
-    - { name: "Meal, Fine", cost: 5sp }
-    - { name: "Hot Bath", cost: 5cp }
-    - { name: "Stabling and Fodder", cost: 1sp }
+    - { name: "Bed, Common Room", cost: 1 }
+    - { name: "Bed, Private Room", cost: 50 }
+    - { name: "Meal, Simple", cost: 2 }
+    - { name: "Meal, Fine", cost: 50 }
+    - { name: "Hot Bath", cost: 5 }
+    - { name: "Stabling and Fodder", cost: 10 }
 
 light:
-    - { name: "Lantern, bull's eye", cost: 12gp }
-    - { name: "Lantern, hooded", cost: 7gp }
-    - { name: "Torch", cost: 1cp }
-    - { name: "Lamp, common", cost: 1sp }
+    - { name: "Lantern, bull's eye", cost: 1200 }
+    - { name: "Lantern, hooded", cost: 700 }
+    - { name: "Torch", cost: 1 }
+    - { name: "Lamp, common", cost: 10 }
 
 
 transportation:
-    - { name: "Sledge", cost: 1gp }
-    - { name: "Cart", cost: 15gp }
-    - { name: "Wagon", cost: 40gp }
+    - { name: "Sledge", cost: 100 }
+    - { name: "Cart", cost: 1500 }
+    - { name: "Wagon", cost: 4000 }
 
 animals:
-    - { name: "Cow", cost: 100gp }
-    - { name: "Dog, Hunting", cost: 50gp }
-    - { name: "Dog, Sheep", cost: 40gp }
-    - { name: "Dog, Guard", cost: 25gp }
-    - { name: "Dog, War", cost: 75gp }
-    - { name: "Donkey", cost: 30gp }
-    - { name: "Hawk, Hunting", cost: 500gp }
-    - { name: "Horse, Pack", cost: 40gp }
-    - { name: "Horse, Riding", cost: 100gp }
-    - { name: "Horse, War", cost: 500gp }
+    - { name: "Cow", cost: 10000 }
+    - { name: "Dog, Hunting", cost: 5000 }
+    - { name: "Dog, Sheep", cost: 4000 }
+    - { name: "Dog, Guard", cost: 2500 }
+    - { name: "Dog, War", cost: 7500 }
+    - { name: "Donkey", cost: 3000 }
+    - { name: "Hawk, Hunting", cost: 50000 }
+    - { name: "Horse, Pack", cost: 4000 }
+    - { name: "Horse, Riding", cost: 10000 }
+    - { name: "Horse, War", cost: 50000 }
 
 gear:
-    - { name: "Acid (flask)", cost: 10gp }
-    - { name: "Antidote, generic", cost: 50gp }
-    - { name: "Tool Kit, craftsman's, artisan's", cost: 5gp }
-    - { name: "Backpack", cost: 2gp }
-    - { name: "Bedroll", cost: 1sp }
-    - { name: "Bell", cost: 1gp }
-    - { name: "Blanket, winter", cost: 5sp }
-    - { name: "Block and Tackle", cost: 5gp }
-    - { name: "Caltrops", cost: 1gp }
-    - { name: "Canvas, 1 sq. meter", cost: 1gp }
-    - { name: "Scroll Case", cost: 1gp }
-    - { name: "Chain, 1 meter", cost: 10gp }
-    - { name: "Chalk, 1 piece", cost: 1cp }
-    - { name: "Chest", cost: 2gp }
-    - { name: "Crowbar", cost: 2gp }
-    - { name: "Disguise Kit", cost: 50gp }
-    - { name: "Firewood (per day)", cost: 1cp }
-    - { name: "Flint and Steel", cost: 1gp }
-    - { name: "Healer's Kit", cost: 50gp }
-    - { name: "Hourglass", cost: 25gp }
-    - { name: "Ink or dye, small vial", cost: 8gp }
-    - { name: "Ink pen", cost: 1sp }
-    - { name: "Lock, average", cost: 40gp }
-    - { name: "Lock, good", cost: 80gp }
-    - { name: "Lock, simple", cost: 20gp }
-    - { name: "Magnifying Glass", cost: 90gp }
-    - { name: "Manacles", cost: 15gp }
-    - { name: "Mirror, small bronze", cost: 10gp }
-    - { name: "Musical Instrument", cost: 5gp }
-    - { name: "Oil, 1 litre, clay pot", cost: 3sp }
-    - { name: "Paper, single sheet", cost: 4sp }
-    - { name: "Parchment, single sheet", cost: 2sp }
-    - { name: "Ram, portable", cost: 10gp }
-    - { name: "Rope, 15m hemp", cost: 1gp }
-    - { name: "Rope, 15m silk", cost: 10gp }
-    - { name: "Sealing Wax", cost: 1gp }
-    - { name: "Signet Ring", cost: 5gp }
-    - { name: "Soap, 100 grams", cost: 5cp }
-    - { name: "Spell Component Pouch", cost: 5gp }
-    - { name: "Notebook, 100 pages", cost: 15gp }
-    - { name: "Notebook, 50 pages", cost: 10gp }
-    - { name: "Spyglass", cost: 100gp }
-    - { name: "Tent", cost: 10gp }
-    - { name: "Thieves' Tools", cost: 30gp }
-    - { name: "Water skin", cost: 1gp }
-    - { name: "Whetstone", cost: 2cp }
+    - { name: "Acid (flask)", cost: 1000 }
+    - { name: "Antidote, generic", cost: 5000 }
+    - { name: "Tool Kit, craftsman's, artisan's", cost: 500 }
+    - { name: "Backpack", cost: 200 }
+    - { name: "Bedroll", cost: 10 }
+    - { name: "Bell", cost: 100 }
+    - { name: "Blanket, winter", cost: 50 }
+    - { name: "Block and Tackle", cost: 500 }
+    - { name: "Caltrops", cost: 100 }
+    - { name: "Canvas, 1 sq. meter", cost: 100 }
+    - { name: "Scroll Case", cost: 100 }
+    - { name: "Chain, 1 meter", cost: 1000 }
+    - { name: "Chalk, 1 piece", cost: 1 }
+    - { name: "Chest", cost: 200 }
+    - { name: "Crowbar", cost: 200 }
+    - { name: "Disguise Kit", cost: 5000 }
+    - { name: "Firewood (per day)", cost: 1 }
+    - { name: "Flint and Steel", cost: 100 }
+    - { name: "Healer's Kit", cost: 5000 }
+    - { name: "Hourglass", cost: 2500 }
+    - { name: "Ink or dye, small vial", cost: 800 }
+    - { name: "Ink pen", cost: 10 }
+    - { name: "Lock, average", cost: 4000 }
+    - { name: "Lock, good", cost: 8000 }
+    - { name: "Lock, simple", cost: 2000 }
+    - { name: "Magnifying Glass", cost: 9000 }
+    - { name: "Manacles", cost: 1500 }
+    - { name: "Mirror, small bronze", cost: 1000 }
+    - { name: "Musical Instrument", cost: 500 }
+    - { name: "Oil, 1 litre, clay pot", cost: 30 }
+    - { name: "Paper, single sheet", cost: 40 }
+    - { name: "Parchment, single sheet", cost: 20 }
+    - { name: "Ram, portable", cost: 1000 }
+    - { name: "Rope, 15m hemp", cost: 100 }
+    - { name: "Rope, 15m silk", cost: 1000 }
+    - { name: "Sealing Wax", cost: 100 }
+    - { name: "Signet Ring", cost: 500 }
+    - { name: "Soap, 100 grams", cost: 5 }
+    - { name: "Spell Component Pouch", cost: 500 }
+    - { name: "Notebook, 100 pages", cost: 1500 }
+    - { name: "Notebook, 50 pages", cost: 1000 }
+    - { name: "Spyglass", cost: 10000 }
+    - { name: "Tent", cost: 1000 }
+    - { name: "Thieves' Tools", cost: 3000 }
+    - { name: "Water skin", cost: 100 }
+    - { name: "Whetstone", cost: 2 }
