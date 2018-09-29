@@ -203,13 +203,13 @@
 - name: Purify
   tier: 1
   tags: []
-  description: You purify food or water, making it potable.
+  description: Make 2+B kg of food potable.
 
 - name: Purify, Area
   tier: 3
   tags:
     - 'Ritual: 1 hour'
-  description: The soil and flora within 200 squares of you is healed and cured of any natural diseases.
+  description: The soil and flora within 100+B·50 squares of you is healed and cured of any natural diseases.
 
 - name: Animal Essense
   tier: 2
@@ -219,8 +219,9 @@
 - name: Animal Weapon
   tier: 3
   tags: []
-  description: You gain the claws, talons, punces, tail or even head (bite) of an animal.
-    Your unarmed combat damage is replaced by the one of the animal for 10 minutes.
+  description: |-
+      You gain the claws, talons, punces, tail or even head (bite) of an animal.
+      Your unarmed combat damage is replaced by the one of the animal for 10 minutes.
 
 - name: Heat Mineral
   tier: 2
@@ -291,7 +292,7 @@
   tier: 1
   tags:
     - 'Ritual: 1 hour'
-  description: "Subject's CHA and Negotiation scores are increased by 20 points for 8 hours."
+  description: Subject's CHA and Negotiation scores are increased by 3d6+Bd6 points for 4+B hours.
 
 - name: Friend Doll
   tier: 2
@@ -345,13 +346,13 @@
 - name: Enchanted Contract
   tier: 3
   tags:
-    - 'Ritual: 5 minutes'
+    - 'Ritual: 10 minutes'
   description: |-
-    You inscribe a pre-drawn contract with magical runes.
-    All parties then sign the contract and you put a final rune upon it.
-    If at any point any party willingly and knowingly acts in a manner that
-    directly counters the spirit of the contract, they will suffer 1d10 + Bd10 points of damage.
-    Although only once per day. Physically destroying the contract will cancel the spell.
+      You inscribe a pre-drawn contract with magical runes.
+      All parties then sign the contract and you put a final rune upon it.
+      When a signee willingly and knowingly acts in a manner that 
+      counters the letter and spirit of the contract, they will suffer 1d10 + Bd10 points of damage.
+      Physically destroying the contract will cancel the spell.
 
 - name: Levitate Object
   tier: 2
@@ -359,27 +360,20 @@
     - 'Ritual: 1 minute'
     - 'Duration: 2 + B hours'
   description: |-
-    Touched object (of max 100+B·50 kg) levitates for the duration.
-    It retains its full mass, but it acts as if not affected by gravity
-    (i.e. it can be pushed up and down somewhat easily).
-    This spell can be cast on an armor or weapon, in which case all Athletics requirements would be removed
-    for the duration.
+      Gravity stops acting on the touched object of max 100+B·50 kg.
 
 - name: Levitate Self
   tier: 2
   tags: []
   description: |-
-    You can levitate yourself. You can move up and down at the rate
-    of 1 meter per round (10 meters per minute).
-    You can move laterally with a movement rate of 0+B.
-  remark: |-
-    During combat you must concentrate on this spell, so actually using it to move
-    would require surge actions. Outside combat, this is not the case.
+      Gravity stops acting on you.
 
 - name: Crane
   tier: 2
   tags: []
-  description: Touched object (of max 200kg) can fly (at Movement Rate 6) and carry a load of up to 250kg.
+  description: |-
+      Touched object, weighing no more than 10+B·10 kilos can fly at Movement Rate 2+B/3
+      while carrying carry a load of up to 100+B·100 kilos.
 
 - name: Drill
   tier: 1
@@ -387,7 +381,7 @@
     - 'Ritual: 1 minute'
   description: |-
     Create a hole in a touched object made of wood, metal, or stone.
-    The hole can be up to a meter in length and a few centimeters thick.
+    The hole can be 10+b·10 centimeters long and 1+B centimeters thick.
 
 - name: Durable Wood
   tier: 2

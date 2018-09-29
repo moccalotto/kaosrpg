@@ -528,9 +528,11 @@ the caster's line of sight and that the caster can realistically make out.
 
 ### Spells
 
-{% assign spells = site.data.spells | sort: 'name' | sort: 'tier' %}
+{% assign spellsByTier = site.data.spells | group_by: "tier" %}
 
-{% for item in spells %}
+{% for spells in spellsByTier %}
+{% assign sorted = spells.items | sort: "name" %}
+{% for item in sorted %}
 **{{ item.name }}**:
 *Tier {{ item.tags | sort | unshift: item.tier | join: ', '}}*:
 {{ item.description }}
@@ -538,5 +540,6 @@ the caster's line of sight and that the caster can realistically make out.
 > {{ item.remark }}
 {% endif %}
 
+{% endfor %}
 {% endfor %}
 

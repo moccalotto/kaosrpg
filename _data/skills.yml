@@ -1,103 +1,63 @@
 - name: Acrobatics
-  base: AGI ÷ 2
-  max: STR + AGI
   description: Climb, jump, tumble and stunts.
 
 - name: Appraisal
-  base: PER ÷ 2
-  max: PER · 2
-  description: |
+  description: |-
     Estimate price and authenticity of artwork,
     gems, coins, weapons, armor, buildings, etc.
 
 - name: Athletics
-  base: STR ÷ 2
-  max: TOU + WIL
   description: Run, march, swim, wear heavy armor, endure physical stress.
 
 - name: '[Craft]'
-  base: PER ÷ 2
-  max: PER + WIL
-  description: |
-    [Craft] can be a craft, art or science such as
-    alchemy, blacksmithing, carpentry, engineering, gambling, masonry, metallurgy, or painting.
+  description: |-
+      [Craft] can be a craft, art or science such as
+      alchemy, blacksmithing, carpentry, engineering, gambling, masonry, metallurgy, or painting.
 
 - name: Creature Lore
-  base: 0
-  max: PER · 2
-  description: |
-    Guestimate an approximation of a key knowledge such as Movement Rate,
-    Defense Points, Hit Points, an Attribute Score, Skill Score, etc.
+  description: |-
+      Guestimate an approximation of a key knowledge such as Movement Rate,
+      Defense Points, Hit Points, an Attribute Score, Skill Score, etc.
 
 - name: Deception
-  base: CHA ÷ 2
-  max: PER + CHA
   description: Disguise, bluff, lie, impersonate.
 
 - name: Geography
-  base: PER ÷ 2
-  max: PER · 2
   description: Travel routes, local area knowledge, imports/exports, local prices, local laws.
 
 - name: Healing
-  base: PER ÷ 2
-  max: PER · 2
-  description: |
-    First Aid, identify diseases and poisons.
-    You can heal 1d6 HP on a successful Healing check.
-    A creature can only receive one such healing per day.
+  description: |-
+      Provide first Aid, identify diseases and poisons, set bones, pull teeth, soothe infections, etc.
 
 - name: History
-  base: PER ÷ 2
-  max: PER · 2
-  description: |-
-    Local lore, ancient lore.
-    Knowledge of the old gods, of ancient cultures, races heroes and items.
+  description: Knowledge of the old gods, of ancient cultures, races heroes and items.
 
 - name: Languages
-  base: 0
-  max: PER + CHA
-  description: Speak score ÷ 10 langauges in addition to your mother tongue.
+  description: Speak `Languages:10` langauges in addition to your mother tongue.
 
 - name: Literacy
-  base: 0
-  max: PER · 2
-  description: Read and write score ÷ 10 languages.
+  description: Read and write `Literacy:10` languages.
 
 - name: Combat, Melee
-  base: AGI ÷ 2
-  max: STR + AGI
   description: Attack with a melee weapon or hand-to-hand.
 
 - name: Combat, Ranged
-  base: PER ÷ 2
-  max: AGI + PER
   description: Attack with a missile- or thrown weapon.
 
 - name: Negotiation
-  base: CHA ÷ 2
-  max: PER + CHA
   description: Intimidation, haggling, interrogation.
 
 - name: Riding
-  base: WIL ÷ 2
-  max: WIL + CHA
   description: Horses, stags, griffons.
 
 - name: Stealth
-  base: AGI ÷ 2
-  max: AGI · 2
   description: Hide, sneak, camouflage.
 
 - name: Survival
-  base: PER ÷ 2
-  max: PER + WIL
   description: Hunting, gathering, direction sense.
 
 - name: Arcana
   power: true
-  base: 0
-  max: PER · 2
   description: |-
     Cast spells.
     You must have the »Spellcaster« advantage.
@@ -111,6 +71,4 @@
     they have magical knowledge, but cannot cast spells.
 
 - name: Thievery
-  base: AGI ÷ 2
-  max: AGI + PER
   description: Pick locks, slight of hand.

@@ -2,8 +2,10 @@
 
     @page {
         size: A4;
-        size: 210mm 297mm;
-        margin: 1cm 0.6cm;
+        size: landscape;
+        // size: 210mm 297mm;
+        size: 297mm 210mm;
+        margin: 1cm 1cm;
     }
 
     @page :right {
@@ -42,7 +44,7 @@
     }
 
     article {
-        columns: 2 auto;
+        columns: 3 auto;
         column-fill: auto;
         text-align: justify;
     }
