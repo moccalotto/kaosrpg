@@ -503,10 +503,9 @@
 - name: Stink Spray
   tier: 2
   description: |-
-    You spray skunk-spray at an opponent directly in front of you.
-    They have to succeed a TOU or WIL check (whichever is higher),
-    or loose their next 1d8+B/2 actions. The target can use Surge Actions
-    to get better faster.
+    Adjacent opponent must succeed a TOU or WIL check (whichever is higher),
+    or loose their next 1d6+B/2 actions.
+    The target can use Surge Actions to get better faster.
 
 - name: Babel
   tier: 3
