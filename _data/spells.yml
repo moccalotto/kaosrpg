@@ -385,9 +385,10 @@
   tier: 2
   description: Touched subject does not need to breathe for the next 8 hours.
 
-- name: Unseen
+- name: Invisibility, other
   tier: 4
-  description: Subject is unnoticeable (by normal senses, but not magic) for 5+B minutes or until it attacks someone.
+  description: |-
+      Subject is unnoticeable by normal senses for 2+B minutes or until it attacks someone.
 
 - name: Invisibility
   tier: 3
