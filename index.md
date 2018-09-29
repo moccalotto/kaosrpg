@@ -125,7 +125,7 @@ but they have athletics requirements, and often come with a number of penalties.
 You take 1, 2, 3, or 4 extra points of strain when you take a surge action.
 
 `ⓜ`:
-You can cast magical spells if all pieces of armor worn have the `ⓜ`-symbol.
+You can cast magical spells if all pieces of armor worn have this symbol.
 
 `ⓢ`:
 Your movement rate is decreased by 1.
@@ -533,8 +533,7 @@ the caster's line of sight and that the caster can realistically make out.
 {% for spells in spellsByTier %}
 {% assign sorted = spells.items | sort: "name" %}
 {% for item in sorted %}
-**{{ item.name }}**:
-*Tier {{ item.tags | sort | unshift: item.tier | join: ', '}}*:
+**[{{item.tier}}] {{ item.name }}**:
 {{ item.description }}
 {% if item.remark %}
 > {{ item.remark }}

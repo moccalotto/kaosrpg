@@ -17,21 +17,21 @@ layout: none
     <link rel="shortcut icon" type="image/x-icon" href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=">
 
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
-    <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 </head>
 <body>
     <table id="spell-list" class="display" style="width:100%">
         <colgroup>
             <col style="width:20em">
             <col style="width:3em">
-            <col style="width:11em">
         </colgroup>
         <thead>
             <tr>
                 <th>Name</th>
                 <th>Tier</th>
-                <th>Tags</th>
                 <th>Description</th>
             </tr>
         </thead>
@@ -41,7 +41,6 @@ layout: none
             <tr>
                 <th>Name</th>
                 <th>Tier</th>
-                <th>Tags</th>
                 <th>Description</th>
             </tr>
         </tfoot>
@@ -49,8 +48,10 @@ layout: none
 
     <script type="text/javascript" class="init">
         var spells = {{ site.data.spells | jsonify }};
+        var converter = new showdown.Converter();
+
         spells.forEach( (spell) => {
-            spell.tags = spell.tags.sort().join('<br>').replace(' ', '&nbsp;');
+            spell.html = converter.makeHtml(spell.description);
         });
 
         $(document).ready(() => {
@@ -62,17 +63,14 @@ layout: none
                 data: spells,
                 columnDefs: [
                     {
-                        targets: [ 2, 3 ],
-                        visible: true,
-                        searchable: true,
+                        targets: [ 2 ],
                         sortable:false
                     }
                 ],
                 columns: [
                     { data: "name" },
                     { data: "tier" },
-                    { data: "tags" },
-                    { data: "description" },
+                    { data: "html" },
                 ],
             });
         } );

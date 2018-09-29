@@ -1,54 +1,52 @@
 - name: Light
   tier: 1
-  tags: []
-  description: Object shines like a candle for the next 8 hours.
+  description: Object shines like a candle while the spell lasts.
+
+- name: Light, Lasting
+  tier: 2
+  description: Object shines like a candle for the next 8+B·4 hours.
+
+- name: Light, Permanent
+  tier: 5
+  description: Object permanently shines like a candle.
 
 - name: Mend
   tier: 1
-  tags: []
   description: |-
     You make a minor repair to a single object, massing no more 1+B kg
     and 10+B cm in any dimension.
 
 - name: Detect Lies
   tier: 2
-  tags: []
   description: You know when people tell you lies.
 
 - name: Increased Gravity
   tier: 3
-  tags: []
   description: Gravity within 3 squares of you is increased by a factor of 2 + B/10
 
 - name : Stasis
   tier: 2
-  tags: []
   description: |-
     Touched object (1+B kg) is not subject to time for the next 1+B years.
 
 - name : Greed
   tier: 3
-  tags: []
   description: |-
     Subject must succeed a WIL test or become pathologically greedy for the next 1+B hours.
 
 - name : Counterspell
   tier: 3
-  tags:
-    - 'Duration: 1+B minutes'
   description: |-
     The first spell that targets you directly in the next 1+B minutes will be negated,
     provided it is of tier 1+B or lower.
 
 - name : Clean Air
   tier: 1
-  tags: []
   description: |-
     You remove poisonous gasses, dust, particles, etc. from the air in a 2+B meter radius around you.
 
 - name : Elemental Wall
   tier: 5
-  tags: []
   description: |-
     You create a wall of fire, ice, water, earth, or wind. It can be no taller than 2 meters, no wider than 1 meter,
     and no longer than 5+B meters. Anything that caught within the wall will suffer 3d6 points of damage per round.
@@ -56,18 +54,15 @@
 
 - name: Detect Magic
   tier: 1
-  tags: []
   description: You can detect magic users, spells, and magical items.
 
 - name: Warmth
   tier: 2
-  tags: []
   description: |-
         Touched subject gains Damage Resistance 10 against cold.
 
 - name: Light Fire
   tier: 1
-  tags: []
   description: |-
     Snap your finger and light a candle, charpaper, charcloth, dry kindling, etc.
     that you can see and that is within 10 squares.
@@ -75,43 +70,33 @@
 
 - name: Cure Disease
   tier: 3
-  tags:
-    - 'Ritual: 15 minutes'
   description: |-
     Touched subject is cured of 1+B/2 diseases, viruses, infections.
 
 - name: Summon Demon
   tier: 4
-  tags:
-    - "Duration: 5+B rounds"
   description: |-
     You summon a demon. It will remain on your plane of existence for
-    the duration of the spell, or until it dies.
+    5+B rounds or until it dies.
   todo:
     how strong is the demon? Do we have levels?
 
 - name: Healing Touch
   tier: 2
-  tags: []
   description: |-
     Touched subject recovers 1d6 + Bd6 HP.
 
 - name: Healing Rite
   tier: 3
-  tags:
-    - 'Ritual: 15 minutes'
   description: The subject regains all their hit points.
 
 - name: Healing Zone
   tier: 4
-  tags:
-    - 'Ritual: 30 minutes'
   description: |-
     All subjects within 3 squares of you, including yourself regain 4d6 + Bd6 HP.
 
 - name: Last Chance
   tier: 4
-  tags: []
   description: |-
     Touched subject who has died within the last 5+B rounds
     makes an easy WIL or TOU test (their choice).
@@ -119,7 +104,6 @@
 
 - name: Power Word Revive
   tier: 6
-  tags: []
   description: |-
       Subject within 10 meters of you is revived if they
       have been dead for less that 10+B rounds.
@@ -127,19 +111,16 @@
 
 - name: Dark Vision
   tier: 1
-  tags: []
   description: You can see in complete darkness as though it was twilight.
 
 - name: Dark Vision, Other
   tier: 2
-  tags: []
   description: Subject can see in complete darkness as though it was twilight.
 
 - name: Firebolt
   tier: 3
-  tags: []
   description: |-
-    Ranged attack against subject, who can avoid damage (4d6+Bd6) with an AGI Test.
+      Single subject within 10+B squares must make an AGI test or suffer 4d6+Bd6 damage.
   remark: |-
     **Flavor**:
     You create a ball of reddish fire the size of your fist, swirling between your hands.
@@ -147,109 +128,80 @@
 
 - name: Fireball
   tier: 4
-  tags: []
   description: |-
     You create an explosion within 10+B squares that affect 9 squares (3x3 squares).
     Subjects within the area can avoid damage (4d6+Bd6) with an AGI Test.
 
 - name: Fireball, Greater
   tier: 5
-  tags: []
   description: |-
     Create an explosion within 20+B squares that affect 13 squares (3 square diameter).
     Subjects within the area can avoid damage (6d6+Bd6) with an AGI Test.
 
-- name: Stay Awake (ritual)
-  tier: 2
-  tags:
-    - 'Ritual: 15-minutes'
-  description: |-
-    All the effects of sleep deprivation are removed from the subject.
-    Subject is immune to magical sleep effects for the next 8 hours.
-
 - name: Stay Awake (Spell)
   tier: 3
-  tags: []
   description: |-
     All effects of sleep deprivation are removed from the subject.
     Subject is immune to magical sleep effects for the next 8 hours.
 
 - name: Stay Awake, Mass
   tier: 4
-  tags:
-    - 'Ritual: 2-hours'
   description: |-
     You remove the effects of sleep deprivation from all subjects within 5 squares of you.
     Subjects are immune to magical sleep effects for the next 8 hours.
 
 - name: Destroy Undead
   tier: 3
-  tags: []
   description: |-
     All undead creatures in sight suffer 4d6+Bd6 points of damage.
 
 - name: Longevity, Major
   tier: 6
-  tags:
-    - 'Ritual: 24 hours'
-  description: The magic user will not age for the next 3 months.
+  description: The magic user will not age for the next 1+B weeks.
 
 - name: Longevity
   tier: 5
-  tags:
-    - 'Ritual: 30 minutes'
-  description: The magic user will not age for the next week.
+  description: The magic user will not age for the 1+B days.
 
 - name: Purify
   tier: 1
-  tags: []
   description: Make 2+B kg of food potable.
 
 - name: Purify, Area
-  tier: 3
-  tags:
-    - 'Ritual: 1 hour'
-  description: The soil and flora within 100+B·50 squares of you is healed and cured of any natural diseases.
+  tier: 2
+  description: The soil and flora within 10+B·5 squares of you is healed and cured of any natural diseases.
 
 - name: Animal Essense
   tier: 2
-  tags: []
   description: You gain any attribute of the animal that is greater than yours for 10 minutes.
 
 - name: Animal Weapon
   tier: 3
-  tags: []
   description: |-
       You gain the claws, talons, punces, tail or even head (bite) of an animal.
       Your unarmed combat damage is replaced by the one of the animal for 10 minutes.
 
 - name: Heat Mineral
   tier: 2
-  tags: []
   description: You heat a single metal or stone object to extreme temperatures.
     The object will stay at that temperature as long as you concentrate on the spell.
     Anyone wearing the targeted mineral will suffer 2d6 points of damage per round.
 
 - name: Heat Tolerance
   tier: 2
-  tags:
-    - 'Ritual: 5 minutes'
   description: The subject gains Damage Reduction 20 against heat and fire damage.
 
 - name: Create Water
   tier: 1
-  tags: []
   description: Water trickles slowly from an elemental rift in your closed fist.
 
 - name: Water Rift
   tier: 3
-  tags: []
   description: You create a 20x20cm rift into the elemental plane of water.
     Water spews forth from it at violent rate (like a fire hose).
 
 - name: Get Up Soldier
   tier: 3
-  tags: []
   description: |-
     Touched ally with negative HP wakes up and is able to
     stay conscious for WIL minutes. While in this state,
@@ -257,47 +209,35 @@
 
   name: Hypnotic Whisper
   tier: 4
-  tags:
-    - "Ritual: 1 minute"
   description: |-
       Touched target will answer 1+B yes/no questions
       truthfully to the best of their ability.
 
   name: Ears of the Bat
   tier: 1
-  tags: []
   description: You have perfect hearing.
 
   name: Servant, minor
   tier: 2
-  tags:
-    - "Ritual: 10 minutes"
-    - "Duration: 1+B hours"
   description: |-
-    A translucent humanoid appears and does your bidding to the best of its ability.
+    A translucent humanoid appears and does your bidding to the best of its ability for 1+B hours.
     It is not very strong, fast, durable or intelligent, and will disappear
     if struck with a weapon.
 
   name: Servant, major
   tier: 5
-  tags:
-    - "Duration: 1+B days"
   description: |-
     You summon an *invisible* humanoid being that does your bidding to
-    the best of its ability.
+    the best of its ability for 1+B days.
     It is not very strong, fast, durable or intelligent, and will disappear
     if struck with a weapon.
 
 - name: Self-esteem
   tier: 1
-  tags:
-    - 'Ritual: 1 hour'
-  description: Subject's CHA and Negotiation scores are increased by 3d6+Bd6 points for 4+B hours.
+  description: Subject's CHA and Negotiation scores are increased by 3d6+Bd6 points while the spell lasts.
 
 - name: Friend Doll
   tier: 2
-  tags:
-    - 'Ritual: 30 minutes'
   description: |-
     You create a small doll whose materials include hair, nail clippings
     or similar from the subject.
@@ -309,44 +249,36 @@
 
 - name: Friend
   tier: 4
-  tags: []
   description: |-
     Subject considers you a friend for the next 8 hours.
     Any violent action towards the subject will cancel the spell.
 
 - name: Paralyze Animal
   tier: 3
-  tags: []
   description: |-
     The animal subject is paralyzed until it succeeds a WIL Test
     (made at the beginning of each round).
 
 - name: Paralyze Person
   tier: 5
-  tags: []
   description: |-
     The humanoid subject is paralyzed until it succeeds a WIL Test
     (made at the beginning of each round).
 
 - name: Paralyze Monster
   tier: 6
-  tags: []
   description: |-
     The monstrous subject is paralyzed until it succeeds a WIL Test
     (made at the beginning of each round).
 
 - name: Binding Handshake
   tier: 2
-  tags:
-    - 'Ritual: 1 minute'
-    - 'Duration: 1 year'
-  description: The willing subject swears an oath while you draw a small symbol on some part of their body.
-    If they break their oath within a year they suffer 10d10 points of damage.
+  description: |-
+      The willing subject swears an oath while you draw a small symbol on some part of their body.
+      If they break their oath within 1+B years they suffer 5d6+Bd6 points of damage.
 
 - name: Enchanted Contract
   tier: 3
-  tags:
-    - 'Ritual: 10 minutes'
   description: |-
       You inscribe a pre-drawn contract with magical runes.
       All parties then sign the contract and you put a final rune upon it.
@@ -356,159 +288,121 @@
 
 - name: Levitate Object
   tier: 2
-  tags:
-    - 'Ritual: 1 minute'
-    - 'Duration: 2 + B hours'
-  description: |-
-      Gravity stops acting on the touched object of max 100+B·50 kg.
+  description: Gravity stops acting on the touched object of max 100+B·50 kg for 2+B hours.
 
 - name: Levitate Self
   tier: 2
-  tags: []
   description: |-
       Gravity stops acting on you.
 
 - name: Crane
   tier: 2
-  tags: []
   description: |-
-      Touched object, weighing no more than 10+B·10 kilos can fly at Movement Rate 2+B/3
-      while carrying carry a load of up to 100+B·100 kilos.
+      Touched object can fly at Movement Rate 2 while carrying carry a load of up to 50+B·10 kilos.
 
 - name: Drill
   tier: 1
-  tags:
-    - 'Ritual: 1 minute'
   description: |-
-    Create a hole in a touched object made of wood, metal, or stone.
-    The hole can be 10+b·10 centimeters long and 1+B centimeters thick.
+    Create a hole up to 10+B·10 centimeters long and 1+B centimeters thick
+    in a touched object made of wood, metal, or stone.
 
 - name: Durable Wood
   tier: 2
-  tags:
-    - 'Ritual: 2 minutes'
   description: |-
-    Protects a cubic meter of wood from rot, mold, weather, etc.
+    Permanently protect a 100+B·100 kg of wood from rot, mold, weather, etc.
     The wood lasts 10 times as long as unprotected wood.
 
-- name: Nails
+- name: Magical Nail
   tier: 1
-  tags:
-    - 'Ritual: 5 minutes'
-  description: You enchant 10 nails. The nails can be made out of metal, stone, bone or hardwood.
-    They become at least twice as durable as they were.
-    They can be pushed into any kind of non-magical wood with the bare hands.
-    They will not come out again without force.
-    They will never rust, corrode or rot.
+  description: Permanently enchant a nail.
+    It can be pushed into any kind of non-magical wood with the bare hands.
+    It will never come out again without force.
+    It will never corrode or rot.
 
 - name: Mold Mineral
   tier: 4
-  tags:
-    - 'Ritual: 2 minutes'
-  description: You can mold a single metal or stone object (max 10kg) with your hands (not by tools).
-    The object is not heated by this process and it remains moldable by you for 1 hour.
+  description: |-
+      You can mold a single metal, wood or stone object (max 1+B kg)
+      with your bare hands as if it was made of clay.
 
 - name: Smelt, minor
   tier: 3
-  tags:
-    - 'Ritual: 2 hours'
   description: |-
-    You extract the pure metal (not just ore, but actual metal) from touched dirt, stone, or water
-    that contain trace metals or ore. Up to 1+B kg of metal can be extracted.
-
-- name: Glue
-  tier: 1
-  tags: []
-  description: Touched object is covered in sticky slime.
-
-- name: Animate Object
-  tier: 3
-  tags:
-    - 'Duration: 5+B hours'
-    - 'Ritual: 5+B minutes'
-  description: |-
-      Touched object (at most 1+B kg) becomes animated and will obey
-      simple commands as best it can. The commands are given when the
-      ritual is made.
-
-- name: Arcane Eye
-  tier: 2
-  tags: []
-  description: |-
-      You can see through a magical floating crystal (that looks like an eye).
-      You can move the eye 1+B meters per round (10+10·B meters per minute).
+      You extract metal (not ore) from touched dirt, stone, or water
+      that contain trace metals or ore. Up to 1+B kg of metal can be extracted.
 
 - name: Smelt, Major
   tier: 4
-  tags:
-    - 'Ritual: 2 hours'
   description: |-
-    You extract the pure metal (not ore) from dirt, stone, and water that contain trace metals or ore.
+    You extract the metal (not ore) from surrounding dirt, stone, and water that contain trace metals or ore.
     You extract the metal from minerals within a 250+B·25 meter radius.
     The metal is extracted from the area, and will slowly fly/levitate toward you.
     Buried and hidden items are not "extracted" this way.
 
 - name: Temper
   tier: 2
-  tags:
-    - 'Ritual: 1 minute'
   description: You heat treat a single metal object of max 10+2B kg to the hardness and toughness you desire.
   remark: |-
     **Remark**: Metal toughness and hardness is a science unto itself. You might need Craft: Metallurgy,
-    Craft: Smithing or similar to really udnerstand what you are doing.
+    Craft: Smithing or similar to really understand what you are doing.
+
+- name: Glue
+  tier: 1
+  description: Touched object is covered in sticky slime.
+
+- name: Animate Object
+  tier: 3
+  description: |-
+      You animate a small object give it a simple instruction.
+      It will obey these instructions as best it can for the next 5+B hours
+      and then disappear.
+
+- name: Arcane Eye
+  tier: 2
+  description: |-
+      You can see through a magical floating crystal (that looks like an eye).
+      You can move the eye 1+B meters per round (10+10·B meters per minute).
 
 - name: Wood to Stone
   tier: 4
-  tags:
-    - 'Ritual: 5 minutes'
   description: |-
-    You turn 1+B/3 cubic meters of non-living wood into stone.
+    You turn 10+B liters of touched, non-living wood into stone.
 
 - name: Stone to Sand
   tier: 5
-  tags: []
   description: |-
-    You turn a touched up to 1+B/3 cubic meters of a stone object to fine sand.
+      You turn up to 10+B liters of a touched stone object to fine sand.
 
 - name: Stone to Glass
   tier: 3
-  tags:
-    - 'Ritual: 5 minutes'
-  description: You convert up to 20+B·5 kg of stone to glass.
+  description: Turn up to 10+B liters of touched stone to glass.
 
 - name: Water Control, minor
   tier: 1
-  tags: []
   description: You animate, change the texture, color or opacity of 10 liters of water within 10 squares of you for up to one hour.
 
 - name: Hold Breath
   tier: 2
-  tags: []
   description: Touched subject does not need to breathe for the next 8 hours.
 
 - name: Unseen
   tier: 4
-  tags: []
   description: Subject is unnoticeable (by normal senses, but not magic) for 5+B minutes or until it attacks someone.
 
 - name: Invisibility
   tier: 3
-  tags: []
   description: |-
-    You are unnoticeable (by normal senses, but not magic).
+    You are unnoticeable by normal senses.
     If you act against someone (attack, or cast spells)
     They will notice you temporarily, allowing them to
     attack you for the rest of the round.
 
 - name: Fly, Friend
   tier: 4
-  tags:
-  - "Duration: 5+B minutes"
-  description: Subject can fly with a Movement Rate of 2+B.
+  description: Subject can fly with a Movement Rate of 2+B for 5+B minutes.
 
 - name: Fly, Self
   tier: 4
-  tags: []
   description: |-
     You can fly with a Movement Rate of 4 + B.
   remark: |-
@@ -518,43 +412,36 @@
 
 - name: True Sight
   tier: 2
-  tags: []
   description: Hear or see any location within 100 squares for 10 rounds, one location per round.
 
 - name: Message
   tier: 1
-  tags: []
   description: |-
       Subject within line of sight and 100 meters can hear a short message that you whisper silently.
 
 - name: Mind Link
   tier: 2
-  tags: []
   description: |-
       You create a telepathic mind link to a close friend or relative.
       The two of you can communicate telepathically as long as you concentrate.
 
 - name: Prestidigitation
   tier: 1
-  tags: []
   description: Minor magical tricks and illusions.
 
 - name: Calm
   tier: 2
-  tags: []
   description: |-
       You calm an enraged or frightend subject. If subject is magically frightened or enraged,
       they have to succeed an Easy WIL Test in order to counter that spell.
 
 - name: Dispell Magic
   tier: 2
-  tags: []
   description: |-
     You dispell/break a tier 1+B spell.
 
 - name: Sonic Boom
   tier: 2
-  tags: []
   description: |-
     You create an explosive sound centered on you.
     Anyone in adjacent squares must make a TOU test or suffer 2d6 + Bd6 Points of Damage.
@@ -562,52 +449,43 @@
 
 - name: Break
   tier: 1
-  tags:
-    - 'Ritual: 1 minute'
   description:
-    Touched non-living and non-magical object weighing no more than 100kg breaks in half.
+    Touched non-living and non-magical object weighing no more than 10 + B·10 kg breaks in half.
 
 - name: Shatter
   tier: 3
-  tags: []
   description: Touched non-living and non-magical object weighing max 50+B·10 kg breaks in half.
 
 - name: Fear
   tier: 3
-  tags: []
   description: |
     The subject must move at least 1 square away from you on their next turn.
     If they do not, all tests made by them that turn will become *harder*.
 
 - name: Shield
   tier: 2
-  tags: []
   description: |-
     Subject gains 1d6 + Bd6 temporary HPs.
 
 - name: Armor
   tier: 2
-  tags: []
   description: |-
     You gain 1+B/2 points of damage resistance against physical, non-magical attacks.
 
 - name: Slow
   tier: 3
-  tags: []
   description: |-
     If subject fails a WIL test they will only be able to take one
     action per round while the magic user concentrates.
 
 - name: Confusion
   tier: 4
-  tags: []
   description: |-
     If subject fails a WIL test, all attack tests made by the subject
     become *harder*. The effect lasts as long as you concentrate.
 
 - name: Sleep
   tier: 1
-  tags: []
   description: |-
     If subject fails an easy WIL test they fall asleep until they
     succeed an easy WIL test. They can make one such test per round.
@@ -615,7 +493,6 @@
 
 - name: Sleep, Mass
   tier: 3
-  tags: []
   description: |-
     You choose a point within 10 squares of you.
     1d6 creatures near that square must make a WIL test or be sent int o a magical sleep.
@@ -625,7 +502,6 @@
 
 - name: Stink Spray
   tier: 2
-  tags: []
   description: |-
     You spray skunk-spray at an opponent directly in front of you.
     They have to succeed a TOU or WIL check (whichever is higher),
@@ -634,50 +510,41 @@
 
 - name: Babel
   tier: 3
-  tags: []
   description: |-
     You can understand the meaning of any spoken or written language.
     You can even find some meaning in animal growls.
 
 - name: Hint
   tier: 2
-  tags: []
   description: The next Surge Action taken by the subject does not cause any strain.
 
 - name: Hint, Mass
   tier: 5
-  tags: []
   description: |-
     All allies within 5 squares can take a Surge Action on their
     next turn without any strain.
 
 - name: Inspiration, Mass
   tier: 3
-  tags: []
   description:
     Each friendly subject within 5 squares has their next combat related test made *easier*.
 
 - name: Inspiration
   tier: 1
-  tags: []
   description: The next combat related test made by the ally is made *easier*.
 
 - name: Terrain Awareness, Minor
   tier: 1
-  tags: []
   description:
     The subject has their movement rate increased by 1+B/2 on their next turn.
 
 - name: Terrain Awareness, Mass
   tier: 3
-  tags: []
   description: |-
     All friendly subjects within 5 squares have their movement rate increased by 2+B/2 on their next turn.
 
 - name: Durable Rope
   tier: 1
-  tags:
-    - 'Ritual: 5 minutes'
   description: |-
     Touched rope (up to 50+B·25 meters long) permanently
     becomes 10 times stronger and more durable than it was,
@@ -685,8 +552,6 @@
 
 - name: Search
   tier: 1
-  tags:
-   - 'Ritual: 10 minutes'
   description: |-
     You get a single yes/no answer to a question about the location of a specific
     person, creature or object you are thinking of.
@@ -702,19 +567,14 @@
     * Is my target in the butcher’s district of the capital?. **Yes**.
 
 - name: Shelter
-  tier: 3
-  tags:
-    - 'Ritual: 20 + B·5 minutes'
-    - 'Duration: 5+B hours'
+  tier: 4
   description: |-
     You create a small "hut" or shelter with room for 3+B/2 human-sized creatures.
-    The shelter will keep out most wind and rain, and it can weather most storms.
-    It will disappear into ash when it wears out.
+    The shelter will keep out most wind and rain, and it can weather most storms,
+    and will turn to ash after 5+B hours.
 
 - name: Interdimensional Shelter
-  tier: 5
-  tags:
-    - 'Ritual: 1 minute'
+  tier: 6
   description: |-
     You create a portal to a pocket dimension with room for 5+B human-sized creatures.
     Creatures can only enter with your permission, but they can always exit. Once
@@ -725,72 +585,51 @@
 
 - name: Tether
   tier: 2
-  tags: []
   description: |-
     Two objects of your choice that are no more than 2+B meters apart cannot
     move any further apart than they already are.
 
-- name: Warding Circle
+- name: Warded Area
   tier: 4
-  tags:
-    - 'Ritual: 15 minutes'
-    - 'Duration: 4+B hours'
   description: |-
-    You draw a 10 meter circle on the ground.
-    Choose a creature type (animal, undead, fey, humanoid, dragon, etc.)
-    that is affected by this warding.
+    You ward a 5x5 square area around you for 5+B hours against a specific creature type
+    (animal, undead, fey, humanoid, dragon, etc.)
     If that type of creature enters the circle they suffer 4d6+B points of damage,
     and you are alerted to their presence and exact location; you can even track
     them if they are invisible.
 
 - name: Spirit of the Nymph
   tier: 2
-  tags:
-    - 'Ritual: 10 minutes'
-    - 'Duration: 8+B hours'
   description: |-
-    For the duration of this spell, the willing subject will feel
-    increased pleasure during sexual intercourse.
-    Moreover, any physical or mental diseases, barriers or
-    issues that inhibit the subject's performance are
-    temporarily removed.
+      For the next 8+B hours, the touched  subject will feel increased libido,
+      sexual ability, and pleasure during sexual intercourse,
 
 - name: Warded Dwelling
   tier: 6
-  tags: 
-    - "Ritual: 10 minute"
   description: |-
       You ward a small house or parts of a larger building.
-      All tests made by undead are made *harder*.
-      Any test made against *you* while inside the warded area are *harder*.
-      The area is impervious to scrying.
-      Mind reading is impossible inside the warded area.
-      Casting spells in the area is *harder* (even you are affected).
-      You are alerted if anyone casts spells inside the area or cast
-      spells that takes effect inside the area.
-      Mind reading spells do not work.
-      Mind affecting spells (illusions, suggestions, etc.) do not work.
+      * All tests made by undead are made *harder*.
+      * All test made against *you* while inside the warded area are *harder*.
+      * The area is impervious to scrying.
+      * Mind reading is impossible inside the warded area.
+      * Mind affecting spells (illusions, suggestions, etc.) do not work.
+      * Casting spells in the area is *harder* (even you are affected).
+      * You are alerted if anyone casts spells inside the area or cast
+        spells that takes effect inside the area.
 
 - name: Hidden Mark
   tier: 1
-  tags: 
-    - "Duration: 1 + B days"
   description: |-
-    You can put an invisible mark on a touched surface.
-    Only you can see that mark.
-    If you boost the spell, you can place the mark at a distance
-    of B meters away.
+    You can put an invisible mark that only you can see on a touched surface that lasts for 1+B days.
 
 - name: Map
   tier: 2
-  tags: []
   description: |-
     While concentrating on this spell, you draw a perfect map of your immediate surroundings,
     complete with notes, names, etc. There is no limit as to how fast you can draw.
 
   name: Far Shot
   tier: 2
-  tags: []
   description: |
     You touch an arrow, spear, or other projectile.
     That weapon can now fly as far as the archer can see,
