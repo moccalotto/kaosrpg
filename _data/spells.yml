@@ -533,16 +533,16 @@
   tier: 1
   description: The next combat related test made by the ally is made *easier*.
 
-- name: Speed, Self
+- name: Swift, Self
   tier: 1
   description:
       Your movement rate is increased by 1+B on your next turn.
 
-- name: Speed, Other
+- name: Swift, Other
   tier: 2
   description: Subject has their movement rate increased by 1+B on their next turn.
 
-- name: Speed, Mass
+- name: Swift, Mass
   tier: 3
   description: |-
     All friendly subjects within 5 squares have their movement rate increased by 2+B on their next turn.
