@@ -200,25 +200,25 @@
 
 - name: Create Water
   tier: 1
-  description: Water trickles slowly from an elemental rift in your closed fist.
+  description: Water trickles slowly from an elemental rift inside your closed fist.
 
 - name: Water Rift
   tier: 3
-  description: You create a 20x20cm rift into the elemental plane of water.
+  description: You create a rift into the elemental plane of water.
     Water spews forth from it at violent rate (like a fire hose).
 
 - name: Get Up Soldier
-  tier: 3
+  tier: 2
   description: |-
-    Touched ally with negative HP wakes up and is able to
-    stay conscious for WIL minutes. While in this state,
-    all tests are made *harder*. Subject dies if they reach -30 HP.
+      Touched ally with negative HP wakes up and is able to
+      stay conscious for WIL minutes. While in this state,
+      all tests are made *harder*. Subject dies if they reach -10 HP.
 
   name: Hypnotic Whisper
   tier: 4
   description: |-
-      Touched target will answer 1+B yes/no questions
-      truthfully to the best of their ability.
+      Touched target will answer a single yes/no question
+      truthfully and to the best of their ability.
 
   name: Ears of the Bat
   tier: 1
@@ -227,9 +227,9 @@
   name: Servant, minor
   tier: 2
   description: |-
-    A translucent humanoid appears and does your bidding to the best of its ability for 1+B hours.
-    It is not very strong, fast, durable or intelligent, and will disappear
-    if struck with a weapon.
+      A translucent humanoid appears and does your bidding to the best of its ability for 1+B hours.
+      It is not very strong, fast, durable or intelligent, and will disappear
+      if struck with a weapon.
 
   name: Servant, major
   tier: 5
@@ -610,12 +610,6 @@
     and you are alerted to their presence and exact location; you can even track
     them if they are invisible.
 
-- name: Spirit of the Nymph
-  tier: 2
-  description: |-
-      For the next 8+B hours, the touched  subject will feel increased libido,
-      sexual ability, and pleasure during sexual intercourse,
-
 - name: Warded Dwelling
   tier: 6
   description: |-
@@ -624,6 +618,35 @@
       against you and your allies are *harder*.
       All creatures in the area are always fully visible to you.
       The dwelling protects all creatures against mind reading and scrying.
+
+- name: Spirit of the Nymph
+  tier: 2
+  description: |-
+      For the next 8+B hours, the touched subject will feel increased libido,
+      ability, and pleasure during sexual intercourse,
+
+- name: Fecundity
+  tier: 4
+  description: |-
+      The ability of the touched subject to reproduce is doubled for the 1d6+Bd6 days.
+
+- name: Unlock
+  tier: 3
+  description: |-
+      Unlock or unstick a touched door (or window, lid, chest, box, manacles, etc.) that
+      is stuck or locked by non-magical means.
+
+- name: Lock
+  tier: 3
+  description: |-
+      You magically shut or lock a touched door (or window, lid, chest, box, manacles, etc.)
+      for 1+B years. The door can be forced open with brute force or by dispelling this spell.
+
+- name: Fuse
+  tier: 5
+  description: |-
+      You permanently and magically *fuse* shut a touched door, window, lid, chest, box, manacles, etc.
+      This spell cannot be dispelled or opened with the *Lock* spell because 
 
 - name: Hidden Mark
   tier: 1

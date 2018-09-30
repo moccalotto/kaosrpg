@@ -46,15 +46,6 @@ Having chosen your attribute scores, the second thing to choose is your traits.
 Choose two advantages and one disadvantage.
 Consult the lists below for inspiration and make up your own to suit your campaign and style of play.
 
-> **Note**:
-> By utilizing advantages and disadvantages, we eliminate the traditional race-selection,
-> and subsequent tweaking via feats, sub-races, backgrounds, etc.
-> Of course you should choose traits that are more or less in line with your race; playing an orc
-> with the »tiny« advantage might be a bit weird, but on the other hand, it could lead to some cool back story
-> stuff; maybe the orc was cursed by a god, or manipulated by a powerful mage while still in the womb.
->
-> If you want more powerful players, you could use three advantages and one or two disadvantages.
-
 ### Advantages
 
 {% assign advantages = site.data.advantages | sort: 'name' %}
@@ -286,11 +277,12 @@ Karma
 
 When your character fails a meaningful roll
 (i.e.  one that actually affects the character, party or plot),
-she is awarded a karma point. 
+she is awarded a karma point, provided you did not spend
+any karma points on that test.
 
-You can spend these points to create advantages later in the game.
-Most notably, you can spend 2 karma points to make a test *easier*.
-You can also spend 3 karma points to reroll a failed test.
+You can spend 2 karma points to make a test *easier*,
+spend 3 karma points to reroll a failed test,
+or possibly use karma to invoke one of your advantages.
 
 A character cannot have more than 10 karma points (this is called the *Max Karma* value).
 
@@ -300,14 +292,6 @@ no matter how many points they accumulated during the previous session.
 The GM may The GM can also award karma points to a character if she invokes some
 of the character's disadvantages.
 
-> **Note**:
-> Karma points are intended to soften the "blow" of missing a roll, as well as adding a
-> luck/fate dimension to the game.
-> We reset the karma every session to avoid power gaming through the accumulation of karma points.
-> It also allows players to refresh their karma without having to fail any checks.
-> High powered campaigns might reset the karma to 3 or 4, while more realistic campaigns might reset
-> karma to 1 or 0. Some players prefer not to reset at all, possibly imposing upper limits on how many
-> karma points a character can have.
 
 Milestones
 ----------
@@ -470,8 +454,9 @@ You do not suffer any strain damage if you fail to cast your spell.
 You do not regenerate and cannot be healed *in any way* for an hour after
 successfully casting a spell or concentrating on a spell.
 
-> **Note**: Casters *can* heal themselves once per hour because the
-> healing cooldown only takes effect after casting the spell.
+> **Clarification**: Casters are able to magically heal themselves because
+> the cooldown only takes effect after successfully casting the healing spell.
+> However, they can only magically heal themselves once per hour.
 
 **Tiers**:
 Spells are divided into tiers from 1 to 6. Tier 1 spells are very easy to cast,
