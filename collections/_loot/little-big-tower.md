@@ -23,19 +23,20 @@ It is worth noting that such items would be lost if the Little Big Tower was eve
 Any persons inside the tower when it is collapsed would still be in there, and would experience
 normal time.
 
-There are several classes of Little Big Towers.
+There are several types of Little Big Towers. They can anywhere from 2 to 10 (or more) stories,
+2 to 20 (or more) bedrooms and 1 to 20 servants.
 
-| Class | Stories | Bedrooms | Servants |
-|:-----:|:-------:|:--------:|:--------:|
-|   1   |    2    |    3     |    1     |
-|   2   |    2    |    4     |    1     |
-|   3   |    3    |    5     |    2     |
-|   4   |    3    |    6     |    2     |
-|   5   |    4    |    7     |    3     |
-|   6   |    4    |    8     |    3     |
+Below are some examples of Little Big Towers
+
+| Stories | Bedrooms | Servants |
+|:-------:|:--------:|:--------:|
+|    2    |   2-4    |    1     |
+|    3    |   4-7    |    2     |
+|    4    |   7-10   |    3     |
+|    5    |  10-14   |   4-5    |
 
 **Variants**: 
 * Some towers cannot be collapsed while guests are inside.
 * Some towers "reset" when collapsed; anyone and anything inside is destroyed when
-the tower is collapsed. Furniture is moved back to their original position, etc.
+  the tower is collapsed. Furniture is moved back to their original position, etc.
 * Some towers can create feasts for the guests.

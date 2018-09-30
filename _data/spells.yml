@@ -672,6 +672,12 @@
       Touched magical item regains 1+B HP.
       Only certain magical items can be recharged this way.
 
+- name: Sleeping Bag
+  tier: 2
+  description: |-
+      You create a sleeping bag that lasts for 8+B hours.
+      The user will be warm and dry during the night and
+      will feel well rested in the morning.
 
 ## LEADERSHIP BRAINSTORM
 # Keywords:
