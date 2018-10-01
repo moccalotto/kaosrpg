@@ -347,10 +347,7 @@
 
 - name: Temper
   tier: 2
-  description: You heat treat a single metal object of max 10+2B kg to the hardness and toughness you desire.
-  remark: |-
-    **Note**: Metal toughness and hardness is a science unto itself. You might need Craft: Metallurgy,
-    Craft: Smithing or similar to really understand what you are doing.
+  description: You improve the hardness or ductility of a single object of max 10+2B kg.
 
 - name: Glue
   tier: 1
