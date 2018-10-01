@@ -428,19 +428,21 @@ Arcana skill score divided by 10.
 > **Example**:
 > A character with Arcana 56 can memorize 5 spells.
 
+It takes 10 minutes to re-memorize a spell.
+
 **Casting spells**:
 To cast a memorized spell, you make an Arcana test.
 If the test succeeds, the spell takes effect, and you suffer strain.
 
 **Casting non-memorized spells**:
-A character *can* cast spells that they have not memorized.
-The character must succeed a *hard* Arcana test and will suffer 1d6 additional strain damage,
-*even if the spell fails*.
+In order to cast a spell that has not been memorized,
+the character must succeed a *hard* Arcana test and the strain
+is doubled.
 
 > **Example**:
 > A charcter that casts a non-memorized tier 2 spell will need to roll a *hard*
 > Arcana test. If the test succeeds, the spell takes effect and the charcter
-> suffers 1d4 + 1d6 damage. If the test fails, the character suffers 1d6 damage.
+> suffers 2d4 points of strain.
 
 **Strain**:
 The number of HP drained after successfully casting a spell

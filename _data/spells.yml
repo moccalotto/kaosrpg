@@ -1,6 +1,14 @@
 - name: Light
   tier: 1
   description: Object shines like a candle while the spell lasts.
+  
+- name: Void Magic
+  tier: 4
+  description: Magical spells below tier 2+B cannot be cast in a radius of 1+B meters around you.
+  
+- name: Antimagic
+  tier: 4
+  description: Casting spells within 1+B meters of you is *hard*.
 
 - name: Light, Lasting
   tier: 2
@@ -281,17 +289,8 @@
 - name: Binding Handshake
   tier: 2
   description: |-
-      The willing subject swears an oath while you draw a small symbol on some part of their body.
-      If they break their oath within 1+B years they suffer 5d6+Bd6 points of damage.
-
-- name: Enchanted Contract
-  tier: 3
-  description: |-
-      You inscribe a pre-drawn contract with magical runes.
-      All parties then sign the contract and you put a final rune upon it.
-      When a signee willingly and knowingly acts in a manner that 
-      counters the letter and spirit of the contract, they will suffer 1d10 + Bd10 points of damage.
-      Physically destroying the contract will cancel the spell.
+    The willing subject swears an oath while you draw a small symbol on some part of their body.
+    If they break their oath within 1+B years they suffer 5d6+Bd6 points of damage.
 
 - name: Levitate Object
   tier: 2
@@ -679,6 +678,20 @@
       The user will be warm and dry during the night and
       will feel well rested in the morning.
 
+- name: You Are Here
+  tier: 3
+  description: Touch a map and know where on the map you are.
+
+- name: Correct Map
+  tier: 4
+  description: Touch a map and permanently correct errors on it.
+
+- name: Animal Messenger
+  tier: 3
+  description: |-
+    Touch a tiny, non-hostile animal and send it to a location within 1+B days of travel.
+
+
 ## LEADERSHIP BRAINSTORM
 # Keywords:
 # Lead from the front
@@ -747,15 +760,12 @@
 # Summoning - when summoning imps, demons and elementals you make a "contract" with the creature.
 #             It will never truly die, just be banished to its home plane. You can summon it again
 #             at your leisure.
-# Map making
-# Map verification.
 # Polymorph
 # Animal Messenger
 # Purge - Remove all "bad effects" such as bleeding wounds, stuns, diseases from target. Target receives X damage + Y damage per effect removed.
 # Speak with animal
 # Babel (comprehend any language)
 # Anti-scry
-# Antimagic circle (hemisphere / sphere where magic doesn't work)
 # Teleportation circle
 # Rift / Gate (mega powerful spell of d00m) - may useful for travelling to other asteroid worlds - maybe even other universes.
 # Fear
