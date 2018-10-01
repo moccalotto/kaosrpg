@@ -688,6 +688,11 @@
   description: |-
     Touch a tiny, non-hostile animal and send it to a location within 1+B days of travel.
 
+- name: Rune of Charm Protection
+  tier: 5
+  description: |-
+    You create a temporary tattoo on a touched subject. The makes the character immune to being charmed 
+    for the next 12+B hours.
 
 ## LEADERSHIP BRAINSTORM
 # Keywords:
@@ -732,9 +737,6 @@
 
 
 # SPELL BRAINSTORM
-# Sex magic !!
-#   Increase pleasure felt.
-#   Increase stamina / longevity / performance.
 # Runes that protect against charms or other effects.
 # Runes that affect or curses the caster of malicious magic cast against the wearer.
 #   - For instance a rune that would put a mark on the caster of any charms or control spells on the wearer.
