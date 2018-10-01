@@ -694,6 +694,12 @@
     You create a temporary tattoo on a touched subject. The makes the character immune to being charmed 
     for the next 12+B hours.
 
+- name: Exploding Rune
+  tier: 5
+  description: |-
+    You create a run on a flat surface. The rune explodes when a set of circumstances,
+    given by the caster, occurs, dealing 5d6+Bd6 points of damage. The run lasts for 6+B months.
+
 ## LEADERSHIP BRAINSTORM
 # Keywords:
 # Lead from the front
