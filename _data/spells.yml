@@ -2,14 +2,6 @@
   tier: 1
   description: Object shines like a candle while the spell lasts.
   
-- name: Void Magic
-  tier: 4
-  description: Magical spells below tier 2+B cannot be cast in a radius of 1+B meters around you.
-  
-- name: Antimagic
-  tier: 4
-  description: Casting spells within 1+B meters of you is *hard*.
-
 - name: Light, Lasting
   tier: 2
   description: Object shines like a candle for the next 8+B·4 hours.
@@ -17,6 +9,14 @@
 - name: Light, Permanent
   tier: 5
   description: Object permanently shines like a candle.
+
+- name: Void Magic
+  tier: 4
+  description: Magical spells below tier 2+B cannot be cast in a radius of 1+B meters around you.
+  
+- name: Antimagic
+  tier: 4
+  description: Casting spells within 1+B meters of you is *hard*.
 
 - name: Mend
   tier: 1
