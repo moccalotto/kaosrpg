@@ -515,7 +515,7 @@ the caster's line of sight and that the caster can realistically make out.
 
 ### Spells
 
-{% assign spellsByTier = site.data.spells | group_by: "tier" %}
+{% assign spellsByTier = site.data.spells | group_by: "tier" | sort: "name" %}
 
 {% for spells in spellsByTier %}
 {% assign sorted = spells.items | sort: "name" %}

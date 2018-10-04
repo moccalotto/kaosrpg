@@ -697,8 +697,13 @@
 - name: Exploding Rune
   tier: 5
   description: |-
-    You create a run on a flat surface. The rune explodes when a set of circumstances,
+    You create a rune on a flat surface. The rune explodes when a set of circumstances,
     given by the caster, occurs, dealing 5d6+Bd6 points of damage. The run lasts for 6+B months.
+
+- name: Welldigger
+  tier: 5
+  description: |-
+    A hole, 2d6+B meters deep and 1 meters wide is drilled in the ground right in front of you.
 
 ## LEADERSHIP BRAINSTORM
 # Keywords:
