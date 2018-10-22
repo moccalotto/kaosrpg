@@ -32,6 +32,21 @@
   tier: 3
   description: Gravity within 3 squares of you is increased by a factor of 2 + B/10
 
+- name: Scribe
+  tier: 2
+  description: |-
+    While concentrating on this spell you can write 3+B times faster than you normally can.
+    Additionally, your script is flowing, beautiful, and easy to read and understand.
+
+- name: Create Food
+  tier: 2
+  description: |-
+    You create 1d6+Bd6 magical grapes. Each grape can sustain a human-sized person for about half a day.
+
+- name: Featherfall
+  tier: 1
+  description: For the next hour you do not sustain damage from falling, no matter the distance.
+
 - name : Stasis
   tier: 2
   description: |-
