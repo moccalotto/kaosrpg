@@ -483,14 +483,14 @@ You cannot cast spells of tiers where your skill score is too low.
 Some spells are *boostable*.
 This means that, by spending additional points of strain when casting the spell,
 you can increase the given one or more of the spell's aspects such as
-duration, damage, range, area of effect, etc.
+duration, damage, range, area of effect, etc. It costs one point of strain damage
+per boost level you add.
 
-> **Example**: A spell such as **Healing Touch** has the Boostable tag.
-> This means that it costs a single point of strain for each level of boost.
-> The spell will heal 1d6 + Bd6 points of damage. Meaning
-> that it will heal 1d6 damage, plus an additional 1d6 per level of boost.
+> **Example**: The spell **Healing Touch** can be bosted.
+> The spell heals 1d6 + Bd6 points of damage. Meaning that it will heal 1d6 damage,
+> plus an additional 1d6 per level of boost.
 > A this a mage can cast the spell with 3 levels of boost, healing 4d6 points
-> of damage, and causing the mage 1d4+3 points of strain.
+> of damage, and causing the mage 1d4+3 points of strain to you.
 
 **Duration**:
 Unless specified, all non-instantaneous and non-permanent spells
