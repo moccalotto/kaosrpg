@@ -42,6 +42,12 @@
   description: |-
     Subject must succeed a WIL test or become pathologically greedy for the next 1+B hours.
 
+- name : Myriad
+  tier: 4
+  description: |-
+    You spawn 1+B illusionary copies of yourself. They explode from your body and each get to do one
+    move. They have one Hit Point each.
+
 - name : Counterspell
   tier: 3
   description: |-
