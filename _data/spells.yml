@@ -695,6 +695,17 @@
       Touched magical item regains 1+B HP.
       Only certain magical items can be recharged this way.
 
+- name: Sneeze, Mass
+  tier: 4
+  description: |-
+    You designate an of 9 squares (3x3) within 10+B squares.
+    Subjects within that area must succeed a WIL test or sneeze at least once.
+
+- name: Sneeze
+  tier: 1
+  description: |-
+    Touched target must succeed a WIL test or sneeze.
+
 - name: Sleeping Bag
   tier: 2
   description: |-
