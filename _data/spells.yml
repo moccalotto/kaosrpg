@@ -732,6 +732,11 @@
     You create a temporary tattoo on a touched subject. The makes the character immune to being charmed 
     for the next 12+B hours.
 
+- name: Bellow
+  tier: 2
+  description: |-
+    You shout a single word so loudly, it can be heard up to a kilometer away.
+
 - name: Exploding Rune
   tier: 5
   description: |-
