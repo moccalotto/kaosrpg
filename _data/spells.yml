@@ -435,10 +435,16 @@
     would require surge actions. Outside combat, this is not the case.
 
 
-- name: True Sight
+- name: Mage Sight
   tier: 2
   description: |-
-      You can detect hidden beings and objects within 10+B meters.
+      Things that are 10 meters away are as clear to you as if they were only 5 meters away.
+
+- name: True Sight
+  tier: 3
+  description: |-
+      Things that are 10 meters away are as clear to you as if they were only 5 meters away.
+      You can also detect hidden beings and objects within 10+B meters.
 
 - name: Message
   tier: 1
