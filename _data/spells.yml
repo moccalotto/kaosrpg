@@ -257,8 +257,7 @@
   tier: 2
   description: |-
       A translucent humanoid appears and does your bidding to the best of its ability for 1+B hours.
-      It is not very strong, fast, durable or intelligent, and will disappear
-      if struck with a weapon.
+      It is not very strong, fast, durable or intelligent, and will disappear if attacked.
 
   name: Servant, major
   tier: 5
