@@ -1,7 +1,7 @@
 ---
 ---
 
-Magical wands are designed to improve a mages' magical potential; 
+Magical wands are designed to improve a mages' magical potential;
 they store magical energy in the form of HP.
 This means that the wielder can choose to let the wand
 absorb some or all of the strain of casting spells.
@@ -12,7 +12,7 @@ and turns to ash when it has lost all its HP,
 Wands can *only* soak the strain of spellcasting,
 and cannot absorb damage in any other way.
 
-> **Example**: 
+> **Example**:
 > You cast a spell that deals 6 points of strain and you
 > use a wand that has 4 HP remaining.
 > You could let the wand absorb 4 HP and soak up the last 2 HP yourself,
