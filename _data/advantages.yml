@@ -1,11 +1,11 @@
-- name: Learned
-  description: |-
-      You begin play with one additional skill at the
-      level d4+d6+d8+d10+d10+d20.
-
 # - name: Charming
 #   description: |
 #       XXXX Good at making new social connections.
+
+- name: Learned
+  description: |-
+      You begin play with one additional skill at the level
+      d4+d6+d8+d10+d10+d20.
 
 - name: Tiny
   description: |-
@@ -26,10 +26,14 @@
 
 - name: Tough
   description: |-
-      Once per scene you can avoid avoid the consequences of an attack.
-      Instead of getting a wound and resetting your stress points,
-      your stress points are set to their maximum value, but you do not get the wound.
-      Doing this costs one karma point.
+    Once per scene you can spend one karma point to halve the amount of damage
+    you suffer from a single attack.
+
+- name: Resilient
+  description: |-
+    If an attack brings you to zero hit points or below, you can spend 3 karma
+    points to remain standing at 1 hit point. Alternatively  you can spend 2
+    karma points to remain at 0 hit points (unconscious, but not dead).
 
 - name: Stubborn
   description: |-
@@ -55,38 +59,47 @@
 
 - name: Street Smart
   description: |-
-      It only costs you a single karma point to reroll your base die during challenges that involve shady
-      city connections, finding your way in cities, or evaluating black market prices.
+    it only costs you a single karma point to make tests *easier*
+    if the actions involve shady city connections, finding your way in cities,
+    or evaluating black market prices.
 
 - name: Spellcaster
   description: You can cast spells via the Arcana skill.
 
 - name: Nightvision
-  description: You can see as well in dim light such as starlight or moonlight as if it were daylight.
+  description: |-
+    You can see as well in dim light such as starlight or moonlight as if it
+    were daylight.
 
 - name: Darkvision
   description: You can see in complete darkness, but only in shades of gray.
 
 - name: Famous
   description: |-
-      When engaged in a social challenge with entities that are able to appreciate your reputation, you can reroll your base die for free.
-      You can do this once per scene.
+      When engaged in a social challenge with entities that are able to
+      appreciate your reputation, you chan choose to make a single social test
+      *easer*.  You can do this once per scene.
 
 - name: Mnemonist
   description: |-
-      You can accurately recall anything you have ever seen or heard at the cost of 1 karma point.
-      It only costs you a single karma point to make rerolls during challenges that rely purely on your memory and experience.
+      You can accurately recall anything you have ever seen or heard at the
+      cost of 1 karma point.  It only costs you a single karma point to make
+      rerolls during challenges that rely purely on your memory and experience.
 
 - name: Polyglot
   description: |-
-      When you hear or read a language that was not hitherto known by you, you can proclaim that you are familiar with it,
-      enabling you to read, write and speak it. This can be done once per session and it costs 3 karma points.
+      When you hear or read a language that was not hitherto known by you, you
+      can proclaim that you are familiar with it, enabling you to read, write
+      and speak it. This can be done once per session and it costs 3 karma
+      points.
 
 - name: Connected
   description: |-
-      When engaged in a social challenge, you may spend one karma point to be able allude to a relevant mutual acquaintance
-      in order to gain the favor of the other party, allowing you to reroll the base die.
-      You can do this once per scene.
+      Once per scene, when engaged in a social challenge, you may spend one karma point to
+      name-drop a relevant mutual acquaintance in order to gain the favor
+      of the other party. This makes a single social test in that scene *easier*.
 
 - name: Strong
-  description: Once per scene you may reroll the base die of a roll that relies heavily and primarily on your bodily strength.
+  description: |-
+    It only costs you a single karma to make brute-force tests that rely
+    heavily on brawns *easier*.

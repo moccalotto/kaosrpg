@@ -275,22 +275,22 @@ you may have, your target number can never be higher than 95.
 Karma
 -----
 
-When your character fails a meaningful roll
-(i.e.  one that actually affects the character, party or plot),
-she is awarded a karma point, provided you did not spend
-any karma points on that test.
+When your character fails a meaningful roll (i.e.  one that actually affects
+the character, party or plot), she is awarded a karma point, provided you did
+not spend any karma points on that test.
 
-You can spend 2 karma points to make a test *easier*,
-spend 3 karma points to reroll a failed test,
-or possibly use karma to invoke one of your advantages.
+You can spend 2 karma points to make a test *easier* or spend 3 karma points to
+reroll a failed test. Some advantages may allow you to spend karma in other
+interesting ways.
 
-A character cannot have more than 10 karma points (this is called the *Max Karma* value).
+A character cannot have more than 10 karma points (this is called the *Max
+Karma* value).
 
-A character begins every session with 2 karma points (called the *Karma Reset* value),
-no matter how many points they accumulated during the previous session.
+A character begins every session with 2 karma points (called the *Karma Reset*
+value), no matter how many points they accumulated during the previous session.
 
-The GM may The GM can also award karma points to a character if she invokes some
-of the character's disadvantages.
+The GM can also award karma points to a character if she invokes some of the
+character's disadvantages.
 
 
 Milestones
